@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BR_BTN_STYLE" parent="@*android:style/Widget.Material.Light.Button">
+        <item name="android:textAppearance">@*com.oneplus.backuprestore:style/OnePlus.TextAppearance.Material.Raised.Light.Button</item>
+        <item name="android:background">@*android:color/background_dark</item>
+    </style>
+    <style name="Widget.Support.CoordinatorLayout" parent="@*android:style/Widget">
+        <item name="*com.oneplus.backuprestore:statusBarBackground">@*android:color/background_dark</item>
+    </style>	
+</resources>

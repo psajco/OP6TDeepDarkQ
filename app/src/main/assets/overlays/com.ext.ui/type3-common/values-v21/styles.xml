@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@*com.ext.ui:style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:theme">@*com.ext.ui:style/ThemeOverlay.AppCompat</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>		
+        <item name="android:itemBackground">@*android:color/background_floating_material_dark</item>
+        <item name="android:actionModeBackground">@*android:color/background_floating_material_dark</item>
+        <item name="android:actionOverflowButtonStyle">@*com.ext.ui:style/AppTheme.OverFlow</item>
+        <item name="android:textColor">@*android:color/white</item>
+		<item name="android:textColorSecondary">@*android:color/white</item>	
+        <item name="android:editTextColor">@*android:color/white</item>
+        <item name="*com.ext.ui:actionModeCloseDrawable">@*com.ext.ui:drawable/ic_arrow_back_white_24dp</item>
+        <item name="*com.ext.ui:actionModeStyle">@*com.ext.ui:style/Widget.ActionMode</item>
+        <item name="*com.ext.ui:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="*com.ext.ui:colorControlNormal">@*android:color/white</item>
+        <item name="*com.ext.ui:colorPrimary">@*android:color/accent_material_dark</item>
+        <item name="*com.ext.ui:colorPrimaryDark">@*android:color/background_floating_material_dark</item>
+        <item name="*com.ext.ui:windowActionModeOverlay">true</item>
+    </style>
+    <style name="AppTheme.PreferenceScreen" parent="@*com.ext.ui:style/AppTheme">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>		
+        <item name="android:textColor">@*android:color/white</item>
+		<item name="android:textColorSecondary">@*android:color/white</item>
+		<item name="android:editTextColor">@*android:color/white</item>
+    </style>	
+    <style name="AppTheme.Toolbar.Title" parent="@*com.ext.ui:style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>		
+        <item name="android:textSize">@*com.ext.ui:dimen/abc_text_size_title_material_toolbar</item>
+		<item name="android:editTextColor">@*android:color/white</item>
+        <item name="android:textColor">@*android:color/accent_material_dark</item>
+		<item name="android:textColorSecondary">@*android:color/white</item>
+    </style>
+	    <style name="AppTheme.Toolbar" parent="@*com.ext.ui:style/AppTheme">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>		
+        <item name="android:paddingRight">4.0dip</item>
+		<item name="android:editTextColor">@*android:color/white</item>
+        <item name="android:textColor">@*android:color/white</item>
+		<item name="android:textColorSecondary">@*android:color/white</item>
+        <item name="*com.ext.ui:colorControlNormal">@*android:color/white</item>
+    </style>
+    <style name="TitleTextStyle">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>		
+		<item name="android:editTextColor">@*android:color/white</item>
+        <item name="android:textColor">@*android:color/white</item>
+		<item name="android:textColorSecondary">@*android:color/white</item>
+    </style>	
+
+</resources>	

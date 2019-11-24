@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="op_primary_default_label">My Theme Dark Accent</string>
+    <string name="op_primary_golden_light_label">Orange</string>
+    <string name="op_primary_lemon_yellow_light_label">Yellow</string>
+    <string name="op_primary_grass_green_light_label">Blue</string>
+    <string name="op_primary_charm_purple_light_label">Lime</string>
+    <string name="op_primary_sky_blue_light_label">Purple</string>
+    <string name="op_primary_vigour_red_light_label">Red</string>
+    <string name="op_primary_fashion_pink_light_label">Black</string>
+    <string name="op_primary_golden_dark_label">Orange</string>
+    <string name="op_primary_lemon_yellow_dark_label">Yellow</string>
+    <string name="op_primary_grass_green_dark_label">Blue</string>
+    <string name="op_primary_charm_purple_dark_label">Lime</string>
+    <string name="op_primary_sky_blue_dark_label">Purple</string>
+    <string name="op_primary_vigour_red_dark_label">Red</string>
+    <string name="op_primary_fashion_pink_dark_label">White</string>	
+	
+	<string name="op_primary_default_light_label">My Theme Dark Accent</string>
+	<string name="op_primary_default_dark_label">My Theme Dark Accent</string>	
+</resources>

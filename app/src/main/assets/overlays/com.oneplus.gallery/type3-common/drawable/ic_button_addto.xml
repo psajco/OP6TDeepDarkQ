@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@*com.oneplus.gallery:dimen/oneplus_contorl_icon_size_button" android:width="@*com.oneplus.gallery:dimen/oneplus_contorl_icon_size_button" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="-508.0" android:translateY="-86.0">
+        <group android:translateX="508.0" android:translateY="86.0">
+            <path android:fillColor="@*com.oneplus.gallery:color/filmstrip_fragment_button" android:pathData="M22 8.25l-1.25 0 0 -2.25C20.75 5.5857864 20.414214 5.25 20 5.25l-9.465 0C10.451522 5.2498905 10.373561 5.2082864 10.327 5.139L8.921 3.029C8.5965133 2.5421462 8.0500797 2.2497892 7.465 2.25L3 2.25C2.0339586 2.2511022 1.2511022 3.0339586 1.25 4l0 15.5c0.0011 1.242184 1.0078164 2.248897 2.25 2.25l17 0c1.242184 -0.0011 2.248897 -1.007816 2.25 -2.25L22.75 9C22.75 8.5857864 22.414214 8.25 22 8.25ZM4.25 9l0 10.5c0 0.414214 -0.3357864 0.75 -0.75 0.75 -0.4142136 0 -0.75 -0.335786 -0.75 -0.75L2.75 4C2.75 3.8619288 2.8619288 3.75 3 3.75l4.465 0c0.083478 0.0001095 0.1614387 0.041714 0.208 0.111l1.406 2.11c0.3244867 0.4868538 0.8709203 0.7792108 1.456 0.779l8.715 0 0 1.5L5 8.25C4.5857864 8.25 4.25 8.5857864 4.25 9Zm17 10.5c0 0.414214 -0.335786 0.75 -0.75 0.75l-14.888 0C5.70078 20.009794 5.7474642 19.756075 5.75 19.5l0 -9.75 15.5 0 0 9.75zm-6.5 -5.25l2.25 0 0 1.5 -2.25 0 0 2.25 -1.5 0 0 -2.25 -2.25 0 0 -1.5 2.25 0 0 -2.25 1.5 0 0 2.25z" />
+        </group>
+    </group>
+</vector>

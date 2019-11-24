@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="preview">#ffffffff</color>
+    <color name="dark_mode_icon_color_single_tone">#ffaaaaaa</color>
+    <color name="dark_mode_icon_color_dual_tone_background">#00aaaaaa</color>
+    <color name="dark_mode_icon_color_dual_tone_fill">#ffaaaaaa</color>
+    <color name="dark_mode_icon_color_dual_tone_background_copy">#00aaaaaa</color>
+    <color name="dark_mode_icon_color_dual_tone_fill_copy">#ffaaaaaa</color>
+    <color name="light_mode_icon_color_single_tone">@*android:color/white</color>
+    <color name="light_mode_icon_color_dual_tone_background">#00ffffff</color>
+    <color name="light_mode_icon_color_dual_tone_fill">@*android:color/white</color>
+    <color name="batterymeter_bolt_color">#ffffffff</color>
+    <color name="batterymeter_charge_color">#ffffffff</color>
+    <color name="batterymeter_frame_color">#4dffffff</color>	
+</resources>

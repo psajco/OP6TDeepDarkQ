@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@*com.oneplus.card:dimen/op_bg_round_conner_radius" android:topRightRadius="@*com.oneplus.card:dimen/op_bg_round_conner_radius" android:bottomLeftRadius="@*com.oneplus.card:dimen/op_bg_round_conner_radius" android:bottomRightRadius="@*com.oneplus.card:dimen/op_bg_round_conner_radius" />
+    <solid android:color="@*android:color/background_material_dark" />
+</shape>

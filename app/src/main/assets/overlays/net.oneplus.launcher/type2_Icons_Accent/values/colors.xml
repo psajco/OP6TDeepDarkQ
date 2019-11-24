@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notification_icon_bg_color">@*android:color/accent_material_dark</color>
+    <color name="notification_icon_default_color">@*android:color/accent_material_dark</color>
+    <color name="layout_option_icon_color">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_accent_active_dark">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_accent_active_default">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_accent_inactive_dark">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_accent_inactive_default">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_accent_inactive_light">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_active_dark">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_active_default">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_active_light">@*android:color/accent_material_dark</color>
+
+    <color name="search_icon_fill_color">@*android:color/accent_material_dark</color>
+    <color name="search_icon_more_fill_color">@*android:color/accent_material_dark</color>
+    <color name="system_shortcuts_icon_color">@*android:color/accent_material_dark</color>
+
+</resources>

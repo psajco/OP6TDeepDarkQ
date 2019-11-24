@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Oneplus.Widget.Material.Light.TimePicker" parent="@*android:style/Widget.Material.Light.TimePicker">
+        <item name="android:headerBackground">@*android:color/background_dark</item>
+        <item name="android:numbersTextColor">@*android:color/white</item>
+        <item name="android:numbersBackgroundColor">@*android:color/background_dark</item>
+        <item name="android:numbersSelectorColor">@*android:color/accent_material_dark</item>
+        <item name="android:amPmTextColor">@*com.oneplus.backuprestore:color/timepicker_ampmlabel_text_color_light</item>
+        <item name="android:numbersInnerTextColor">@*android:color/white</item>
+        <item name="*com.oneplus.backuprestore:headerTextColor">@*com.oneplus.backuprestore:color/op_primary_text_secondary_when_activated_material_inverse</item>
+        <item name="*com.oneplus.backuprestore:internalLayout">@*com.oneplus.backuprestore:layout/op_time_picker_material</item>
+        <item name="*com.oneplus.backuprestore:legacyLayout">@*com.oneplus.backuprestore:layout/op_time_picker_legacy_material</item>
+        <item name="*com.oneplus.backuprestore:numbersInnerTextColor">@*android:color/white</item>
+        <item name="*com.oneplus.backuprestore:numbersTextColor">@*android:color/white</item>
+    </style>
+    <style name="Theme.Capture" parent="@*com.oneplus.backuprestore:style/Theme.OPMain">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:colorPrimaryDark">@*android:color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="*com.oneplus.backuprestore:onePlusActionbarBackgroundColor">@*android:color/background_dark</item>
+    </style>
+    <style name="Theme.OPMain2" parent="@*com.oneplus.backuprestore:style/MY_STYLE">
+        <item name="android:checkboxStyle">@*com.oneplus.backuprestore:style/Oneplus.Widget.Material.Light.CompoundButton.CheckBox</item>
+        <item name="android:actionBarStyle">@*com.oneplus.backuprestore:style/ActionBarStyleMain</item>
+        <item name="android:alertDialogTheme">@*com.oneplus.backuprestore:style/MyTheme.AlertDialog</item>
+        <item name="android:colorPrimaryDark">@*android:color/background_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="*com.oneplus.backuprestore:onePlusActionbarBackgroundColor">@*android:color/background_dark</item>
+        <item name="*com.oneplus.backuprestore:onePlusActionbarTitleColor">@*android:color/white</item>
+        <item name="*com.oneplus.backuprestore:onePlusPrimaryColor">@*com.oneplus.backuprestore:color/op_actionbar_bg_color</item>
+    </style>
+</resources>

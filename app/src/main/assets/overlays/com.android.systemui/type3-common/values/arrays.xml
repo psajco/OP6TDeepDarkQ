@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="qs_theme_color_black">
+        <item>@*android:color/white</item>				         <!-- testo ora, modifiche e impostazioni QS-->
+        <item>#ffffffff</item>                                   <!-- icone attivate -->
+        <item>#66ffffff</item>                                   <!-- niente -->
+        <item>#66ffffff</item>                                   <!-- icone disabilitate -->                                    
+        <item>#66ffffff</item>                                   <!-- QS disattivati -->
+        <item>@*android:color/background_material_dark</item>    <!-- Pannello QS  -->
+        <item>@*android:color/background_material_dark</item>
+        <item>@*android:color/white</item>				         <!-- Dot e freccia statusbar -->
+        <item>#66ffffff</item>                                   <!-- niente -->
+        <item>#66ffffff</item>                                   <!-- Indicatore pagine disattivato -->
+        <item>#66ffffff</item>                                   <!-- niente -->
+        <item>#66ffffff</item>                                   <!-- slider luminosità disattivato -->
+        <item>@*android:color/background_material_dark</item>    <!-- Sfondo QS da aggiungere -->
+        <item>@*android:color/background_material_dark</item>
+        <item>@*android:color/transparent</item>		         <!-- riga separazione -->
+        <item>#66ffffff</item>
+        <item>#66ffffff</item>		
+    </array>
+    <array name="qs_theme_color_android">
+        <item>#66ffffff</item>
+        <item>#ffffffff</item>
+        <item>#66ffffff</item>
+        <item>#66ffffff</item>
+        <item>#66ffffff</item>
+        <item>@*android:color/background_material_dark</item>
+        <item>@*android:color/background_material_dark</item>
+        <item>#66ffffff</item>
+        <item>#66ffffff</item>
+        <item>#66ffffff</item>
+        <item>#66ffffff</item>
+        <item>#66ffffff</item>
+        <item>#ff151515</item>
+        <item>@*android:color/background_material_dark</item>
+        <item>#66ffffff</item>
+        <item>#66ffffff</item>
+        <item>#66ffffff</item>		
+    </array>
+    <array name="qs_theme_color_white">
+        <item>#66000000</item>
+        <item>#66000000</item>
+        <item>#66000000</item>
+        <item>#66000000</item>
+        <item>#66000000</item>
+        <item>#fffafafa</item>
+        <item>#ffffffff</item>
+        <item>#ffffffff</item>
+        <item>#66000000</item>
+        <item>#66000000</item>
+        <item>#66000000</item>
+        <item>#66000000</item>
+        <item>#fff0f1f3</item>
+        <item>#ffffffff</item>
+        <item>#66000000</item>
+        <item>#66000000</item>
+        <item>#66000000</item>		
+    </array>
+</resources>

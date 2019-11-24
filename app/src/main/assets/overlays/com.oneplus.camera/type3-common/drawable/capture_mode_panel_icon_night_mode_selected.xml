@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@*com.oneplus.camera:dimen/capture_modes_bottom_sheet_item_icon_width_height_w1440_r13x6" android:width="@*com.oneplus.camera:dimen/capture_modes_bottom_sheet_item_icon_width_height_w1440_r13x6" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@*android:color/accent_material_dark" android:pathData="M12.591549 9.0071236l4.563381 0c0.630071 0 1.140845 0.4896706 1.140845 1.0937104l0 11.983673 2.28169 0 0 1.711268 -20.53521148 0 0 -1.711268 2.28169018 0 0 -17.4522229c0 -0.6040393 0.5107737 -1.0937099 1.140845 -1.0937099l7.9859153 0c0.630072 0 1.140845 0.4896706 1.140845 1.0937099l0 4.3748395zm0 1.6405644l0 11.436819 3.992958 0 0 -11.436819 -3.992958 0zm-1.711267 11.436819l0 -16.905368 -6.8450707 0 0 16.905368 6.8450707 0z" />
+    <path android:fillColor="@*android:color/accent_material_dark" android:pathData="M5.746479 8.3943663l3.4225352 0 0 1.7112677 -3.4225352 0z" />
+    <path android:fillColor="@*android:color/accent_material_dark" android:pathData="M5.746479 12.957747l3.4225352 0 0 1.711268 -3.4225352 0z" />
+    <path android:fillColor="@*android:color/accent_material_dark" android:pathData="M5.746479 17.521128l3.4225352 0 0 1.711267 -3.4225352 0z" />
+    <path android:fillColor="@*android:color/accent_material_dark" android:pathData="M23 5.2176058c-0.507819 1.6754596 -2.064255 2.8950703 -3.905546 2.8950703 -2.253526 0 -4.08037 -1.8268438 -4.08037 -4.0803697 0 -1.8412912 1.219611 -3.397727 2.895071 -3.90554584 -0.113693 0.37510784 -0.174824 0.77306459 -0.174824 1.18529934 0 2.253526 1.826844 4.0803697 4.08037 4.0803697 0.412234 0 0.810191 -0.061132 1.185299 -0.1748238z" />
+</vector>

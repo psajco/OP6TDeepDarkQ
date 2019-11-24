@@ -1,0 +1,38 @@
+<resources>
+    <style name="MainTheme" parent="@*net.oneplus.launcher:style/LauncherTheme">
+        <item name="android:textColorPrimary">@*net.oneplus.launcher:color/op_primary_text_color_light</item>
+        <item name="android:textColor">@*net.oneplus.launcher:color/oneplus_contorl_text_color_primary_light</item>
+        <item name="android:listPopupWindowStyle">@*net.oneplus.launcher:style/LightPopupWindowStyle</item>
+        <item name="android:popupMenuStyle">@*net.oneplus.launcher:style/PopupMenu</item>
+        <item name="android:textAppearanceLargePopupMenu">@*net.oneplus.launcher:style/oneplus_contorl_text_style_subheading</item>
+        <item name="android:alertDialogTheme">@*net.oneplus.launcher:style/AlertDialogLight</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:colorControlActivated">@*android:color/accent_material_dark</item>
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@*android:color/background_material_dark</item>
+        <item name="android:navigationBarColor">@*net.oneplus.launcher:color/transparent</item>
+        <item name="*net.oneplus.launcher:onePlusPrimaryColor">@*android:color/accent_material_dark</item>
+        <item name="*net.oneplus.launcher:quickPageAlertDialog">@*net.oneplus.launcher:style/QuickPageSettingDialogLight</item>
+        <item name="*net.oneplus.launcher:widgetsTheme">@*net.oneplus.launcher:style/WidgetPickerTheme</item>
+    </style>
+	
+    <style name="SettingsTheme" parent="@*android:style/Theme.DeviceDefault.Settings.Dark.NoActionBar">
+        <item name="android:listDivider">@*net.oneplus.launcher:drawable/list_divider</item>
+        <item name="android:colorPrimary">@*android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="SettingsThemeDark" parent="@*android:style/Theme.DeviceDefault.Settings.Dark.NoActionBar">
+        <item name="android:windowBackground">@*android:color/background_material_dark</item>
+        <item name="android:listDivider">@*net.oneplus.launcher:drawable/list_divider_dark</item>
+        <item name="android:alertDialogTheme">@*net.oneplus.launcher:style/AlertDialogDark</item>
+        <item name="android:colorPrimary">@*android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="RecentsActivityTheme" parent="@*net.oneplus.launcher:style/LauncherTheme">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

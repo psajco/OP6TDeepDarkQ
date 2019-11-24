@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@*com.google.android.deskclock:id/digital_widget" android:background="@*com.google.android.deskclock:drawable/abc_dialog_material_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextClock android:textAppearance="@*com.google.android.deskclock:style/TextAppearance.AppWidget.TextClock" android:ellipsize="none" android:layout_gravity="center|top" android:id="@*com.google.android.deskclock:id/clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:format12Hour="@*com.google.android.deskclock:string/lock_screen_12_hour_format" android:format24Hour="@*com.google.android.deskclock:string/lock_screen_24_hour_format" />
+    <LinearLayout android:layout_gravity="center|top" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextClock android:textAppearance="@*com.google.android.deskclock:style/TextAppearance.AppWidget.Label" android:ellipsize="none" android:layout_gravity="center" android:id="@*com.google.android.deskclock:id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+        <ImageView android:layout_gravity="center" android:id="@*com.google.android.deskclock:id/nextAlarmIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:contentDescription="@null" />
+        <TextView android:textAppearance="@*com.google.android.deskclock:style/TextAppearance.AppWidget.Label" android:ellipsize="none" android:layout_gravity="center" android:id="@*com.google.android.deskclock:id/nextAlarm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+    <ListView android:layout_gravity="center|top" android:id="@*com.google.android.deskclock:id/world_city_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:divider="@null" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="@*com.android.systemui:color/light_mode_icon_color_single_tone"   android:height="@*com.android.systemui:dimen/signal_icon_size" android:width="@*com.android.systemui:dimen/signal_icon_size" android:autoMirrored="true" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="in" android:fillColor="#80ffffff" android:strokeColor="@*android:color/white" android:strokeWidth="1" android:pathData="M8.000000,12.700000l-2.000000,3.500000 -2.000000,-3.500000z" />
+    <path android:name="out" android:fillColor="#80ffffff" android:strokeColor="@*android:color/white" android:strokeWidth="1" android:pathData="M0.000000,16.000000l2.000000,-3.500000 2.000000,3.500000z" />
+</vector>

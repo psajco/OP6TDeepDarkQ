@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@*android:color/background_floating_material_dark" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@*net.appcake:drawable/bg_round5dp_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@*android:color/white" android:ellipsize="end" android:id="@*net.appcake:id/author" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Evaluation details" android:maxLines="1" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="@*android:color/white" android:ellipsize="end" android:id="@*net.appcake:id/timeLb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="Evaluation details" android:maxLines="1" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="@*android:color/white" android:ellipsize="end" android:id="@*net.appcake:id/contentLb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="Over at the brand new Aquatics Centre, Britain's star diver Tom Daley is going to perform an official launch dive into the Olympic pool. ark to rivandmark to rivandmark to riveiji." android:maxLines="4" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+        <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@*net.appcake:id/zan" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@*net.appcake:id/zanImg" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@*net.appcake:mipmap/zan" android:scaleType="center" android:tint="#ff9b9b9b" />
+                <TextView android:textSize="13.0sp" android:textColor="@*android:color/white" android:id="@*net.appcake:id/zanCountLb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="201" android:layout_marginStart="6.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@*net.appcake:id/response" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_marginStart="30.0dip">
+                <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@*net.appcake:mipmap/pinglun" android:scaleType="center" />
+                <TextView android:textSize="13.0sp" android:textColor="@*android:color/white" android:id="@*net.appcake:id/responseCountLb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="201" android:layout_marginStart="6.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@*net.appcake:id/subView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+            <View android:background="@*android:color/background_floating_material_dark" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="16.0dip" />
+            <TextView android:textSize="15.0sp" android:textColor="@*android:color/white" android:ellipsize="end" android:id="@*net.appcake:id/responseLb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Evaluation details" android:maxLines="3" />
+            <TextView android:textSize="13.0sp" android:textColor="@*android:color/accent_material_dark" android:id="@*net.appcake:id/allLb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_marginBottom="20.0dip" android:text="All 14 responses >" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

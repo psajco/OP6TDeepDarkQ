@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:autoMirrored="true" 
+    android:viewportWidth="1000"
+    android:viewportHeight="1000"
+    android:width="@*com.android.systemui:dimen/battery_width"
+    android:height="@*com.android.systemui:dimen/battery_height">
+    <path
+        android:pathData="M928 191c0 0 0 38 0 38 0 0 -91 0 -91 0 0 0 0 34 0 34 0 0 84 0 84 0 0 0 0 38 0 38 0 0 -84 0 -84 0 0 0 0 48 0 48 0 0 91 0 91 0 0 0 0 38 0 38 0 0 -142 0 -142 0 0 0 0 -196 0 -196 0 0 142 0 142 0z"
+        android:fillColor="#ffffffff" /> 
+</vector>

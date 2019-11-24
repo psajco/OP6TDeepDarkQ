@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@*com.adobe.reader:id/unreadCommentIndicator" android:background="@*com.adobe.reader:drawable/round_corner_button" android:layout_width="wrap_content" android:layout_height="@*com.adobe.reader:dimen/indicator_unread_comment_button_height" android:layout_marginBottom="@*com.adobe.reader:dimen/indicator_unread_comment_margin_bottom">
+        <ImageView android:layout_gravity="center" android:padding="@*com.adobe.reader:dimen/indicator_unread_comment_botton_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*com.adobe.reader:drawable/ic_arrow_back_white_24dp" android:tint="@*android:color/accent_material_dark" android:rotation="270.0" />
+        <TextView android:textSize="@*com.adobe.reader:dimen/indicator_unread_comment_botton_text_size" android:textColor="@*com.adobe.reader:color/white" android:layout_gravity="center" android:padding="@*com.adobe.reader:dimen/indicator_unread_comment_botton_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Unread Comment" />
+    </LinearLayout>
+</FrameLayout>

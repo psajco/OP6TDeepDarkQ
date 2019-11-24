@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="contextual_card_background">@null</color>
+    <color name="dialog_background">@null</color>
+    <color name="homepage_accessibility_background">@*android:color/accent_material_dark</color>
+    <color name="homepage_support_background">@*android:color/accent_material_dark</color>
+    <color name="notification_importance_button_selected">@*android:color/accent_material_dark</color>
+    <color name="notification_importance_button_unselected">@*android:color/button_material_light</color>
+    <color name="notification_importance_selection_bg">@null</color>
+    <color name="search_bar_background">@null</color>
+    <color name="switchbar_switch_thumb_tint">@*android:color/background_dark</color>
+    <color name="switchbar_switch_track_tint">#82000000</color>
+    <color name="homepage_card_dismissal_background">@null</color>
+</resources>

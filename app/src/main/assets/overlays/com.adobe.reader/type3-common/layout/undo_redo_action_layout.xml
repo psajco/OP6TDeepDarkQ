@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@*com.adobe.reader:drawable/undo_redo_popup_bg" android:layout_width="@*com.adobe.reader:dimen/popover_undoredo_action_width" android:layout_height="@*com.adobe.reader:dimen/popover_undoredo_action_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@*com.adobe.reader:id/undo_action_button" android:background="?*android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@*com.adobe.reader:drawable/s_undo_22" android:tint="@*android:color/accent_material_dark" android:scaleType="center" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="center" android:id="@*com.adobe.reader:id/redo_action_button" android:background="?*android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@*com.adobe.reader:drawable/s_redo_22" android:tint="@*android:color/accent_material_dark" android:scaleType="center" android:layout_weight="1.0" />
+</LinearLayout>

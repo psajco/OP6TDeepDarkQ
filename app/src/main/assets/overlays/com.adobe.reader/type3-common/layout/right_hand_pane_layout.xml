@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@*com.adobe.reader:id/right_hand_pane" android:background="@*android:color/background_material_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@*com.adobe.reader:dimen/action_bar_custom_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@*com.adobe.reader:layout/right_hand_pane_common_layout" />
+</LinearLayout>

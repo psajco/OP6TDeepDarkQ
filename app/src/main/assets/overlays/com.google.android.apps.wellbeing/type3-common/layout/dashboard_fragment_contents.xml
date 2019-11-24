@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:textDirection="locale" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@*com.google.android.apps.wellbeing:id/toolbar" android:background="@*android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@*com.google.android.apps.wellbeing:string/dashboard_toolbar_title" />
+    <LinearLayout android:orientation="vertical" android:background="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@*com.google.android.apps.wellbeing:dimen/abc_action_bar_default_height_material">
+        <include android:id="@*com.google.android.apps.wellbeing:id/usage_access_required" android:visibility="gone" layout="@*com.google.android.apps.wellbeing:layout/usage_access_required" />
+        <include android:id="@*com.google.android.apps.wellbeing:id/usage_dashboard" android:visibility="gone" layout="@*com.google.android.apps.wellbeing:layout/dashboard_usage" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

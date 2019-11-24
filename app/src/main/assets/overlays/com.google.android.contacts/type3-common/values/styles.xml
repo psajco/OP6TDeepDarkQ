@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeOverlay.FloatingActionButton" parent="">
+        <item name="*com.google.android.contacts:colorPrimaryGoogle">@*android:color/white</item>
+        <item name="*com.google.android.contacts:colorPrimaryStateInkGoogle">@*android:color/accent_material_dark</item>
+        <item name="*com.google.android.contacts:colorSurface">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="Widget.GoogleMaterial.OpenSearchBar" parent="@*android:style/Widget">
+        <item name="android:foreground">@*com.google.android.contacts:drawable/abc_ic_star_half_black_36dp</item>
+        <item name="android:textAppearance">@*com.google.android.contacts:style/TextAppearance.GoogleMaterial.OpenSearchBar</item>
+        <item name="android:minHeight">@*com.google.android.contacts:dimen/google_opensearchbar_height</item>
+        <item name="*com.google.android.contacts:defaultMarginsEnabled">true</item>
+        <item name="*com.google.android.contacts:defaultScrollFlagsEnabled">true</item>
+        <item name="*com.google.android.contacts:elevation">@*com.google.android.contacts:dimen/google_opensearchbar_elevation</item>
+        <item name="*com.google.android.contacts:enforceMaterialTheme">true</item>
+        <item name="*com.google.android.contacts:hideNavigationIcon">false</item>
+        <item name="*com.google.android.contacts:materialThemeOverlay">@*com.google.android.contacts:style/ThemeOverlay.GoogleMaterial.OpenSearch</item>
+        <item name="*com.google.android.contacts:maxButtonHeight">@*com.google.android.contacts:dimen/google_opensearchbar_height</item>
+    </style>
+</resources>

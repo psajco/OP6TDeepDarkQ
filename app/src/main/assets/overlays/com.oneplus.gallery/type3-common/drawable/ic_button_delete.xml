@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@*com.oneplus.gallery:dimen/oneplus_contorl_icon_size_button" android:width="@*com.oneplus.gallery:dimen/oneplus_contorl_icon_size_button" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@*com.oneplus.gallery:color/filmstrip_fragment_button" android:pathData="M21,4.25L15.931,4.25L14.4,1.622a0.75,0.75 0,0 0,-0.648 -0.372h-3.5a0.75,0.75 0,0 0,-0.648 0.372L8.069,4.25L3,4.25v1.5L5.25,5.75L5.25,20A1.752,1.752 0,0 0,7 21.75L17,21.75A1.752,1.752 0,0 0,18.75 20L18.75,5.75L21,5.75ZM10.681,2.75h2.638l0.875,1.5L9.806,4.25ZM17.25,20a0.25,0.25 0,0 1,-0.25 0.25L7,20.25A0.25,0.25 0,0 1,6.75 20L6.75,5.75h10.5ZM10.75,17L9.25,17L9.25,9h1.5ZM14.75,17h-1.5L13.25,9h1.5Z" />
+</vector>

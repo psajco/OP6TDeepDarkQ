@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@*android:color/background_floating_material_dark" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@*android:color/white" android:id="@*net.appcake:id/nickName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:text="Evaluation details" android:maxLines="1" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip">
+        <TextView android:textSize="13.0sp" android:textColor="@*android:color/white" android:id="@*net.appcake:id/timeLb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="time" android:maxLines="1" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@*net.appcake:id/zan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+            <ImageView android:id="@*net.appcake:id/zanImg" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@*net.appcake:mipmap/zan" android:scaleType="center" android:tint="#ff9b9b9b" />
+            <TextView android:textSize="13.0sp" android:textColor="@*android:color/white" android:id="@*net.appcake:id/zanCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="201" android:layout_marginStart="6.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textSize="13.0sp" android:textColor="@*android:color/white" android:id="@*net.appcake:id/contentLb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="" />
+    <View android:background="@*android:color/background_floating_material_dark" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="16.0dip" />
+</LinearLayout>

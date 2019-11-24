@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_green_dark">@*android:color/accent_material_dark</color>
+    <color name="accent_green_light">@*android:color/accent_material_dark</color>
+    <color name="background_tab_pressed">@*android:color/accent_material_dark</color>
+    <color name="collect_overlay_save_background">@*android:color/accent_material_dark</color>
+    <color name="dialog_box_button_light">@*android:color/accent_material_dark</color>
+    <color name="editor_cursor_light">@*android:color/accent_material_dark</color>
+    <color name="icons_primary_disabled_dark">@*android:color/accent_material_dark</color>
+    <color name="icons_primary_green_pressed_dark">@*android:color/accent_material_dark</color>
+    <color name="icons_primary_pressed_light">@*android:color/accent_material_dark</color>
+    <color name="icons_secondary_disabled_dark">@*android:color/accent_material_dark</color>
+    <color name="icons_secondary_pressed_light">@*android:color/accent_material_dark</color>
+    <color name="icons_tertiary_pressed_light">@*android:color/accent_material_dark</color>
+    <color name="menu_skittle_bg">@*android:color/accent_material_dark</color>
+    <color name="menu_skittle_caret_bg">#ff00ff00</color>
+    <color name="new_evernote_green">@*android:color/accent_material_dark</color>
+    <color name="premium_purchase_button_monthly">@*android:color/accent_material_dark</color>
+    <color name="premium_tier_green_alpha">@*android:color/accent_material_dark</color>
+    <color name="reminder_check_light">@*android:color/accent_material_dark</color>
+    <color name="tier_confirmation_background_premium">@*android:color/accent_material_dark</color>
+    <color name="type_primary_green_pressed_dark">@*android:color/accent_material_dark</color>
+    <color name="type_primary_pressed_light">@*android:color/accent_material_dark</color>
+    <color name="type_secondary_pressed_light">@*android:color/accent_material_dark</color>
+    <color name="type_tertiary_pressed_light">@*android:color/accent_material_dark</color>
+    <color name="gray_9e">@*android:color/accent_material_dark</color>
+    <color name="icons_primary_dark">@*android:color/accent_material_dark</color><!-- icon menu color -->
+    <color name="type_tertiary_dark">@*android:color/accent_material_dark</color><!-- data -->
+    <color name="app_bar_dark">@*android:color/background_material_dark</color>
+    <color name="app_bar_pressed_dark">@*android:color/background_material_dark</color>
+    <color name="bg_primary_pressed_dark">@*android:color/accent_material_dark</color><!-- menu on -->
+    <color name="dialog_box_background_dark">@*android:color/background_material_dark</color>
+    <color name="icons_tertiary_pressed_dark">#ffffffff</color>
+    <color name="icons_tertiary_disabled_dark">@*android:color/accent_material_dark</color>
+    <color name="message_attachment_type">#ffffffff</color>
+    <color name="reminder_fill_dark">#ffffffff</color>
+    <color name="bg_secondary_dark">@*android:color/background_material_dark</color>
+    <color name="bg_semi_transparent_dark">@*android:color/background_material_dark</color>
+    <color name="cardview_dark_background">@*android:color/background_material_dark</color><!--x-->
+    <color name="gray_42">@*android:color/accent_material_dark</color>
+    <color name="material_grey_800">@*android:color/accent_material_dark</color>
+    <color name="material_grey_850">@*android:color/background_material_dark</color>
+    <color name="notification_material_background_media_default_color">@*android:color/background_material_dark</color>
+    <color name="gray_21">@*android:color/background_material_dark</color>
+    <color name="material_grey_900">@*android:color/background_material_dark</color>
+    <color name="bg_primary_dark">@*android:color/background_material_dark</color>
+</resources>

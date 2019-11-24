@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@*net.appcake:dimen/abc_button_inset_horizontal_material" android:insetRight="@*net.appcake:dimen/abc_button_inset_horizontal_material" android:insetTop="@*net.appcake:dimen/abc_button_inset_vertical_material" android:insetBottom="@*net.appcake:dimen/abc_button_inset_vertical_material"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:radius="@*net.appcake:dimen/abc_control_corner_material" />
+        <solid android:color="@*android:color/button_material_dark" />
+        <padding android:left="@*net.appcake:dimen/abc_button_padding_horizontal_material" android:top="@*net.appcake:dimen/abc_button_padding_vertical_material" android:right="@*net.appcake:dimen/abc_button_padding_horizontal_material" android:bottom="@*net.appcake:dimen/abc_button_padding_vertical_material" />
+    </shape>
+</inset>

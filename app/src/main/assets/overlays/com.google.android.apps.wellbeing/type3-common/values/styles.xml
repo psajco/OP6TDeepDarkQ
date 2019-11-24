@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.TextAppearance.AppCompat.Inverse" parent="@*android:style/TextAppearance.Material" />
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse" parent="@*android:style/TextAppearance.Material.Large" />
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse" parent="@*android:style/TextAppearance.Material.Medium" />
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse" parent="@*android:style/TextAppearance.Material.Small" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title" />
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="@*android:style/TextAppearance.Material.Widget.Button" />
+    <style name="Base.Theme.SystemSettings" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:colorControlNormal">@*android:color/accent_material_dark</item>
+        <item name="*com.google.android.apps.wellbeing:titleTextColor">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@*android:style/Widget.Material.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="@*android:style/Widget.Material.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@*android:style/Widget.Material.ActionBar.TabView" />
+    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@*android:style/Widget.Material.PopupMenu" />
+    <style name="CardView" parent="@*com.google.android.apps.wellbeing:style/Base.CardView">
+        <item name="*com.google.android.apps.wellbeing:cardBackgroundColor">@*android:color/background_floating_material_dark</item>
+    </style>
+    <style name="CardViewStyle" parent="@*com.google.android.apps.wellbeing:style/Widget.MaterialComponents.CardView">
+        <item name="*com.google.android.apps.wellbeing:cardBackgroundColor">@*android:color/background_floating_material_dark</item>
+    </style>
+    <style name="DurationNumberPicker" parent="@*android:style/Widget.Material.NumberPicker">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+        <item name="android:headerBackground">@*android:color/background_floating_material_dark</item>
+        <item name="android:numbersTextColor">@*android:color/white</item>
+        <item name="android:numbersSelectorColor">@*android:color/dim_foreground_light</item>
+    </style>
+    <style name="Platform.V21.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorHintInverse">#ffbbbbbb</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+        <item name="android:textColorLinkInverse">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar" />
+    <style name="Theme.GoogleMaterial.Light" parent="@*com.google.android.apps.wellbeing:style/Base.Theme.GoogleMaterial.Light">
+        <item name="android:navigationBarColor">@*android:color/primary_dark_material_dark</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="Theme.GoogleMaterial.Light.BottomSheetDialog" parent="@*com.google.android.apps.wellbeing:style/Base.Theme.GoogleMaterial.Light.BottomSheetDialog">
+        <item name="android:navigationBarColor">@*android:color/primary_dark_material_dark</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">@*android:color/primary_dark_material_dark</item>
+    </style>
+    <style name="WellbeingPopup" parent="@*com.google.android.apps.wellbeing:style/Base.Theme.SystemSettings">
+        <item name="*com.google.android.apps.wellbeing:colorSurface">@*android:color/background_floating_material_dark</item>
+    </style>
+    <style name="Widget.Design.BottomSheet.Modal" parent="@*android:style/Widget">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:elevation">@*com.google.android.apps.wellbeing:dimen/design_bottom_sheet_modal_elevation</item>
+        <item name="*com.google.android.apps.wellbeing:backgroundTint">@*android:color/background_floating_material_dark</item>
+        <item name="*com.google.android.apps.wellbeing:behavior_hideable">true</item>
+        <item name="*com.google.android.apps.wellbeing:behavior_peekHeight">auto</item>
+        <item name="*com.google.android.apps.wellbeing:behavior_skipCollapsed">false</item>
+        <item name="*com.google.android.apps.wellbeing:enforceMaterialTheme">false</item>
+        <item name="*com.google.android.apps.wellbeing:shapeAppearance">@null</item>
+        <item name="*com.google.android.apps.wellbeing:shapeAppearanceOverlay">@null</item>
+    </style>
+    <style name="Widget.GoogleMaterial.FloatingActionButton" parent="@*com.google.android.apps.wellbeing:style/Widget.MaterialComponents.FloatingActionButton">
+        <item name="*com.google.android.apps.wellbeing:backgroundTint">@*android:color/button_material_dark</item>
+        <item name="*com.google.android.apps.wellbeing:elevation">@*com.google.android.apps.wellbeing:dimen/google_fab_elevation</item>
+        <item name="*com.google.android.apps.wellbeing:enforceMaterialTheme">true</item>
+        <item name="*com.google.android.apps.wellbeing:hoveredFocusedTranslationZ">@*com.google.android.apps.wellbeing:dimen/google_fab_translation_z_hovered_focused</item>
+        <item name="*com.google.android.apps.wellbeing:pressedTranslationZ">@*com.google.android.apps.wellbeing:dimen/google_fab_translation_z_pressed</item>
+        <item name="*com.google.android.apps.wellbeing:rippleColor">@*com.google.android.apps.wellbeing:color/google_fab_ripple_color</item>
+        <item name="*com.google.android.apps.wellbeing:shapeAppearanceOverlay">@*com.google.android.apps.wellbeing:style/ShapeAppearanceOverlay.GoogleMaterial.FloatingActionButton</item>
+        <item name="*com.google.android.apps.wellbeing:tint">@*android:color/white</item>
+    </style>
+    <style name="Widget.GoogleMaterial.ProductLockupView.Dark" parent="@*com.google.android.apps.wellbeing:style/Widget.GoogleMaterial.ProductLockupView">
+        <item name="*com.google.android.apps.wellbeing:logoColor">light</item>
+        <item name="*com.google.android.apps.wellbeing:productNameTextColor">@*android:color/white</item>
+    </style>
+    <style name="Widget.Wellbeing.ChevronButton" parent="@*com.google.android.apps.wellbeing:style/Widget.GoogleMaterial.Button.Icon">
+        <item name="android:gravity">center</item>
+        <item name="android:insetLeft">0.0dip</item>
+        <item name="android:insetRight">0.0dip</item>
+        <item name="android:insetTop">0.0dip</item>
+        <item name="android:insetBottom">0.0dip</item>
+        <item name="*com.google.android.apps.wellbeing:backgroundTint">@*android:color/button_material_dark</item>
+        <item name="*com.google.android.apps.wellbeing:iconTint">@*android:color/white</item>
+        <item name="*com.google.android.apps.wellbeing:rippleColor">@*android:color/secondary_text_default_material_dark</item>
+    </style>
+    <style name="Widget.Wellbeing.PlusMinusButton" parent="@*com.google.android.apps.wellbeing:style/Widget.GoogleMaterial.Button.Icon">
+        <item name="android:gravity">center</item>
+        <item name="android:insetLeft">0.0dip</item>
+        <item name="android:insetRight">0.0dip</item>
+        <item name="android:insetTop">0.0dip</item>
+        <item name="android:insetBottom">0.0dip</item>
+        <item name="*com.google.android.apps.wellbeing:backgroundTint">@*android:color/button_material_dark</item>
+        <item name="*com.google.android.apps.wellbeing:iconTint">@*android:color/accent_material_dark</item>
+        <item name="*com.google.android.apps.wellbeing:rippleColor">@*android:color/secondary_text_default_material_dark</item>
+    </style>
+    <style name="Widget.Wellbeing.Toolbar" parent="@*com.google.android.apps.wellbeing:style/Widget.AppCompat.Toolbar">
+        <item name="android:background">@*android:color/primary_material_dark</item>
+        <item name="*com.google.android.apps.wellbeing:navigationIcon">?*android:homeAsUpIndicator</item>
+        <item name="*com.google.android.apps.wellbeing:popupTheme">@*com.google.android.apps.wellbeing:style/WellbeingPopup</item>
+        <item name="*com.google.android.apps.wellbeing:titleTextAppearance">@*com.google.android.apps.wellbeing:style/TextAppearance.Wellbeing.Toolbar.Title</item>
+    </style>
+</resources>

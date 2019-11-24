@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@*android:color/background_dark" 
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@*com.oneplus.gamespace:id/layout_container" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@*com.oneplus.gamespace:dimen/oneplus_contorl_list_item_height_one_line2">
+        <ImageView android:gravity="center_vertical" android:id="@*com.oneplus.gamespace:id/icon" android:layout_width="38.0dip" android:layout_height="38.0dip" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_marginStart="13.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textColor="@*com.oneplus.gamespace:color/text_color_primary" android:gravity="center_vertical" android:id="@*com.oneplus.gamespace:id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="13.0dip" android:layout_marginEnd="@*com.oneplus.gamespace:dimen/oneplus_contorl_layout_margin_right2" android:layout_toEndOf="@*com.oneplus.gamespace:id/icon" style="@*com.oneplus.gamespace:style/oneplus_contorl_text_style_subheading" />
+        <CheckBox android:id="@*com.oneplus.gamespace:id/check_box" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="32.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

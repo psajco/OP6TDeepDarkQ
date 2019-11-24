@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.V7.Theme.AppCompat.Dialog" parent="@*com.oneplus.brickmode:style/Base.Theme.AppCompat">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
+        <item name="android:windowBackground">@*com.oneplus.brickmode:drawable/abc_dialog_material_background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@*com.oneplus.brickmode:style/RtlOverlay.DialogWindowTitle.AppCompat</item>
+        <item name="android:windowTitleBackgroundStyle">@*com.oneplus.brickmode:style/Base.DialogWindowTitleBackground.AppCompat</item>
+        <item name="android:windowAnimationStyle">@*com.oneplus.brickmode:style/Animation.AppCompat.Dialog</item>
+        <item name="android:listDivider">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:borderlessButtonStyle">@*com.oneplus.brickmode:style/Widget.AppCompat.Button.Borderless</item>
+        <item name="android:buttonBarStyle">@*com.oneplus.brickmode:style/Widget.AppCompat.ButtonBar.AlertDialog</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="*com.oneplus.brickmode:listPreferredItemPaddingLeft">24.0dip</item>
+        <item name="*com.oneplus.brickmode:listPreferredItemPaddingRight">24.0dip</item>
+        <item name="*com.oneplus.brickmode:windowActionBar">false</item>
+        <item name="*com.oneplus.brickmode:windowActionModeOverlay">true</item>
+    </style>
+    <style name="Base.V7.Theme.AppCompat.Light.Dialog" parent="@*com.oneplus.brickmode:style/Base.Theme.AppCompat.Light">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
+        <item name="android:windowBackground">@*com.oneplus.brickmode:drawable/abc_dialog_material_background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@*com.oneplus.brickmode:style/RtlOverlay.DialogWindowTitle.AppCompat</item>
+        <item name="android:windowTitleBackgroundStyle">@*com.oneplus.brickmode:style/Base.DialogWindowTitleBackground.AppCompat</item>
+        <item name="android:windowAnimationStyle">@*com.oneplus.brickmode:style/Animation.AppCompat.Dialog</item>
+        <item name="android:listDivider">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:borderlessButtonStyle">@*com.oneplus.brickmode:style/Widget.AppCompat.Button.Borderless</item>
+        <item name="android:buttonBarStyle">@*com.oneplus.brickmode:style/Widget.AppCompat.ButtonBar.AlertDialog</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="*com.oneplus.brickmode:listPreferredItemPaddingLeft">24.0dip</item>
+        <item name="*com.oneplus.brickmode:listPreferredItemPaddingRight">24.0dip</item>
+        <item name="*com.oneplus.brickmode:windowActionBar">false</item>
+        <item name="*com.oneplus.brickmode:windowActionModeOverlay">true</item>
+    </style>
+    <style name="Base.V7.ThemeOverlay.AppCompat.Dialog" parent="@*com.oneplus.brickmode:style/Base.ThemeOverlay.AppCompat">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
+        <item name="android:windowBackground">@*com.oneplus.brickmode:drawable/abc_dialog_material_background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@*com.oneplus.brickmode:style/RtlOverlay.DialogWindowTitle.AppCompat</item>
+        <item name="android:windowTitleBackgroundStyle">@*com.oneplus.brickmode:style/Base.DialogWindowTitleBackground.AppCompat</item>
+        <item name="android:windowAnimationStyle">@*com.oneplus.brickmode:style/Animation.AppCompat.Dialog</item>
+        <item name="android:listDivider">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:borderlessButtonStyle">@*com.oneplus.brickmode:style/Widget.AppCompat.Button.Borderless</item>
+        <item name="android:buttonBarStyle">@*com.oneplus.brickmode:style/Widget.AppCompat.ButtonBar.AlertDialog</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="*com.oneplus.brickmode:listPreferredItemPaddingLeft">24.0dip</item>
+        <item name="*com.oneplus.brickmode:listPreferredItemPaddingRight">24.0dip</item>
+        <item name="*com.oneplus.brickmode:windowActionBar">false</item>
+        <item name="*com.oneplus.brickmode:windowActionModeOverlay">true</item>
+        <item name="*com.oneplus.brickmode:windowFixedHeightMajor">@null</item>
+        <item name="*com.oneplus.brickmode:windowFixedHeightMinor">@null</item>
+        <item name="*com.oneplus.brickmode:windowFixedWidthMajor">@null</item>
+        <item name="*com.oneplus.brickmode:windowFixedWidthMinor">@null</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Subhead.Inverse" parent="@*com.oneplus.brickmode:style/Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:textColorHighlight">@*android:color/accent_material_dark</item>
+        <item name="android:textColorHint">@*android:color/white</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title.Inverse" parent="@*com.oneplus.brickmode:style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:textColorHighlight">@*android:color/accent_material_dark</item>
+        <item name="android:textColorHint">@*android:color/white</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="oneplus_contorl_text_style_display4" parent="@*com.oneplus.brickmode:style/oneplus_contorl_text_style_base">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:textSize">@*com.oneplus.brickmode:dimen/oneplus_contorl_text_size_display4</item>
+        <item name="android:fontFamily">@*com.oneplus.brickmode:string/oneplus_contorl_font_family_display4</item>
+    </style>
+    <style name="oneplus_contorl_text_style_display3" parent="@*com.oneplus.brickmode:style/oneplus_contorl_text_style_base">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:textSize">@*com.oneplus.brickmode:dimen/oneplus_contorl_text_size_display3</item>
+        <item name="android:fontFamily">@*com.oneplus.brickmode:string/oneplus_contorl_font_family_display3</item>
+    </style>
+    <style name="oneplus_contorl_text_style_display2" parent="@*com.oneplus.brickmode:style/oneplus_contorl_text_style_base">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:textSize">@*com.oneplus.brickmode:dimen/oneplus_contorl_text_size_display2</item>
+        <item name="android:fontFamily">@*com.oneplus.brickmode:string/oneplus_contorl_font_family_display2</item>
+    </style>
+    <style name="oneplus_contorl_text_style_display1" parent="@*com.oneplus.brickmode:style/oneplus_contorl_text_style_base">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:textSize">@*com.oneplus.brickmode:dimen/oneplus_contorl_text_size_display1</item>
+        <item name="android:fontFamily">@*com.oneplus.brickmode:string/oneplus_contorl_font_family_display1</item>
+    </style>
+    <style name="Oneplus.Theme.Material.Dialog.Picker" parent="@*com.oneplus.brickmode:style/Oneplus.Theme.Material.Dialog">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:windowBackground">@*com.oneplus.brickmode:drawable/dialog_picker_background_material</item>
+        <item name="*com.oneplus.brickmode:opPickerColorActivated">@*android:color/accent_material_dark</item>
+        <item name="*com.oneplus.brickmode:opPickerColorUnActivated">@*android:color/white</item>
+        <item name="*com.oneplus.brickmode:opPickerInputLabelUnActivated">@*android:color/white</item>
+    </style>
+    <style name="Oneplus.Theme.Material.Light.Dialog.Picker" parent="@*com.oneplus.brickmode:style/Oneplus.Theme.Material.Light.Dialog">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:windowBackground">@*com.oneplus.brickmode:drawable/dialog_picker_background_material</item>
+        <item name="*com.oneplus.brickmode:opPickerColorActivated">@*android:color/accent_material_dark</item>
+        <item name="*com.oneplus.brickmode:opPickerColorUnActivated">@*android:color/white</item>
+        <item name="*com.oneplus.brickmode:opPickerInputLabelUnActivated">@*android:color/white</item>
+    </style>
+    <style name="Oneplus.ThemeOverlay.Material.Dialog" parent="@*com.oneplus.brickmode:style/Oneplus.ThemeOverlay.Material">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
+        <item name="android:windowBackground">@*com.oneplus.brickmode:drawable/dialog_background_material</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@*com.oneplus.brickmode:style/DialogWindowTitle.Material</item>
+        <item name="android:windowTitleBackgroundStyle">@*com.oneplus.brickmode:style/DialogWindowTitleBackground.Material</item>
+        <item name="android:windowAnimationStyle">@*com.oneplus.brickmode:style/Animation.Material.Dialog</item>
+        <item name="android:listDivider">@null</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">@*com.oneplus.brickmode:bool/config_closeDialogWhenTouchOutside</item>
+        <item name="android:listPreferredItemPaddingLeft">?*android:dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingRight">?*android:dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingStart">?*android:dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingEnd">?*android:dialogPreferredPadding</item>
+        <item name="android:windowElevation">@*com.oneplus.brickmode:dimen/floating_window_z</item>
+        <item name="*com.oneplus.brickmode:op_preferencePanelStyle">@*com.oneplus.brickmode:style/OPPreferencePanel.Dialog</item>
+    </style>
+    <style name="Oneplus.Theme.Material.BaseDialog" parent="@*com.oneplus.brickmode:style/Oneplus.Theme.Material">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:windowBackground">@*com.oneplus.brickmode:drawable/dialog_background_material</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@*com.oneplus.brickmode:style/DialogWindowTitle.Material</item>
+        <item name="android:windowTitleBackgroundStyle">@*com.oneplus.brickmode:style/DialogWindowTitleBackground.Material</item>
+        <item name="android:windowAnimationStyle">@*com.oneplus.brickmode:style/Oneplus.Animation.Material.Dialog</item>
+        <item name="android:listDivider">@null</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">@*com.oneplus.brickmode:bool/config_closeDialogWhenTouchOutside</item>
+        <item name="android:listPreferredItemPaddingLeft">24.0dip</item>
+        <item name="android:listPreferredItemPaddingRight">24.0dip</item>
+        <item name="android:listPreferredItemPaddingStart">24.0dip</item>
+        <item name="android:listPreferredItemPaddingEnd">24.0dip</item>
+        <item name="android:windowElevation">@*com.oneplus.brickmode:dimen/floating_window_z</item>
+        <item name="*com.oneplus.brickmode:op_preferencePanelStyle">@*com.oneplus.brickmode:style/OPPreferencePanel.Dialog</item>
+    </style>
+    <style name="Oneplus.Theme.Material.Light.BaseDialog" parent="@*com.oneplus.brickmode:style/Oneplus.Theme.Material.Light">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:windowBackground">@*com.oneplus.brickmode:drawable/dialog_background_material</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@*com.oneplus.brickmode:style/DialogWindowTitle.Material.Light</item>
+        <item name="android:windowTitleBackgroundStyle">@*com.oneplus.brickmode:style/DialogWindowTitleBackground.Material.Light</item>
+        <item name="android:windowAnimationStyle">@*com.oneplus.brickmode:style/Oneplus.Animation.Material.Dialog</item>
+        <item name="android:listDivider">@null</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">@*com.oneplus.brickmode:bool/config_closeDialogWhenTouchOutside</item>
+        <item name="android:listPreferredItemPaddingLeft">24.0dip</item>
+        <item name="android:listPreferredItemPaddingRight">24.0dip</item>
+        <item name="android:listPreferredItemPaddingStart">24.0dip</item>
+        <item name="android:listPreferredItemPaddingEnd">24.0dip</item>
+        <item name="android:windowElevation">@*com.oneplus.brickmode:dimen/floating_window_z</item>
+        <item name="*com.oneplus.brickmode:op_preferencePanelStyle">@*com.oneplus.brickmode:style/OPPreferencePanel.Dialog</item>
+    </style>	
+    <style name="OneplusThemeLightBase" parent="@android:style/Theme.Material.Light">
+        <item name="android:textAppearanceMedium">@*com.oneplus.brickmode:style/oneplus_contorl_text_style_subheading</item>
+        <item name="android:buttonStyle">@*com.oneplus.brickmode:style/OnePlus.Widget.Material.Light.Button</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:checkboxStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.CompoundButton.CheckBox.Special</item>
+        <item name="android:editTextStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.EditText</item>
+        <item name="android:progressBarStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.ProgressBar</item>
+        <item name="android:progressBarStyleHorizontal">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.ProgressBar.Horizontal</item>
+        <item name="android:progressBarStyleSmall">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.ProgressBar.Small</item>
+        <item name="android:progressBarStyleLarge">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.ProgressBar.Large</item>
+        <item name="android:radioButtonStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.CompoundButton.RadioButton</item>
+        <item name="android:spinnerDropDownItemStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.DropDownItem.Spinner</item>
+        <item name="android:spinnerItemStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Item.Spinner</item>
+        <item name="android:textColorHighlight">@*com.oneplus.brickmode:color/op_text_selection_highlight_light</item>
+        <item name="android:textSelectHandleLeft">@*com.oneplus.brickmode:drawable/op_text_select_handle_left_material_light</item>
+        <item name="android:textSelectHandleRight">@*com.oneplus.brickmode:drawable/op_text_select_handle_right_material_light</item>
+        <item name="android:textSelectHandle">@*com.oneplus.brickmode:drawable/op_text_select_handle_middle_material_light</item>
+        <item name="android:actionBarStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.ActionBar.Solid</item>
+        <item name="android:actionButtonStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.ActionButton</item>
+        <item name="android:actionModeCloseDrawable">@*com.oneplus.brickmode:drawable/op_ic_ab_back_material</item>
+        <item name="android:actionBarSize">@*com.oneplus.brickmode:dimen/appbar_layout_default_height_material</item>
+        <item name="android:actionBarTabStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.ActionBar.TabView</item>
+        <item name="android:actionBarTabBarStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.ActionBar.TabBar</item>
+        <item name="android:actionBarTabTextStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.ActionBar.TabText</item>
+        <item name="android:actionOverflowButtonStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.ActionButton.Overflow</item>
+        <item name="android:actionModeCloseButtonStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.ActionButton.CloseMode</item>
+        <item name="android:popupMenuStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.PopupMenu.Overflow</item>
+        <item name="android:textAppearanceLargePopupMenu">@*com.oneplus.brickmode:style/Oneplus.TextAppearance.Material.Menu.Light</item>
+        <item name="android:dialogTheme">@*com.oneplus.brickmode:style/Oneplus.Theme.Material.Light.Dialog</item>
+        <item name="android:alertDialogTheme">@*com.oneplus.brickmode:style/Oneplus.Theme.Material.Light.Dialog.Alert</item>
+        <item name="android:homeAsUpIndicator">@*com.oneplus.brickmode:drawable/op_ic_ab_back_material</item>
+        <item name="android:buttonBarButtonStyle">@*com.oneplus.brickmode:style/OnePlus.Widget.Material.Light.Button.AlertDialog</item>
+        <item name="android:editTextBackground">@*com.oneplus.brickmode:drawable/op_edit_text_material_light</item>
+        <item name="android:datePickerStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.DatePicker</item>
+        <item name="android:calendarViewStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.CalendarView</item>
+        <item name="android:actionMenuTextColor">@*android:color/white</item>
+        <item name="android:textCursorDrawable">@*com.oneplus.brickmode:drawable/op_text_cursor_material_light</item>
+        <item name="android:listPreferredItemHeightSmall">?opDropdownListPreferredItemHeight</item>
+        <item name="android:actionModeStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.ActionMode.Light</item>
+        <item name="android:colorControlActivated">@*android:color/accent_material_dark</item>
+        <item name="android:actionBarTheme">@*com.oneplus.brickmode:style/Oneplus.ThemeOverlay.Material.ActionBar</item>
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="android:switchStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.CompoundButton.Switch</item>
+        <item name="android:actionOverflowMenuStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.PopupMenu.Overflow</item>
+        <item name="android:navigationBarColor">@*android:color/background_dark</item>
+        <item name="android:timePickerStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.TimePicker</item>
+        <item name="android:timePickerDialogTheme">@*com.oneplus.brickmode:style/Oneplus.Theme.Material.Light.Dialog.Picker</item>
+        <item name="android:toolbarStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Toolbar</item>
+        <item name="android:datePickerDialogTheme">@*com.oneplus.brickmode:style/Oneplus.Theme.Material.Light.Dialog.Picker</item>
+        <item name="*com.oneplus.brickmode:OPAlertDialogStyle">@*com.oneplus.brickmode:style/OnePlusAlertDialog.Light</item>
+        <item name="*com.oneplus.brickmode:OPEditTextStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.EditText</item>
+        <item name="*com.oneplus.brickmode:OPFloatingActionButtonStyle">@*com.oneplus.brickmode:style/OnePlus.Widget.Design.FloatingActionButton</item>
+        <item name="*com.oneplus.brickmode:OPImageCheckboxStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.ImageCompoundButton.CheckBox</item>
+        <item name="*com.oneplus.brickmode:OPListViewStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.ListView</item>
+        <item name="*com.oneplus.brickmode:OPRectangleFloatingActionButtonStyle">@*com.oneplus.brickmode:style/OnePlus.Widget.Design.RectangleFloatingActionButton</item>
+        <item name="*com.oneplus.brickmode:OPSeekBarStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.SeekBar</item>
+        <item name="*com.oneplus.brickmode:OPSwitchFloatingActionButtonStyle">@*com.oneplus.brickmode:style/OnePlus.Widget.Design.SwitchFloatingActionButton</item>
+        <item name="*com.oneplus.brickmode:OPTabLayoutStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Design.OPTabLayout</item>
+        <item name="*com.oneplus.brickmode:OPToastStyle">@*com.oneplus.brickmode:style/OnePlusToastLight</item>
+        <item name="*com.oneplus.brickmode:actionBarPopupTheme">?*android:actionBarPopupTheme</item>
+        <item name="*com.oneplus.brickmode:actionBarStyle">?*android:actionBarStyle</item>
+        <item name="*com.oneplus.brickmode:actionBarTheme">?*android:actionBarTheme</item>
+        <item name="*com.oneplus.brickmode:bottomNavigationStyle">@*com.oneplus.brickmode:style/OnePlusBottomNavigationViewStyle</item>
+        <item name="*com.oneplus.brickmode:colorControlActivated">?*android:colorControlActivated</item>
+        <item name="*com.oneplus.brickmode:colorPrimary">@*android:color/background_dark</item>
+        <item name="*com.oneplus.brickmode:colorSecondary">@*android:color/background_floating_material_dark</item>
+        <item name="*com.oneplus.brickmode:homeAsUpIndicator">@*com.oneplus.brickmode:drawable/op_ic_ab_back_material</item>
+        <item name="*com.oneplus.brickmode:numberPickerStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.Light.NumberPicker</item>
+        <item name="*com.oneplus.brickmode:onePlusAccentColor">@*com.oneplus.brickmode:color/onePlusAccentColor_device_default_light</item>
+        <item name="*com.oneplus.brickmode:onePlusActionbarBackground">@*com.oneplus.brickmode:drawable/op_actionbar_background</item>
+        <item name="*com.oneplus.brickmode:onePlusActionbarBackgroundColor">@*com.oneplus.brickmode:color/oneplus_contorl_bg_color_appbar_light</item>
+        <item name="*com.oneplus.brickmode:onePlusActionbarIconAlpha">1.0</item>
+        <item name="*com.oneplus.brickmode:onePlusActionbarIconColor">@*com.oneplus.brickmode:color/oneplus_contorl_icon_color_accent_active_light</item>
+        <item name="*com.oneplus.brickmode:onePlusActionbarLineColor">@*com.oneplus.brickmode:color/oneplus_contorl_divider_color_light</item>
+        <item name="*com.oneplus.brickmode:onePlusActionbarSubtitleAlpha">1.0</item>
+        <item name="*com.oneplus.brickmode:onePlusActionbarSubtitleColor">@*android:color/white</item>
+        <item name="*com.oneplus.brickmode:onePlusActionbarTitleAlpha">1.0</item>
+        <item name="*com.oneplus.brickmode:onePlusActionbarTitleColor">@*android:color/white</item>
+        <item name="*com.oneplus.brickmode:onePlusBaseColor">@*android:color/white</item>
+        <item name="*com.oneplus.brickmode:onePlusColorButtonNormal">@*com.oneplus.brickmode:color/op_btn_default_material_light</item>
+        <item name="*com.oneplus.brickmode:onePlusColorControlHighlight">@*com.oneplus.brickmode:color/op_ripple_material_dark</item>
+        <item name="*com.oneplus.brickmode:onePlusDialogPrimaryColor">@*com.oneplus.brickmode:color/onePlusPrimaryColor_device_default_dark</item>
+        <item name="*com.oneplus.brickmode:onePlusDisabledColor">@*android:color/lighter_gray</item>
+        <item name="*com.oneplus.brickmode:onePlusDisabledTextColor">@*android:color/lighter_gray</item>
+        <item name="*com.oneplus.brickmode:onePlusPrimaryColor">@*android:color/background_dark</item>
+        <item name="*com.oneplus.brickmode:onePlusSearchIconColor">@*com.oneplus.brickmode:color/oneplus_contorl_icon_color_accent_active_light</item>
+        <item name="*com.oneplus.brickmode:onePlusSearchIconInActiveColor">@*com.oneplus.brickmode:color/oneplus_contorl_icon_color_accent_inactive_light</item>
+        <item name="*com.oneplus.brickmode:onePlusSecondaryTextColor">@*android:color/white</item>
+        <item name="*com.oneplus.brickmode:onePlusTabIndicatorColor">@*android:color/accent_material_dark</item>
+        <item name="*com.oneplus.brickmode:onePlusTabTextAlpha">1.0</item>
+        <item name="*com.oneplus.brickmode:onePlusTabTextColor">@*android:color/white</item>
+        <item name="*com.oneplus.brickmode:onePlusTabTextSelectedAlpha">1.0</item>
+        <item name="*com.oneplus.brickmode:onePlusTabTextSelectedColor">@*android:color/white</item>
+        <item name="*com.oneplus.brickmode:onePlusTextColor">@*android:color/white</item>
+        <item name="*com.oneplus.brickmode:opColorError">@*android:color/accent_material_dark</item>
+        <item name="*com.oneplus.brickmode:opDrawerArrowStyle">@*com.oneplus.brickmode:style/OPWidget.AppCompat.DrawerArrowToggle</item>
+        <item name="*com.oneplus.brickmode:opDropdownListItemSelectedColor">@*com.oneplus.brickmode:color/op_drop_down_item_selected_color_light</item>
+        <item name="*com.oneplus.brickmode:opDropdownListPreferredItemHeight">@*com.oneplus.brickmode:dimen/oneplus_contorl_list_item_height_one_line1</item>
+        <item name="*com.oneplus.brickmode:opPanelMenuListWidth">@*com.oneplus.brickmode:dimen/oneplus_contorl_menu_item_width_4</item>
+        <item name="*com.oneplus.brickmode:opPickerColorActivated">@*android:color/accent_material_dark</item>
+        <item name="*com.oneplus.brickmode:opPickerColorUnActivated">@*android:color/white</item>
+        <item name="*com.oneplus.brickmode:opPickerInputLabelUnActivated">@*android:color/white</item>
+        <item name="*com.oneplus.brickmode:opTextAppearancePopupMenuHeader">@*com.oneplus.brickmode:style/Oneplus.TextAppearance.Material.Widget.PopupMenu.Header</item>
+        <item name="*com.oneplus.brickmode:opTextColorCalendarDayActivated">@*android:color/accent_material_dark</item>
+        <item name="*com.oneplus.brickmode:opTextColorError">@*android:color/accent_material_dark</item>
+        <item name="*com.oneplus.brickmode:op_checkBoxPreferenceStyle">@*com.oneplus.brickmode:style/OnePlus.Preference.Material.Light.CheckBoxPreference</item>
+        <item name="*com.oneplus.brickmode:op_dialogPreferenceStyle">@*com.oneplus.brickmode:style/OnePlus.Preference.Material.Light.DialogPreference</item>
+        <item name="*com.oneplus.brickmode:op_editTextPreferenceStyle">@*com.oneplus.brickmode:style/OnePlus.Preference.Material.Light.DialogPreference.EditTextPreference</item>
+        <item name="*com.oneplus.brickmode:op_preferenceActivityStyle">@*com.oneplus.brickmode:style/OPPreferenceActivity.Material</item>
+        <item name="*com.oneplus.brickmode:op_preferenceCategoryStyle">@*com.oneplus.brickmode:style/Oneplus.Preference.Material.Light.Category</item>
+        <item name="*com.oneplus.brickmode:op_preferenceFragmentListStyle">@*com.oneplus.brickmode:style/Oneplus.PreferenceFragmentList.Material.Light</item>
+        <item name="*com.oneplus.brickmode:op_preferenceFragmentStyle">@*com.oneplus.brickmode:style/Oneplus.PreferenceFragment.Material.Light</item>
+        <item name="*com.oneplus.brickmode:op_preferenceHeaderPanelStyle">@*com.oneplus.brickmode:style/OPPreferenceHeaderPanel.Material</item>
+        <item name="*com.oneplus.brickmode:op_preferenceListStyle">@*com.oneplus.brickmode:style/OPPreferenceHeaderList.Material</item>
+        <item name="*com.oneplus.brickmode:op_preferenceScreenStyle">@*com.oneplus.brickmode:style/OnePlus.Preference.Material.Light.PreferenceScreen</item>
+        <item name="*com.oneplus.brickmode:op_preferenceStyle">@*com.oneplus.brickmode:style/OnePlus.Preference.Material.Light</item>
+        <item name="*com.oneplus.brickmode:op_seekBarPreferenceStyle">@*com.oneplus.brickmode:style/OPPreference.Material.SeekBarPreference</item>
+        <item name="*com.oneplus.brickmode:op_switchPreferenceStyle">@*com.oneplus.brickmode:style/OnePlus.Preference.Material.Light.SwitchPreference</item>
+        <item name="*com.oneplus.brickmode:panelBackground">?*android:panelBackground</item>
+        <item name="*com.oneplus.brickmode:panelMenuListTheme">@*com.oneplus.brickmode:style/Oneplus.Theme.Material.Light.CompactMenu</item>
+        <item name="*com.oneplus.brickmode:persistentSearchViewStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Desgin.PersistentSearchView.Light</item>
+        <item name="*com.oneplus.brickmode:searchViewStyle">@*com.oneplus.brickmode:style/Oneplus.Widget.Material.NewSearchView.ActionBar</item>
+        <item name="*com.oneplus.brickmode:textAppearanceOPNumberPickerUnit">@*com.oneplus.brickmode:style/Oneplus.TextAppearance.Material.Light.NumberPickerDialog.Minute</item>
+        <item name="*com.oneplus.brickmode:timePickerStyle">?*android:timePickerStyle</item>
+        <item name="*com.oneplus.brickmode:toolbarStyle">@*com.oneplus.brickmode:style/OPWidget.Material.Toolbar</item>
+    </style>
+    <style name="MainStyle" parent="@*com.oneplus.brickmode:style/MyStyle">
+        <item name="android:statusBarColor">@*android:color/background_dark</item>
+        <item name="*com.oneplus.brickmode:onePlusActionbarBackgroundColor">@*android:color/background_dark</item>
+        <item name="*com.oneplus.brickmode:onePlusActionbarLineColor">@*android:color/transparent</item>
+    </style>
+    <style name="Oneplus.Theme.Material.GreyTypeB" parent="@*com.oneplus.brickmode:style/Oneplus.Theme.Material.TypeB">
+        <item name="onePlusPrimaryColor">#ffffffff</item>
+        <item name="onePlusAccentColor">@*android:color/accent_material_dark</item>
+    </style>
+ </resources>

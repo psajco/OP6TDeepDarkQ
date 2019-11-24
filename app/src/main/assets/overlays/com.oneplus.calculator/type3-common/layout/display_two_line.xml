@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@*com.oneplus.calculator:id/display" android:layout_width="fill_parent" android:background="@*android:color/keyguard_avatar_frame_shadow_color" android:layout_height="wrap_content" style="@*com.oneplus.calculator:style/OPDisplayStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@*com.oneplus.calculator:style/oneplus_contorl_text_style_headline" android:textSize="@*com.oneplus.calculator:dimen/deg_text_size" android:textColor="@*android:color/white" android:id="@*com.oneplus.calculator:id/mode" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@*com.oneplus.calculator:dimen/oneplus_contorl_margin_top1" android:textAllCaps="true" android:layout_marginStart="@*com.oneplus.calculator:dimen/oneplus_contorl_margin_left2" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.oneplus.calculator.CalculatorScrollView android:id="@*com.oneplus.calculator:id/formula_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+            <com.oneplus.calculator.CalculatorFormula android:textColor="@*android:color/white" android:ellipsize="none" android:gravity="end|center" android:id="@*com.oneplus.calculator:id/formula" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" style="@*com.oneplus.calculator:style/DisplayTextStyle.Formula" />
+        </com.oneplus.calculator.CalculatorScrollView>
+        <com.oneplus.calculator.CalculatorResult android:textColor="@*android:color/accent_material_dark" android:layout_gravity="bottom|center" android:id="@*com.oneplus.calculator:id/result" android:layout_width="fill_parent" android:layout_height="wrap_content" android:bufferType="spannable" android:singleLine="true" style="@*com.oneplus.calculator:style/DisplayTextStyle.Result" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="floating_button_color">@*android:color/accent_material_dark</color>			<!-- colore sfondo pulsante -->
+    <color name="oneplus_contorl_icon_color_accent_active_light">@*android:color/white</color>	<!-- colore icona pulsante -->
+    <color name="floating_button_ripple_color">@*android:color/accent_material_dark</color>		<!-- colore pulsante premuto-->
+</resources>

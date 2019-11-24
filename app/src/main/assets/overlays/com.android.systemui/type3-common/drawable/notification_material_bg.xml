@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@*com.android.systemui:color/notification_ripple_untinted_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@*com.android.systemui:color/abc_input_method_navigation_guard" />
+            <corners android:radius="@*com.android.systemui:dimen/abc_control_corner_material" />
+            <stroke android:width="1.5dip" android:color="@*com.android.systemui:color/abc_search_url_text_pressed" />
+        </shape>
+    </item>
+</ripple>

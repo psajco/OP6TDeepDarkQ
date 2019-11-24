@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@*com.android.systemui:color/light_mode_icon_color_single_tone" 
+    android:autoMirrored="true" 
+    android:viewportWidth="1000"
+    android:viewportHeight="1000"
+    android:width="@*com.android.systemui:dimen/signal_icon_size"
+    android:height="@*com.android.systemui:dimen/signal_icon_size">
+    <path
+        android:pathData="M125.42 605c0 0 13.83 28 13.83 28 0 0 41 82 41 82 4.58 9.16 18.16 34.52 19.75 43 0 0 -37 0 -37 0 0 0 0 127 0 127 0 0 -69 0 -69 0 0 0 -15 0 -15 0 0 0 -5.98 -1.6 -5.98 -1.6 0 0 -1.02 -7.4 -1.02 -7.4 0 0 0 -118 0 -118 0 0 -34 0 -34 0 0 0 9.75 -22 9.75 -22 0 0 15 -31 15 -31 0 0 31.51 -65 31.51 -65 0 0 22.74 -46 22.74 -46 5.39 2.09 6.04 6.08 8.42 11z"
+        android:fillColor="#ffffffff" /> 
+</vector>

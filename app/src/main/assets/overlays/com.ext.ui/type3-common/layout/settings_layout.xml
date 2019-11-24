@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:textColor="@*android:color/white" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:textColor="@*android:color/white" android:id="@*com.ext.ui:id/my_awesome_toolbar" android:layout_alignParentTop="true" layout="@*com.ext.ui:layout/tool_bar" />
+    <FrameLayout android:textColor="@*android:color/white" android:id="@*com.ext.ui:id/frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

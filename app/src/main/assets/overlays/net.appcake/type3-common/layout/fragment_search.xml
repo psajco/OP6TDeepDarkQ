@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@*android:color/background_dark" android:paddingTop="22.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="74.0dip" android:paddingStart="0.0dip" android:paddingEnd="6.0dip">
+        <RelativeLayout android:id="@*net.appcake:id/pop" android:layout_width="33.0dip" android:layout_height="fill_parent">
+            <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@*net.appcake:mipmap/fanhui" android:scaleType="centerInside" android:tint="@*net.appcake:color/colorBlack" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@*net.appcake:drawable/bg_round4dp_toolbar" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="13.0dip" android:paddingEnd="0.0dip" android:layout_marginStart="9.0dip">
+            <EditText android:textSize="16.0sp" android:textColor="@*net.appcake:color/colorSearchHint" android:gravity="center_vertical" android:id="@*net.appcake:id/edit_search" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@*net.appcake:string/search_key_words" android:lines="1" android:maxLength="256" android:layout_weight="1.0" />
+            <ImageView android:id="@*net.appcake:id/image_search_clear_edit" android:layout_width="36.0dip" android:layout_height="fill_parent" android:src="@*net.appcake:mipmap/xiaocha" android:scaleType="centerInside" />
+        </LinearLayout>
+        <RelativeLayout android:id="@*net.appcake:id/view_search" android:layout_width="33.0dip" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_marginStart="6.0dip">
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@*net.appcake:mipmap/sousuo" android:tint="@*net.appcake:color/colorBlack" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@*net.appcake:id/layout_search_result" android:background="@*android:color/background_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.design.widget.TabLayout android:id="@*net.appcake:id/tab_search" android:layout_width="fill_parent" android:layout_height="36.0dip" />
+        <android.support.v7.widget.RecyclerView android:id="@*net.appcake:id/recycler_search_result" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@*net.appcake:id/recycler_search_hint" android:background="@*android:color/background_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@*net.appcake:id/layout_search_recommended" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@*net.appcake:id/layout_search_history" android:layout_width="fill_parent" android:layout_height="@*net.appcake:dimen/toolBarHeight">
+            <android.support.v7.widget.RecyclerView android:id="@*net.appcake:id/recycler_search_history" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="13.0dip" android:layout_marginEnd="13.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@*net.appcake:color/colorAccent" android:gravity="center" android:id="@*net.appcake:id/text_search_clear_history" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@*net.appcake:string/deleteAll" android:maxLines="1" android:paddingStart="0.0dip" android:paddingEnd="14.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@*net.appcake:color/colorSearchHint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@*net.appcake:string/most_popular_search" android:maxLines="1" android:paddingStart="13.0dip" android:paddingEnd="13.0dip" />
+        <com.liyi.flow.FlowView android:id="@*net.appcake:id/flow_search_recommended" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="11.0dip" android:layout_marginEnd="11.0dip" app:flow_horizontalSpace="8.0dip" app:flow_verticalSpace="12.0dip" />
+    </LinearLayout>
+</LinearLayout>

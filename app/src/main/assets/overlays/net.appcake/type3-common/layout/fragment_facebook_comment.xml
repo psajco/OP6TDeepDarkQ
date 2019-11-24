@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@*android:color/background_floating_material_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@*android:color/background_floating_material_dark" android:layout_width="fill_parent" android:layout_height="@*net.appcake:dimen/toolBarHeight">
+        <ImageView android:id="@*net.appcake:id/pop" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@*net.appcake:drawable/ic_arrow_back_white" android:scaleType="center" android:tint="#ff636364" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@*android:color/white" android:id="@*net.appcake:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Game Name" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <net.appcake.views.view_parts.FacebookCommentView android:id="@*net.appcake:id/facebook_comment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

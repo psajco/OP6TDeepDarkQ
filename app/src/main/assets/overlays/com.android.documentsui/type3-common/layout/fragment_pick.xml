@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@*com.android.documentsui:dimen/bottom_bar_height" android:baselineAligned="false" android:paddingEnd="@*com.android.documentsui:dimen/bottom_bar_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@*android:color/white" android:id="@*android:id/button2" android:background="@*android:color/transparent" android:layout_width="@*com.android.documentsui:dimen/bottom_bar_negative_button_width" android:text="@*android:string/cancel" style="@*com.android.documentsui:style/BottomBarButton" />
+    <TextView android:textColor="@*android:color/white" android:id="@*android:id/button1" android:background="@*com.android.documentsui:drawable/bottom_bar_positive_button_background" android:layout_width="@*com.android.documentsui:dimen/bottom_bar_positive_button_width" android:layout_marginStart="@*com.android.documentsui:dimen/bottom_bar_positive_button_margin_start" android:elevation="@*com.android.documentsui:dimen/bottom_bar_positive_button_elevation" style="@*com.android.documentsui:style/BottomBarButton" />
+</LinearLayout>

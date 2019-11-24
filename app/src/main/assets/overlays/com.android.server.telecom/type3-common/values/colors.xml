@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="material_deep_teal_500">@*android:color/accent_material_dark</color>
+	<color name="material_deep_teal_200">@*android:color/accent_material_dark</color>    
+	<color name="disabled_text_color">#66ffffff</color>
+	<color name="theme_color">@*android:color/accent_material_dark</color>
+    <color name="dialer_settings_actionbar_text_color">#ffffffff</color>
+    <color name="dialer_settings_actionbar_background_color">@*android:color/accent_material_dark</color>
+    <color name="dialer_settings_color_dark">@*android:color/accent_material_dark</color>
+
+    <color name="blocked_numbers_title_text_color">#baffffff</color>
+    <color name="blocked_numbers_secondary_text_color">#89ffffff</color>
+	
+    <color name="primary_default_light">@*android:color/accent_material_dark</color>
+	<color name="accent_default_light">@*android:color/accent_material_dark</color>
+	<color name="primary_default_dark">@*android:color/accent_material_dark</color>
+	<color name="accent_default_dark">@*android:color/accent_material_dark</color>
+	
+	<color name="primary_lemon_yellow_light">#ffffd600</color>
+	<color name="primary_golden_light">#ffff7e00</color>	
+	<color name="primary_grass_green_light">#ff0097ff</color>
+	<color name="primary_charm_purple_light">#ff9dd200</color>
+	<color name="primary_sky_blue_light">#ff880e4f</color>
+	<color name="primary_vigour_red_light">#ffd50000</color> 
+	<color name="primary_fashion_pink_light">#ff000000</color>
+	
+	<color name="accent_golden_light">#ffff7e00</color>
+	<color name="accent_lemon_yellow_light">#ffffd600</color>
+	<color name="accent_grass_green_light">#ff0097ff</color> 
+	<color name="accent_charm_purple_light">#ff9dd200</color>
+	<color name="accent_sky_blue_light">#ff880e4f</color>
+	<color name="accent_vigour_red_light">#ffd50000</color>
+	<color name="accent_fashion_pink_light">#ff000000</color>
+	
+	<color name="primary_golden_dark">#ffff7e00</color>
+	<color name="primary_lemon_yellow_dark">#ffffd600</color>
+	<color name="primary_grass_green_dark">#ff0097ff</color>
+	<color name="primary_charm_purple_dark">#ff9dd200</color>
+	<color name="primary_sky_blue_dark">#ff880e4f</color>
+	<color name="primary_vigour_red_dark">#ffd50000</color>
+	<color name="primary_fashion_pink_dark">#ffffffff</color>
+	
+	<color name="accent_golden_dark">#ffff7e00</color>
+	<color name="accent_lemon_yellow_dark">#ffffd600</color>
+	<color name="accent_grass_green_dark">#ff0097ff</color>
+	<color name="accent_charm_purple_dark">#ff9dd200</color>
+	<color name="accent_sky_blue_dark">#ff880e4f</color>
+	<color name="accent_vigour_red_dark">#ffd50000</color>
+	<color name="accent_fashion_pink_dark">#ffffffff</color>
+	
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@*com.oneplus.camera:dimen/burst_viewer_selected_icon_size" android:width="@*com.oneplus.camera:dimen/burst_viewer_selected_icon_size" android:viewportWidth="63.0" android:viewportHeight="63.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#a800ff" android:pathData="M10.5,5.9063L52.5,5.9063C55.0371,5.9063 57.0938,7.9629 57.0938,10.5L57.0938,52.5C57.0938,55.0371 55.0371,57.0938 52.5,57.0938L10.5,57.0938C7.9629,57.0938 5.9063,55.0371 5.9063,52.5L5.9063,10.5C5.9063,7.9629 7.9629,5.9063 10.5,5.9063Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+    <path android:fillColor="#ffff00" android:pathData="M26.6963,36.5908L44.5454,18.7416L47.3296,21.5259L28.0884,40.7671C27.3195,41.536 26.073,41.536 25.3041,40.7671L15.6704,31.1334L18.4546,28.3491L26.6963,36.5908Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

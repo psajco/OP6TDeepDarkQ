@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="alert_dialog_color_background_light">@*android:color/background_floating_material_dark</color>
+    <color name="alert_dialog_title_style_font_color_light">#ddffffff</color>
+    <color name="dialog_color_background">@*android:color/background_floating_material_dark</color>
+    <color name="font_dialog_title_light">#ffffffff</color>
+    <color name="font_dialog_text_light">#b7ffffff</color>
+    <color name="font_list_subtitle_light">#ffffffff</color>
+    <color name="font_list_text_light">#6bffffff</color>
+    <color name="font_list_settings_title_light">#89ffffff</color>
+    <color name="bg_dialog_light">@*android:color/background_floating_material_dark</color>
+    <color name="oneplus_contorl_bg_color_menu_light">@*android:color/background_floating_material_dark</color>
+    <color name="primary_default_light">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_bg_color_dark">@*android:color/transparent</color>
+    <color name="oneplus_contorl_bg_color_default">@*android:color/transparent</color>
+    <color name="default_backgroundcolor">@*android:color/transparent</color>
+    <color name="oneplus_contorl_bg_color_statusbar_dark">@*android:color/transparent</color>
+    <color name="primary_material_dark">@*android:color/transparent</color>
+    <color name="oneplus_contorl_bg_color_light">@*android:color/transparent</color>
+    <color name="primary_dark_material_dark">@*android:color/transparent</color>
+    <color name="oneplus_contorl_text_color_primary_light">#e5ffffff</color>
+    <color name="oneplus_contorl_text_color_secondary_light">#66ffffff</color>
+    <color name="oneplus_contorl_text_color_label_light">#66ffffff</color>
+    <color name="oneplus_contorl_text_color_hint_light">#2dffffff</color>
+    <color name="oneplus_contorl_text_color_disable_light">#2dffffff</color>
+    <color name="oneplus_contorl_icon_color_active_light">#66ffffff</color>
+    <color name="oneplus_contorl_icon_color_inactive_light">#1effffff</color>
+    <color name="primary_text_default_material_light">#ffffffff</color>
+    <color name="secondary_text_default_material_light">#b3ffffff</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="primary_dark_material_light_light_status_bar">@*android:color/transparent</color>
+    <color name="actionbar_status_bg">@*android:color/transparent</color>
+    <color name="oneplus_accent_color">@*android:color/accent_material_dark</color>
+</resources>

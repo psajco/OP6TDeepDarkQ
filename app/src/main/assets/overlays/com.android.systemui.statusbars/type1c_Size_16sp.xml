@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_clock_size">16.0sp</dimen>
+    <dimen name="status_bar_battery_icon_height">16.0dip</dimen>
+    <dimen name="status_bar_battery_icon_width">16.0dip</dimen>
+    <dimen name="battery_height">17.5dip</dimen>
+    <dimen name="battery_width">17.5dip</dimen>
+    <dimen name="battery_level_text_size">16.0sp</dimen>
+    <dimen name="signal_icon_size">19.0dip</dimen>
+</resources>

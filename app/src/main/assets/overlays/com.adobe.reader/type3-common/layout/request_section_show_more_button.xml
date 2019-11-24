@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@*android:color/background_material_dark" android:layout_width="fill_parent" android:layout_height="@*com.adobe.reader:dimen/notification_panel_show_more_button_height" android:layout_marginBottom="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@*com.adobe.reader:dimen/notification_show_more_button_text_size" android:textColor="@*com.adobe.reader:color/notification_panel_show_more_button_text_color" android:gravity="center" android:id="@*com.adobe.reader:id/show_more_button_text" android:background="@*com.adobe.reader:color/white" android:paddingTop="@*com.adobe.reader:dimen/notification_show_more_button_margin" android:paddingBottom="@*com.adobe.reader:dimen/notification_show_more_button_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:textAllCaps="false" />
+    <View android:id="@*com.adobe.reader:id/line_divider_for_header" android:background="@*com.adobe.reader:color/home_section_header_line_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@*com.adobe.reader:dimen/line_divider_height_home" android:layout_alignParentBottom="true" />
+</RelativeLayout>

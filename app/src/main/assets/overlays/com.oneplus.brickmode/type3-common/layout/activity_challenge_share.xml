@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:oneplus="http://schemas.android.com/apk/res-auto">
+    <com.oneplus.lib.design.widget.AppBarLayout android:id="@*com.oneplus.brickmode:id/app_bar"  android:background="@null" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:elevation="0.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.oneplus.lib.widget.actionbar.Toolbar android:id="@*com.oneplus.brickmode:id/toolbar" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+    </com.oneplus.lib.design.widget.AppBarLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@*com.oneplus.brickmode:id/app_bar">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@*com.oneplus.brickmode:id/challenge" android:background="@*com.oneplus.brickmode:color/color_challenge_share_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.oneplus.lib.widget.cardview.OPCardView android:id="@*com.oneplus.brickmode:id/card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@*com.oneplus.brickmode:dimen/oneplus_contorl_margin_top2" android:layout_marginBottom="@*com.oneplus.brickmode:dimen/oneplus_contorl_margin_bottom2" android:layout_marginStart="@*com.oneplus.brickmode:dimen/oneplus_contorl_margin_left2" android:layout_marginEnd="@*com.oneplus.brickmode:dimen/oneplus_contorl_margin_right2" oneplus:cardCornerRadius="4.0dip" oneplus:cardElevation="@*com.oneplus.brickmode:dimen/oneplus_contorl_radius_r2">
+                    <LinearLayout android:orientation="vertical" android:background="@*com.oneplus.brickmode:drawable/ic_paper_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:src="@*com.oneplus.brickmode:drawable/ic_op_logo" android:tint="@*com.oneplus.brickmode:color/oneplus_contorl_icon_color_accent_active_light" android:layout_marginStart="32.0dip" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="37.0dip" android:paddingEnd="37.0dip">
+                            <TextView android:textAppearance="@*com.oneplus.brickmode:style/oneplus_contorl_text_style_display1" android:textColor="@*android:color/white" android:layout_gravity="center_horizontal" android:id="@*com.oneplus.brickmode:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="37.0dip" android:text="@*com.oneplus.brickmode:string/app_name" />
+                            <TextView android:textAppearance="@*com.oneplus.brickmode:style/oneplus_contorl_text_style_subheading" android:textSize="16.0sp" android:textColor="@*android:color/white" android:id="@*com.oneplus.brickmode:id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@*com.oneplus.brickmode:dimen/oneplus_contorl_margin_top2" android:text="@*com.oneplus.brickmode:string/text_challenge_description" android:lineSpacingExtra="16.0sp" />
+                            <RelativeLayout android:paddingBottom="48.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <LinearLayout android:orientation="vertical" android:id="@*com.oneplus.brickmode:id/bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="37.0dip">
+                                    <TextView android:textAppearance="@*com.oneplus.brickmode:style/oneplus_contorl_text_style_body1" android:textColor="@*android:color/white" android:id="@*com.oneplus.brickmode:id/sign" android:paddingTop="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.oneplus.brickmode:string/text_sign_my_sign_name" />
+                                    <LinearLayout android:orientation="vertical" android:id="@*com.oneplus.brickmode:id/editLayout" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@*com.oneplus.brickmode:dimen/oneplus_contorl_margin_bottom1" android:minWidth="137.0dip">
+                                        <TextView android:textAppearance="@*com.oneplus.brickmode:style/oneplus_contorl_text_style_highlight" android:textColor="@*android:color/white" android:id="@*com.oneplus.brickmode:id/edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="137.0dip" />
+                                        <View android:background="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="5.0dip" />
+                                    </LinearLayout>
+                                    <TextView android:textAppearance="@*com.oneplus.brickmode:style/oneplus_contorl_text_style_body1" android:textColor="@*android:color/white" android:id="@*com.oneplus.brickmode:id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                                </LinearLayout>
+                                <ImageView android:id="@*com.oneplus.brickmode:id/stamp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:src="@*com.oneplus.brickmode:drawable/stamp" android:layout_marginStart="100.0dip" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.oneplus.lib.widget.cardview.OPCardView>
+            </LinearLayout>
+            <com.oneplus.lib.widget.button.OPButton android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@*com.oneplus.brickmode:dimen/oneplus_contorl_layout_margin_bottom2" android:text="@*com.oneplus.brickmode:string/text_share" />
+        </LinearLayout>
+    </ScrollView>
+    <com.oneplus.lib.widget.button.OPButton android:id="@*com.oneplus.brickmode:id/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@*com.oneplus.brickmode:dimen/oneplus_contorl_layout_margin_bottom2" android:text="@*com.oneplus.brickmode:string/text_share" android:layout_alignParentBottom="true" android:layout_marginEnd="@*com.oneplus.brickmode:dimen/oneplus_contorl_margin_right2" android:layout_alignParentEnd="true" />
+</RelativeLayout>

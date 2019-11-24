@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@*com.oneplus.brickmode:id/contentView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@*com.oneplus.brickmode:id/bg">
+        <LinearLayout android:gravity="center_vertical" android:id="@*com.oneplus.brickmode:id/top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip">
+            <ImageView android:id="@*com.oneplus.brickmode:id/icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@*com.oneplus.brickmode:drawable/ic_notification_icon" />
+            <TextView android:textColor="@*com.oneplus.brickmode:color/app_main_color" android:id="@*com.oneplus.brickmode:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:text="@*com.oneplus.brickmode:string/app_name" style="@*com.oneplus.brickmode:style/oneplus_contorl_text_style_descriptions" />
+        </LinearLayout>
+        <TextView android:textColor="#ffffffff" android:ellipsize="end" android:id="@*com.oneplus.brickmode:id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:singleLine="true" android:layout_below="@*com.oneplus.brickmode:id/top" android:layout_alignLeft="@*com.oneplus.brickmode:id/top" style="@*com.oneplus.brickmode:style/oneplus_contorl_text_style_body2" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@*com.oneplus.brickmode:id/tap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="15.0dip" android:text="@*com.oneplus.brickmode:string/daily_start_zen_mode_now" android:layout_below="@*com.oneplus.brickmode:id/content" android:layout_alignLeft="@*com.oneplus.brickmode:id/top" />
+    </RelativeLayout>
+    <ImageView android:id="@*com.oneplus.brickmode:id/bg" android:background="@*com.oneplus.brickmode:drawable/notification_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@*com.oneplus.brickmode:id/contentView" android:layout_alignBottom="@*com.oneplus.brickmode:id/contentView" android:layout_alignParentRight="true" />
+</RelativeLayout>

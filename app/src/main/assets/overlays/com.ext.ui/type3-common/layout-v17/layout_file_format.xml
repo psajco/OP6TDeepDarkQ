@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@*com.ext.ui:id/chk1" android:tag="0:" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="20.0dip" android:textColor="@*android:color/white" android:text="App Name" android:layout_marginStart="30.0dip" />
+    <CheckBox android:id="@*com.ext.ui:id/chk2" android:tag="1:" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:textColor="@*android:color/white" android:text="Pkg Name" android:layout_marginStart="30.0dip" />
+    <CheckBox android:id="@*com.ext.ui:id/chk3" android:tag="2:" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:textColor="@*android:color/white" android:text="Version code" android:layout_marginStart="30.0dip" />
+    <CheckBox android:id="@*com.ext.ui:id/chk4" android:tag="3:" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:textColor="@*android:color/white" android:text="Version Number" android:layout_marginStart="30.0dip" />
+</LinearLayout>

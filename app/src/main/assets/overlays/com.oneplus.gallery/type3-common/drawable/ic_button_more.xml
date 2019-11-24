@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@*com.oneplus.gallery:dimen/oneplus_contorl_icon_size_button" android:width="@*com.oneplus.gallery:dimen/oneplus_contorl_icon_size_button" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@*com.oneplus.gallery:color/filmstrip_fragment_button" android:pathData="M6.5,22C7.052,22 7.5,21.552 7.5,21C7.5,20.448 7.052,20 6.5,20C5.948,20 5.5,20.448 5.5,21C5.5,21.552 5.948,22 6.5,22ZM6.5,23.5C5.119,23.5 4,22.381 4,21C4,19.619 5.119,18.5 6.5,18.5C7.881,18.5 9,19.619 9,21C9,22.381 7.881,23.5 6.5,23.5ZM6.5,6C7.052,6 7.5,5.552 7.5,5C7.5,4.448 7.052,4 6.5,4C5.948,4 5.5,4.448 5.5,5C5.5,5.552 5.948,6 6.5,6ZM6.5,7.5C5.119,7.5 4,6.381 4,5C4,3.619 5.119,2.5 6.5,2.5C7.881,2.5 9,3.619 9,5C9,6.381 7.881,7.5 6.5,7.5ZM6.5,14C7.052,14 7.5,13.552 7.5,13C7.5,12.448 7.052,12 6.5,12C5.948,12 5.5,12.448 5.5,13C5.5,13.552 5.948,14 6.5,14ZM6.5,15.5C5.119,15.5 4,14.381 4,13C4,11.619 5.119,10.5 6.5,10.5C7.881,10.5 9,11.619 9,13C9,14.381 7.881,15.5 6.5,15.5Z" />
+</vector>

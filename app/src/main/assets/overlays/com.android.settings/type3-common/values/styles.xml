@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SettingsBase" parent="@*android:style/Theme.DeviceDefault.Settings.Dark.NoActionBar">
+        <item name="android:colorControlNormal">@*com.android.settings:color/oneplus_settings_text_color_primary</item>
+        <item name="android:dividerHeight">@*com.android.settings:dimen/oneplus_contorl_divider_height_standard</item>
+        <item name="android:windowBackground">@*android:color/keyguard_avatar_frame_shadow_color</item>
+        <item name="android:colorBackground">@*android:color/keyguard_avatar_frame_shadow_color</item>
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="android:listDivider">@*android:color/transparent</item>
+        <item name="android:colorSecondary">@*android:color/transparent</item>
+        <item name="android:colorPrimary">@*android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="android:colorControlActivated">@*android:color/accent_material_dark</item>
+        <item name="android:colorEdgeEffect">@*android:color/ripple_material_dark</item>
+        <item name="android:colorControlHighlight">@*android:color/ripple_material_dark</item>
+        <item name="android:statusBarColor">@*android:color/transparent</item>
+        <item name="android:navigationBarColor">@*android:color/transparent</item>
+        <item name="colorAccent">@*android:color/accent_material_dark</item>
+        <item name="colorButtonNormal">@*android:color/button_material_dark</item>
+        <item name="colorControlActivated">@*android:color/accent_material_dark</item>
+        <item name="colorControlHighlight">@*android:color/ripple_material_dark</item>
+        <item name="colorControlNormal">?*android:textColorSecondary</item>
+        <item name="colorPrimary">@*android:color/background_dark</item>
+        <item name="colorPrimaryDark">@*android:color/background_dark</item>
+        <item name="controlBackground">@*android:color/background_dark</item>
+        <item name="dialogCornerRadius">@*com.android.settings:dimen/abc_dialog_corner_radius_material</item>
+        <item name="dialogPreferredPadding">@*com.android.settings:dimen/abc_dialog_padding_material</item>
+        <item name="listDividerAlertDialog">@null</item>
+        <item name="onePlusActionbarBackgroundColor">@*android:color/background_dark</item>
+        <item name="onePlusPrimaryColor">@*android:color/accent_material_dark</item>
+        <item name="windowActionBar">false</item>
+	</style>
+
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@*com.android.settings:style/TextAppearance.AppCompat.Title">
+        <item name="android:textSize">@*com.android.settings:dimen/abc_text_size_title_material_toolbar</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="FallbackHome" parent="@*android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">#00000000</item>
+        <item name="android:navigationBarColor">#00000000</item>
+    </style>
+    <style name="PreferenceFragmentListSinglePane" parent="@*android:style/PreferenceFragmentList">
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+        <item name="android:layout_marginEnd">0.0dip</item>
+	</style>
+    <style name="Theme.AlertDialog" parent="@*com.android.settings:style/Theme.AlertDialog.Base">
+        <item name="android:textAppearanceMedium">@*com.android.settings:style/TextAppearance.DialogMessage</item>
+        <item name="android:windowTitleStyle">@*android:style/Preference.Category</item>
+        <item name="android:clipChildren">true</item>
+        <item name="android:clipToPadding">true</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:actionBarStyle">@*com.android.settings:style/Widget.ActionBar</item>
+        <item name="*com.android.settings:buttonBarButtonStyle">@*android:style/Widget.DeviceDefault.TimePicker</item>
+        <item name="*com.android.settings:dialogCornerRadius">@*android:dimen/floating_toolbar_menu_image_width</item>
+    </style>
+    <style name="FingerprintHeaderStyle" parent="@*android:style/TextAppearance.Material.Subhead">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <style name="TextAppearance.SudDescription" parent="@*com.android.settings:style/TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">@*com.android.settings:dimen/sud_description_text_size</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="Theme.ConfirmDeviceCredentialsDark" parent="@*android:style/Theme.DeviceDefault.Settings.Dark.NoActionBar">
+        <item name="android:windowBackground">@*android:color/keyguard_avatar_frame_shadow_color</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorPrimary">@*android:color/transparent</item>
+        <item name="android:colorSecondary">@*android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@*android:color/transparent</item>
+        <item name="android:colorControlNormal">@*android:color/accent_material_dark</item>
+        <item name="android:windowAnimationStyle">@*com.android.settings:style/ConfirmDeviceCredentialsAnimationStyle</item>
+        <item name="@*android:bool/config_fillMainBuiltInDisplayCutout">@*com.android.settings:style/LockPatternStyle.Dark</item>
+        <item name="*com.android.settings:confirmDeviceCredentialsSideMargin">32.0dip</item>
+        <item name="*com.android.settings:confirmDeviceCredentialsTopMargin">32.0dip</item>
+    </style>
+    <style name="TextAppearance.CategoryTitle" parent="@*android:style/TextAppearance.Material.Small">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textColor">@*android:color/accent_material_dark</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+    <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:titleTextStyle">@*com.android.settings:style/Oneplus.TextAppearance.Material.Widget.ActionBar.Title</item>
+        <item name="android:elevation">1.0dip</item>
+        <item name="android:contentInsetStart">@*com.android.settings:dimen/actionbar_contentInsetStart</item>
+    </style>
+    <style name="TextAppearance.TileTitle" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textSize">14.5sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Widget.SwitchBar.Switch" parent="@*android:style/Widget.Material.CompoundButton.Switch">
+        <item name="android:minWidth">@*com.android.settings:dimen/min_tap_target_size</item>
+        <item name="android:minHeight">@*com.android.settings:dimen/min_tap_target_size</item>
+        <item name="android:thumbTint">@*com.android.settings:color/switchbar_switch_thumb_tint</item>
+        <item name="android:trackTint">@*com.android.settings:color/switchbar_switch_track_tint</item>
+		</style>
+</resources>

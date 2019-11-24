@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@*android:color/background_material_dark" android:foreground="?*attr/selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@*com.adobe.reader:dimen/child_entries_row_height" android:minHeight="@*com.adobe.reader:dimen/child_entries_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@*com.adobe.reader:id/userBookmarkName" android:visibility="visible" style="@*com.adobe.reader:style/bookmarkListEntry" />
+    <EditText android:gravity="center_vertical" android:id="@*com.adobe.reader:id/userBookmarkEditName" android:visibility="gone" android:inputType="none" style="@*com.adobe.reader:style/bookmarkListEntry" />
+</LinearLayout>

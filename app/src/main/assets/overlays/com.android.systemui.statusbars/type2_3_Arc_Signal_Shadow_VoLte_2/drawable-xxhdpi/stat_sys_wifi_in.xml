@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="@*com.android.systemui:color/light_mode_icon_color_single_tone" 
+    android:viewportWidth="1000.0"
+    android:viewportHeight="1000.0"
+    android:width="@*com.android.systemui:dimen/signal_icon_size"
+    android:height="@*com.android.systemui:dimen/signal_icon_size">
+    <path
+        android:name="in"
+        android:fillColor="#80ffffff"
+        android:strokeColor="#ffffffff" android:strokeWidth="40"
+        android:pathData="M985 640c0 0 -23.98 35 -23.98 35 0 0 -59.02 83 -59.02 83 0 0 -2 0 -2 0 0 0 -50.72 -75 -50.72 -75 0 0 -18.28 -27 -18.28 -27 0 0 -10 -16 -10 -16 0 0 164 0 164 0z" />
+    <path
+        android:name="out"
+        android:fillColor="@*android:color/transparent"
+        android:pathData="M906 287c0 0 17.33 26 17.33 26 0 0 42.67 63 42.67 63 0 0 19 29 19 29 0 0 -164 0 -164 0 0 0 23.58 -34 23.58 -34 0 0 39.13 -55 39.13 -55 0 0 20.29 -29 20.29 -29 0 0 2 0 2 0z" />
+</vector>

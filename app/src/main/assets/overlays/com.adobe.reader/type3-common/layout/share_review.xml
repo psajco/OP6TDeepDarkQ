@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff00008b" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:orientation="horizontal" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:textColor="@*com.adobe.reader:color/blue" android:id="@*com.adobe.reader:id/cancel_review" android:background="@*com.adobe.reader:color/transparent" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancel" />
+        <TextView android:id="@*com.adobe.reader:id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Share document for review" android:layout_toLeftOf="@*com.adobe.reader:id/send_review" android:layout_toRightOf="@*com.adobe.reader:id/cancel_review" android:layout_centerVertical="true" android:textAlignment="center" />
+        <Button android:textColor="@*com.adobe.reader:color/blue" android:id="@*com.adobe.reader:id/send_review" android:background="@*com.adobe.reader:color/transparent" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Send" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View android:background="@*android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="14.0sp" android:gravity="center" android:id="@*com.adobe.reader:id/filename_view" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    <View android:background="@*android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <MultiAutoCompleteTextView android:gravity="center|left|top" android:id="@*com.adobe.reader:id/email_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@*com.adobe.reader:string/EUREKA_REVIEW_INITIATE_ADD_EMAIL_HINT" android:ems="10" android:completionThreshold="1" android:inputType="textEmailAddress" />
+    <View android:background="@*android:color/darker_gray" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="14.0sp" android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.adobe.reader:string/EUREKA_REVIEW_INITIATE_ADD_MESSAGE_HINT" />
+    <EditText android:gravity="center|left|top" android:id="@*com.adobe.reader:id/review_message" android:paddingTop="10.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@*com.adobe.reader:string/EUREKA_REVIEW_INITIATE_DEFAULT_MESSAGE" android:minLines="10" android:ems="10" android:inputType="textMultiLine" />
+</LinearLayout>

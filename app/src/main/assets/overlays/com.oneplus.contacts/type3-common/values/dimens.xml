@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="cardview_default_radius">14.0dip</item>
+    <item type="dimen" name="expanding_entry_card_card_corner_radius">14.0dip</item>
+    <item type="dimen" name="abc_control_corner_material">14.0dip</item>
+    <item type="dimen" name="default_card_corner_radius">14.0dip</item>
+    <item type="dimen" name="promo_card_corner_radius">14.0dip</item>
+    <item type="dimen" name="control_corner_material">14.0dip</item>
+    <item type="dimen" name="oneplus_contorl_radius_r2">14.0dip</item>
+</resources>

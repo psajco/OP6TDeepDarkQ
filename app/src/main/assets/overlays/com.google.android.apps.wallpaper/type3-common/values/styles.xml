@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Theme.AppCompat.Light.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.NoActionBar.MinWidth" />
+	<style name="select_wallpaper_header">
+		<item name="android:textSize">14.0sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#ffffffff</item>
+	</style>
+</resources>

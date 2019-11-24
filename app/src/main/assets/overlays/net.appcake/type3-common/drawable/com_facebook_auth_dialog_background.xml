@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@*android:color/background_dark" />
+    <corners android:topLeftRadius="@*net.appcake:dimen/com_facebook_auth_dialog_corner_radius_oversized" android:topRightRadius="@*net.appcake:dimen/com_facebook_auth_dialog_corner_radius_oversized" android:bottomLeftRadius="@*net.appcake:dimen/com_facebook_auth_dialog_corner_radius" android:bottomRightRadius="@*net.appcake:dimen/com_facebook_auth_dialog_corner_radius" />
+</shape>

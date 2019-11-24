@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="op_widget_big_font_size">315.0px</dimen>				<!-- 210 stock -->
+    <dimen name="preference_widget_width">96.0dip</dimen>				<!-- 48 stock -->
+    <dimen name="widget_icon_size">32.0dip</dimen>						<!-- 16 stock -->
+    <dimen name="widget_small_font_size">36.0dip</dimen>				<!-- 24 stock -->
+    <dimen name="widget_title_font_size">36.0dip</dimen>				<!-- 24 stock -->
+    <dimen name="face_unlock_lose_button_margin_top">350.0px</dimen>
+																			   
+    <dimen name="clock_view_default_font_size">180.0px</dimen>		<!-- 68 stock -->
+    <dimen name="date_view_default_font_size">26.0px</dimen>		<!-- 17 stock -->
+    <dimen name="date_view_font_size">26.0px</dimen>				<!-- 17 stock -->
+
+    <dimen name="widget_big_font_size">200.0dip</dimen>				<!-- orologio 64 stock -->
+    <dimen name="widget_label_font_size">16.0dip</dimen>			<!-- 16 stock -->
+	
+    <dimen name="op_widget_label_font_size">62.0px</dimen>			<!-- 41 stock -->
+    <dimen name="oneplus_widget_big_font_size">100.0dip</dimen>		<!-- 64 stock -->
+    <dimen name="oneplus_widget_big_font_size_mcl">59.0dip</dimen>	<!-- 59 stock -->
+    <dimen name="oneplus_widget_label_font_size">16.0dip</dimen>	<!-- 16 stock -->
+</resources>

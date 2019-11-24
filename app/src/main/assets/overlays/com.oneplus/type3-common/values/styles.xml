@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OneplusAppError_Black" parent="@*android:style/Theme.DeviceDefault.Light.Dialog.Alert">
+        <item name="android:colorBackground">@*android:color/background_dark</item>
+        <item name="android:windowBackground">@*com.oneplus:drawable/op_base_error_dlg_bg</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:windowContentTransitions">false</item>
+        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="android:windowElevation">@*com.oneplus:dimen/op_base_error_dlg_win_ele</item>
+        <item name="android:windowActivityTransitions">false</item>
+        <item name="*android:windowOutsetBottom">@*com.oneplus:dimen/op_base_error_dlg_width</item>
+        <item name="*android:yearListItemActivatedTextAppearance">@*com.oneplus:dimen/op_base_error_dlg_width</item>
+    </style>
+</resources>

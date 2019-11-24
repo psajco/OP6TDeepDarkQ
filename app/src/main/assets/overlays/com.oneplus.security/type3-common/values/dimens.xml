@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="oneplus_contorl_radius_r0">14.0dip</item>
+    <item type="dimen" name="oneplus_contorl_radius_r12">14.0dip</item>
+    <item type="dimen" name="oneplus_contorl_radius_r16">14.0dip</item>
+    <item type="dimen" name="oneplus_contorl_radius_r2">14.0dip</item>
+    <item type="dimen" name="oneplus_contorl_radius_r4">14.0dip</item>
+    <item type="dimen" name="oneplus_contorl_radius_r8">14.0dip</item>	
+    <item type="dimen" name="abc_control_corner_material">14.0dip</item>
+    <item type="dimen" name="compat_control_corner_material">14.0dip</item>
+    <item type="dimen" name="control_corner_material">14.0dip</item>
+</resources>

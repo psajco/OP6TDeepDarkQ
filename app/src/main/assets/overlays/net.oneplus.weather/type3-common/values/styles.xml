@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Oneplus.Theme.Material" parent="">
+        <item name="android:divider">@null</item>
+        <item name="android:listDivider">@null</item>
+    </style>
+</resources>
