@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <color name="GM2_blue_200">@*android:color/white</color>   <!-- sfondo -->
+    <color name="GM2_blue_300">@*android:color/white</color>   <!-- bordo -->
 </resources>

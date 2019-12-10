@@ -3,8 +3,7 @@
     <color name="GM2_grey_200">@*android:color/white</color>
     <color name="GM2_grey_800">@*android:color/background_floating_material_dark</color>
     <color name="GM2_grey_900">@*android:color/background_dark</color>
-    <color name="GM2_blue_200">@*android:color/accent_material_dark</color>
-    <color name="GM2_blue_300">@*android:color/accent_material_dark</color>
+
     <color name="GM2_blue_600">@*android:color/accent_material_dark</color>
     <color name="GM2_blue_700">@*android:color/accent_material_dark</color>
     <color name="GM2_green_500">@*android:color/accent_material_dark</color>
