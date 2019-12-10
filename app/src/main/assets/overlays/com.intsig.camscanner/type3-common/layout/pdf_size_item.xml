@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@*com.intsig.camscanner:drawable/list_selector_bg" android:layout_width="fill_parent" android:layout_height="55.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip" android:layout_toLeftOf="@*com.intsig.camscanner:id/pdf_size_Button">
+        <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center|left" android:id="@*com.intsig.camscanner:id/pdf_size_title" android:paddingLeft="20.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="A4" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center|left" android:id="@*com.intsig.camscanner:id/pdf_size_value" android:paddingLeft="20.0dip" android:paddingTop="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="33cm*22cm" />
+    </LinearLayout>
+    <CheckBox android:gravity="center_vertical" android:id="@*com.intsig.camscanner:id/pdf_size_Button" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:button="@*com.intsig.camscanner:drawable/bg_checkbox_gray" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

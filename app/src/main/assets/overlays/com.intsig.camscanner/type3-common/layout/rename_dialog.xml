@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="250.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.intsig.view.FilterEditText android:textColor="#ffffffff" android:id="@*com.intsig.camscanner:id/rename_dialog_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@*com.intsig.camscanner:dimen/edittext_margin" android:layout_marginTop="6.0dip" android:layout_marginRight="@*com.intsig.camscanner:dimen/edittext_margin" android:inputType="text" android:imeOptions="actionDone" style="@*com.intsig.camscanner:style/CSEditTextStyle" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@*android:color/background_material_dark" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@*com.intsig.camscanner:id/tag_layout_check">
+        <TextView android:textSize="@*com.intsig.camscanner:dimen/tag_title_size" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@*com.intsig.camscanner:id/tag_item_title" android:layout_width="fill_parent" android:layout_height="0.0px" android:text="card" android:singleLine="true" android:layout_weight="3.0" />
+    </LinearLayout>
+    <RelativeLayout android:id="@*com.intsig.camscanner:id/tag_layout_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <RadioButton android:id="@*com.intsig.camscanner:id/tag_doc_radio" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@*com.intsig.camscanner:drawable/btn_radio_alert_dialog" />
+        <CheckBox android:id="@*com.intsig.camscanner:id/tag_doc_check" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@*com.intsig.camscanner:drawable/btn_check_alert_dialog" />
+    </RelativeLayout>
+</RelativeLayout>

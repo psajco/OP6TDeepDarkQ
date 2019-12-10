@@ -14,7 +14,7 @@
     <!-- Does your theme support substratum samsung? -->
     <bool name="ThemeSupportSamsung">false</bool>
     <!-- Do you want to override the hero image auto color assignment? -->
-    <!-- Don't force anything? -> auto -->
+    <!-- Don't force anything?70.0px70.0px -> auto -->
     <!-- Force black/dark icons? -> dark -->
     <!-- Force white/light icons? -> light -->
     <string name="ThemeHeroOverride">auto</string>

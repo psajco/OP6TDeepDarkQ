@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false" android:state_enabled="true" android:state_checked="true" android:drawable="@*com.intsig.camscanner:drawable/home_select_selected" android:backgroundTint="@*android:color/accent_material_dark" />
+    <item android:state_window_focused="false" android:state_enabled="true" android:state_checked="false" android:drawable="@*com.intsig.camscanner:drawable/home_select_unselected" />
+    <item android:state_checked="false" android:drawable="@*com.intsig.camscanner:drawable/home_select_unselected" />
+    <item android:state_checked="true" android:drawable="@*com.intsig.camscanner:drawable/home_select_selected" android:backgroundTint="@*android:color/accent_material_dark" />
+</selector>

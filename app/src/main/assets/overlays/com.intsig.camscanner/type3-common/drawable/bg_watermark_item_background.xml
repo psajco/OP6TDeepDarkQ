@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@*com.intsig.camscanner:id/water_color_cotent">
+        <shape android:dither="true" android:shape="rectangle">
+            <corners android:radius="5.0dip" />
+            <stroke android:width="2.0dip" android:color="@*android:color/accent_material_dark" />
+        </shape>
+    </item>
+</layer-list>

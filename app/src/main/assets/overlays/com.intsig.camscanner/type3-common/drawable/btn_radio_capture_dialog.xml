@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false" android:state_enabled="true" android:state_checked="true">
+        <bitmap android:src="@*com.intsig.camscanner:drawable/cd_btn_radio_on" android:tint="@*android:color/accent_material_dark" />
+    </item>
+    <item android:state_window_focused="false" android:state_enabled="true" android:state_checked="false">
+        <bitmap android:src="@*com.intsig.camscanner:drawable/btn_radio_capture_off" />
+    </item>
+    <item android:state_enabled="true" android:state_checked="true" android:state_pressed="true">
+        <bitmap android:src="@*com.intsig.camscanner:drawable/cd_btn_radio_on" android:tint="@*android:color/accent_material_dark" />
+    </item>
+    <item android:state_enabled="true" android:state_checked="false" android:state_pressed="true">
+        <bitmap android:src="@*com.intsig.camscanner:drawable/btn_radio_capture_off" />
+    </item>
+    <item android:state_focused="true" android:state_enabled="true" android:state_checked="true">
+        <bitmap  android:src="@*com.intsig.camscanner:drawable/cd_btn_radio_on" android:tint="@*android:color/accent_material_dark" />
+    </item>
+    <item android:state_focused="true" android:state_enabled="true" android:state_checked="false">
+        <bitmap  android:src="@*com.intsig.camscanner:drawable/btn_radio_capture_off" />
+    </item>
+    <item android:state_enabled="true" android:state_checked="false">
+        <bitmap  android:src="@*com.intsig.camscanner:drawable/btn_radio_capture_off" />
+    </item>
+    <item android:state_enabled="true" android:state_checked="true">
+        <bitmap  android:src="@*com.intsig.camscanner:drawable/cd_btn_radio_on" android:tint="@*android:color/accent_material_dark" />
+    </item>
+    <item android:state_window_focused="false" android:state_checked="true">
+        <bitmap  android:src="@*com.intsig.camscanner:drawable/cd_btn_radio_on" android:tint="@*android:color/accent_material_dark" />
+    </item>
+    <item android:state_window_focused="false" android:state_checked="false">
+        <bitmap  android:src="@*com.intsig.camscanner:drawable/btn_radio_capture_off" />
+    </item>
+    <item android:state_focused="true" android:state_checked="true">
+        <bitmap  android:src="@*com.intsig.camscanner:drawable/cd_btn_radio_on" android:tint="@*android:color/accent_material_dark" />
+    </item>
+    <item android:state_focused="true" android:state_checked="false">
+        <bitmap  android:src="@*com.intsig.camscanner:drawable/btn_radio_capture_off" />
+    </item>
+    <item android:state_checked="false">
+        <bitmap  android:src="@*com.intsig.camscanner:drawable/btn_radio_capture_off" />
+    </item>
+    <item android:state_checked="true">
+        <bitmap  android:src="@*com.intsig.camscanner:drawable/cd_btn_radio_on" android:tint="@*android:color/accent_material_dark" />
+    </item>
+</selector>

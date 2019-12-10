@@ -5,6 +5,6 @@
         <nine-patch android:gravity="center" android:src="@*android:drawable/btn_switch_to_on_mtrl_00012" android:tint="?*android:colorButtonNormal" android:tintMode="src_atop" />
     </item>
     <item android:state_checked="true" android:id="@*android:id/on">
-        <nine-patch android:gravity="center" android:src="@*android:drawable/btn_switch_to_on_mtrl_00012" android:tint="?*android:colorControlActivated" android:tintMode="src_atop" />
+        <nine-patch android:gravity="center" android:src="@*android:drawable/btn_switch_to_on_mtrl_00012" android:tint="@*android:color/accent_material_dark" android:tintMode="src_atop" />
     </item>
 </animated-selector>

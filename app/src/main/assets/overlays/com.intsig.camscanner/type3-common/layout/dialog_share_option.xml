@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@*com.intsig.camscanner:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@*com.intsig.camscanner:drawable/shape_bg_f7f7f7_corner_6dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:id="@*com.intsig.camscanner:id/rl_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@*com.intsig.camscanner:id/tv_size_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+            <LinearLayout android:orientation="horizontal" android:background="@*com.intsig.camscanner:drawable/shape_bg_ffffff_corner_2dp_stroke_cbcbcb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginBottom="9.0dip" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true">
+                <TextView android:textSize="11.0sp" android:textColor="#ffffffff" android:id="@*com.intsig.camscanner:id/tv_real_size" android:background="@*android:color/background_material_dark" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.intsig.camscanner:string/a_label_select_size_ori" android:paddingStart="12.0dip" android:paddingEnd="15.0dip" />
+                <TextView android:textSize="11.0sp" android:textColor="#ffffffff" android:id="@*com.intsig.camscanner:id/tv_small_size" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.intsig.camscanner:string/cs_595_no_watermark_change" android:paddingStart="25.0dip" android:paddingEnd="25.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ListView android:id="@*com.intsig.camscanner:id/list_panel" android:background="@*android:color/transparent" android:paddingTop="@*com.intsig.camscanner:dimen/padding_8dp" android:paddingBottom="@*com.intsig.camscanner:dimen/padding_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="#00000000" />
+    </LinearLayout>
+</LinearLayout>

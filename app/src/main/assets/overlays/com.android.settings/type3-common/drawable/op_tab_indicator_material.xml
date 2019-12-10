@@ -9,9 +9,9 @@
         </ripple>
     </item>
     <item android:gravity="bottom">
-        <shape android:tint="@*android:color/accent_material_dark" android:shape="rectangle">
+        <shape android:tint="@*com.android.settings:color/settings_accent_color" android:shape="rectangle">
             <size android:height="2.0dip" />
-            <solid android:color="@*android:color/accent_material_dark" />
+            <solid android:color="@*com.android.settings:color/settings_accent_color" />
         </shape>
     </item>
     <item android:drawable="@android:color/transparent" android:bottom="2.0dip" />

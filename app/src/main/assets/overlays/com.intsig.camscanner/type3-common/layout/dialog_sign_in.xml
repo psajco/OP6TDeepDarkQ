@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@*com.intsig.camscanner:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@*com.intsig.camscanner:id/root_view_container" android:background="@*com.intsig.camscanner:color/transparent" android:layout_width="400.0dip" android:layout_height="fill_parent">
+        <ImageView android:id="@*com.intsig.camscanner:id/bg_iv" android:layout_width="310.0dip" android:layout_height="315.0dip" android:src="@*com.intsig.camscanner:drawable/ic_calendar_bg" android:scaleType="fitXY" android:layout_centerInParent="true" />
+        <RelativeLayout android:id="@*com.intsig.camscanner:id/card_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@*com.intsig.camscanner:id/bg_container" android:background="@*com.intsig.camscanner:color/transparent" android:layout_width="310.0dip" android:layout_height="475.0dip" android:layout_alignTop="@*com.intsig.camscanner:id/bg_iv" android:layout_centerInParent="true">
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="100.0dip" android:layout_marginTop="90.0dip" android:src="@*com.intsig.camscanner:drawable/ic_lianzi" android:scaleType="centerInside" android:layout_alignParentLeft="true" />
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="90.0dip" android:layout_marginRight="100.0dip" android:src="@*com.intsig.camscanner:drawable/ic_lianzi" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@*com.intsig.camscanner:id/button_sign_in_now" android:background="@*com.intsig.camscanner:drawable/bg_round_orange" android:layout_width="200.0dip" android:layout_height="40.0dip" android:layout_marginBottom="93.0dip" android:text="@*com.intsig.camscanner:string/sign_in_for_reward" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@*com.intsig.camscanner:id/iv_close" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@*com.intsig.camscanner:drawable/ic_cancel" android:tint="@*android:color/accent_material_dark" android:scaleType="centerInside" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

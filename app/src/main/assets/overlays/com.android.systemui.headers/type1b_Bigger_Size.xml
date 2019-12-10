@@ -6,14 +6,9 @@
     <dimen name="widget_small_font_size">48.0dip</dimen>				<!-- 24 stock -->
     <dimen name="widget_title_font_size">48.0dip</dimen>				<!-- 24 stock -->
 
-     <dimen name="clock_view_default_font_size">190.0px</dimen>		<!--  178.5 stock -->
-     <dimen name="date_view_default_font_size">65.0px</dimen>		<!-- 59 stock -->
-     <dimen name="date_view_font_size">65.0px</dimen>				<!-- 59 stock -->
-    <!--
-        <dimen name="battery_empty_view_height">50dip</dimen>          - layout_marginBottom aod_battery_status_view" 33.69998 stock
-        <dimen name="notification_icon_empty_view_height">52.5dip</dimen>   - layout_marginBottom aod_notification" 22.5 stock
-        -->
-
+    <dimen name="clock_view_default_font_size">190.0px</dimen>		<!--  178.5 stock -->
+    <dimen name="date_view_default_font_size">65.0px</dimen>		<!-- 59 stock -->
+    <dimen name="date_view_font_size">65.0px</dimen>				<!-- 59 stock -->
     <dimen name="widget_big_font_size">300.0dip</dimen>				<!-- orologio 64 stock -->
     <dimen name="widget_label_font_size">16.0dip</dimen>			<!-- 13 stock -->
 	

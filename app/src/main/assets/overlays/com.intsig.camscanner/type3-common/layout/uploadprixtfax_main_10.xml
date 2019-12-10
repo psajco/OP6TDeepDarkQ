@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@*com.intsig.camscanner:id/send_leftLayout" android:background="@*com.intsig.camscanner:color/radiogroup_background" android:paddingTop="46.0dip" android:layout_width="380.0dip" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@*com.intsig.camscanner:id/send_leftLayout">
+        <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@*com.intsig.camscanner:id/tab_container" android:background="@*com.intsig.camscanner:color/radiogroup_background" android:layout_width="fill_parent" android:layout_height="46.0dip">
+            <RadioButton android:id="@*com.intsig.camscanner:id/tab_ufp_upload" android:checked="true" android:text="@*com.intsig.camscanner:string/upload_title" style="@*com.intsig.camscanner:style/TabRadioBtnStyle" />
+            <RadioButton android:id="@*com.intsig.camscanner:id/tab_ufp_print" android:text="@*com.intsig.camscanner:string/a_global_label_print" style="@*com.intsig.camscanner:style/TabRadioBtnStyle" />
+            <RadioButton android:id="@*com.intsig.camscanner:id/tab_ufp_fax" android:text="@*com.intsig.camscanner:string/a_global_label_fax" style="@*com.intsig.camscanner:style/TabRadioBtnStyle" />
+        </RadioGroup>
+        <RelativeLayout android:id="@*com.intsig.camscanner:id/ll_select_file_info" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@*com.intsig.camscanner:id/tab_container" android:elevation="4.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@*com.intsig.camscanner:id/tv_file_info" android:background="@*com.intsig.camscanner:drawable/list_selector_bg_both_design" android:paddingLeft="@*com.intsig.camscanner:dimen/edittext_margin" android:paddingRight="@*com.intsig.camscanner:dimen/edittext_margin" android:layout_width="fill_parent" android:layout_height="41.0dip" />
+        </RelativeLayout>
+        <FrameLayout android:id="@*com.intsig.camscanner:id/fl_fragment_content" android:background="@*com.intsig.camscanner:color/bg_send_print_fax" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@*com.intsig.camscanner:id/ll_select_file_info" />
+        <View android:id="@*com.intsig.camscanner:id/line" android:background="@*android:color/background_material_dark" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_below="@*com.intsig.camscanner:id/tab_container" />
+        <View android:background="@*com.intsig.camscanner:drawable/bg_horizontal_gradient_gray" android:layout_width="6.0dip" android:layout_height="fill_parent" android:layout_toRightOf="@*com.intsig.camscanner:id/line" android:layout_below="@*com.intsig.camscanner:id/tab_container" />
+    </RelativeLayout>
+</RelativeLayout>

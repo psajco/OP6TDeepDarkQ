@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@*android:color/background_material_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.intsig.camscanner.signature.SignatureImageView android:id="@*com.intsig.camscanner:id/wmiSignature" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@*com.intsig.camscanner:id/ll_signature_thumb" />
+    <LinearLayout android:orientation="horizontal" android:id="@*com.intsig.camscanner:id/ll_signature_thumb" android:background="@*android:color/background_material_dark" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@*com.intsig.camscanner:id/btn_add" android:background="@*com.intsig.camscanner:drawable/ic_signature_add" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+        <View android:background="@*android:color/background_material_dark" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+        <android.support.v7.widget.RecyclerView android:orientation="horizontal" android:id="@*com.intsig.camscanner:id/rv_signature" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@*com.intsig.camscanner:id/ll_focus_container" android:background="@*android:color/background_material_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@*com.intsig.camscanner:id/ll_bar" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip">
+            <android.support.v7.widget.AppCompatImageView android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*com.intsig.camscanner:drawable/ic_stroke_light" />
+            <SeekBar android:layout_gravity="center_vertical" android:id="@*com.intsig.camscanner:id/stroke_size_seekbar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="12" android:layout_weight="1.0" />
+            <android.support.v7.widget.AppCompatImageView android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*com.intsig.camscanner:drawable/ic_stroke_bold" />
+        </LinearLayout>
+        <com.intsig.camscanner.capture.ColorPickerView android:id="@*com.intsig.camscanner:id/color_picker" android:layout_width="fill_parent" android:layout_height="44.0dip" />
+    </LinearLayout>
+</RelativeLayout>

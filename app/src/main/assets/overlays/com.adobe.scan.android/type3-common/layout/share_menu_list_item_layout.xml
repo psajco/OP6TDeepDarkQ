@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@*android:color/background_floating_material_dark"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@*com.adobe.scan.android:id/share_menu_item_toggle" android:padding="@*com.adobe.scan.android:dimen/share_menu_item_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@*com.adobe.scan.android:id/share_menu_item_toggle" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@*com.adobe.scan.android:id/share_menu_item_icon" android:padding="@*com.adobe.scan.android:dimen/share_menu_item_padding" android:layout_width="@*com.adobe.scan.android:dimen/share_menu_icon_size" android:layout_height="@*com.adobe.scan.android:dimen/share_menu_icon_size" android:layout_marginStart="@*com.adobe.scan.android:dimen/share_menu_padding" />
+        <TextView android:textSize="@*com.adobe.scan.android:dimen/share_menu_item_text_size" android:textColor="@*com.adobe.scan.android:color/bottom_sheet_text_color" android:layout_gravity="center_vertical" android:id="@*com.adobe.scan.android:id/share_menu_item_title" android:padding="@*com.adobe.scan.android:dimen/share_menu_item_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

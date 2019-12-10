@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CSInstructionsTitleStyle">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@*android:color/accent_material_dark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@*com.intsig.camscanner:dimen/preference_margin</item>
+        <item name="android:layout_marginTop">19.0dip</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="CSMainSettingIVThemeStyle">
+        <item name="android:backgroundTint">@*android:color/accent_material_dark</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">24.0dip</item>
+        <item name="android:layout_height">24.0dip</item>
+        <item name="android:layout_marginLeft">@*com.intsig.camscanner:dimen/preference_margin</item>
+    </style>
+    <style name="ImageTextButtonStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*com.intsig.camscanner:drawable/bg_light_black</item>
+        <item name="android:layout_width">@*com.intsig.camscanner:dimen/action_bar_height</item>
+        <item name="android:layout_height">@*com.intsig.camscanner:dimen/action_bar_height</item>
+    </style>
+    <style name="ImageTextButtonStyleFillWidth">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*com.intsig.camscanner:drawable/bg_light_black</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">@*com.intsig.camscanner:dimen/action_bar_height</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="ImageTextButtonTitleStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*com.intsig.camscanner:drawable/bg_title_image_text_button</item>
+        <item name="android:layout_width">@*com.intsig.camscanner:dimen/action_bar_icon_width</item>
+        <item name="android:layout_height">@*com.intsig.camscanner:dimen/action_bar_icon_height</item>
+        <item name="android:layout_marginRight">@*com.intsig.camscanner:dimen/tab_actionbar_icon_margin_left</item>
+    </style>
+    <style name="CertificateMenuTextStyle">
+        <item name="android:textSize">@*com.intsig.camscanner:dimen/item_certificate_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:maxLines">@*com.intsig.camscanner:integer/line_cerififcate_menu</item>
+        <item name="android:drawableRight">@*com.intsig.camscanner:drawable/ic_vip</item>
+        <item name="android:drawablePadding">5.0dip</item>
+    </style>
+    <style name="CSMainSettingsStyle">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">32.0dip</item>
+    </style>
+    <style name="CSMainToolbarTittleAppearance" parent="@*com.intsig.camscanner:style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="CSSettingsInfoTVStyle">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">11.0dip</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layout_marginStart">@*com.intsig.camscanner:dimen/preference_margin</item>
+    </style>
+    <style name="CSSettingsTVStyle">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15.0dip</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layout_marginStart">@*com.intsig.camscanner:dimen/preference_margin</item>
+    </style>
+    <style name="HoloBtnStyle">
+        <item name="android:textSize">@*com.intsig.camscanner:dimen/holo_common_btn_textsize</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*com.intsig.camscanner:drawable/holo_common_btn_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@*com.intsig.camscanner:dimen/holo_common_btn_height</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MainDrawerMenuTextView">
+        <item name="android:textSize">@*com.intsig.camscanner:dimen/drawer_menu_item_textsize</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">@*com.intsig.camscanner:dimen/drawer_menu_item_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="RewardItemTitleStyle">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@*android:color/background_material_dark</item>
+        <item name="android:paddingLeft">19.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="RewardTextStyle">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">19.0dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+        <item name="android:minHeight">20.0dip</item>
+        <item name="android:drawablePadding">10.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="CSTagGroupNameStyle">
+        <item name="android:textSize">19.0dip</item>
+        <item name="android:textColor">@*com.intsig.camscanner:color/main_title_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*android:color/background_material_dark</item>
+        <item name="android:paddingLeft">24.0dip</item>
+        <item name="android:paddingTop">9.0dip</item>
+        <item name="android:paddingRight">24.0dip</item>
+        <item name="android:layout_width">80.0dip</item>
+        <item name="android:layout_height">@*com.intsig.camscanner:dimen/tag_manager_list_item_height</item>
+    </style>
+
+    <style name="VerifyCodeStyle">
+        <item name="android:textSize">23.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*com.intsig.camscanner:drawable/ic_search_edittext_foucs</item>
+        <item name="android:layout_width">30.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+    <style name="style1">
+        <item name="android:textSize">36.0sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+</resources>

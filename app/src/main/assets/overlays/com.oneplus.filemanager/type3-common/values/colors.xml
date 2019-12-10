@@ -736,8 +736,8 @@
     <color name="selection_control_off_dark">#b2ffffff</color>
     <color name="selection_control_off_light">#b2ffffff</color>
     <color name="selection_control_on">@*com.oneplus.filemanager:color/selection_control_on_light</color>
-    <color name="selection_control_on_dark">#ff1387a5</color>
-    <color name="selection_control_on_light">#ff1387a5</color>
+    <color name="selection_control_on_dark">@*android:color/accent_material_dark</color>
+    <color name="selection_control_on_light">@*android:color/accent_material_dark</color>
     <color name="service_circle_border">#ffd7e0e3</color>
     <color name="service_icon_base">@*com.oneplus.filemanager:color/grey_1000</color>
     <color name="sheets_background">@*com.oneplus.filemanager:color/oneplus_contorl_bg_color_cardview_default</color>
@@ -750,8 +750,8 @@
     <color name="switch_thumb_normal_color_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#ffbdbdbd</color>
-    <color name="switch_track_activated_color_dark">#7f1387a5</color>
-    <color name="switch_track_activated_color_light">#7f1387a5</color>
+    <color name="switch_track_activated_color_dark">@*android:color/accent_material_dark</color>
+    <color name="switch_track_activated_color_light">@*android:color/accent_material_dark</color>
     <color name="switch_track_disable_color_dark">#19ffffff</color>
     <color name="switch_track_disable_color_light">#19ffffff</color>
     <color name="switch_track_normal_color_dark">#4cffffff</color>

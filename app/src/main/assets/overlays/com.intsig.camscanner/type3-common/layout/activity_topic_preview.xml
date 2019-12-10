@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@*android:color/background_material_dark" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:layout_gravity="center_vertical" android:id="@*com.intsig.camscanner:id/tb_topic_toolbar" android:background="@*android:color/background_material_dark" android:layout_width="fill_parent" android:layout_height="@*com.intsig.camscanner:dimen/action_bar_height" android:minHeight="@*com.intsig.camscanner:dimen/action_bar_height" android:elevation="4.0dip" app:contentInsetLeft="0.0dip" app:contentInsetStart="0.0dip" app:contentInsetStartWithNavigation="0.0dip" app:popupTheme="@*com.intsig.camscanner:style/ThemeOverlay.AppCompat.Light" app:theme="@*com.intsig.camscanner:style/ThemeOverlay.AppCompat.Dark.ActionBar" app:titleTextAppearance="@*com.intsig.camscanner:style/Base.TextAppearance.AppCompat.Title" />
+    <FrameLayout android:id="@*com.intsig.camscanner:id/fl_topic_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

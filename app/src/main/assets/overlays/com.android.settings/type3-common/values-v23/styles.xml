@@ -8,26 +8,26 @@
         <item name="android:actionBarTheme">@android:style/ThemeOverlay.Material.Dark.ActionBar</item>
         <item name="android:colorPrimary">@*android:color/transparent</item>
         <item name="android:colorPrimaryDark">@*android:color/transparent</item>
-        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="android:colorAccent">@*com.android.settings:color/settings_accent_color</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
-        <item name="*com.android.settings:onePlusPrimaryColor">@*android:color/accent_material_dark</item>
+        <item name="*com.android.settings:onePlusPrimaryColor">@*com.android.settings:color/settings_accent_color</item>
         <item name="*com.android.settings:preferenceTheme">@*com.android.settings:style/PreferenceTheme</item>
         <item name="*com.android.settings:preferenceBackgroundColor">@*com.android.settings:drawable/preference_background</item>
     </style>
     <style name="Theme.SettingsBase" parent="@*com.android.settings:style/Oneplus.Theme.DeviceDefault">
         <item name="android:windowBackground">@*android:color/keyguard_avatar_frame_shadow_color</item>
         <item name="android:colorBackground">@*android:color/background_floating_material_dark</item>
-        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="android:colorAccent">@*com.android.settings:color/settings_accent_color</item>
         <item name="android:listDivider">@*android:color/transparent</item>
         <item name="android:colorSecondary">@*android:color/transparent</item>
         <item name="android:colorPrimary">@*android:color/transparent</item>
         <item name="android:colorPrimaryDark">@*android:color/transparent</item>
-        <item name="android:colorControlActivated">@*android:color/accent_material_dark</item>
-        <item name="android:colorEdgeEffect">@*android:color/ripple_material_dark</item>
-        <item name="android:colorControlHighlight">@*android:color/ripple_material_dark</item>
+        <item name="android:colorControlActivated">@*com.android.settings:color/settings_accent_color</item>
+        <item name="android:colorEdgeEffect">@*com.android.settings:color/settings_accent_color</item>
+        <item name="android:colorControlHighlight">@*com.android.settings:color/settings_accent_color</item>
         <item name="android:statusBarColor">@*android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
-        <item name="*com.android.settings:onePlusPrimaryColor">@*android:color/accent_material_dark</item>
+        <item name="*com.android.settings:onePlusPrimaryColor">@*com.android.settings:color/settings_accent_color</item>
         <item name="*com.android.settings:onePlusActionbarBackgroundColor">@*com.android.settings:color/oneplus_main_home_bg_ab</item>
     </style>
     <style name="OneplusThemeBase" parent="@*android:style/Theme.DeviceDefault.Settings.Dark.NoActionBar">
@@ -69,7 +69,7 @@
         <item name="android:textCursorDrawable">@*com.android.settings:drawable/op_text_cursor_material_dark</item>
         <item name="android:listPreferredItemHeightSmall">@*com.android.settings:dimen/oneplus_contorl_list_item_height_one_line1</item>
         <item name="android:actionModeStyle">@*com.android.settings:style/Oneplus.Widget.Material.ActionMode</item>
-        <item name="android:colorControlActivated">@*android:color/accent_material_dark</item>
+        <item name="android:colorControlActivated">@*com.android.settings:color/settings_accent_color</item>
         <item name="android:actionBarTheme">@*com.android.settings:style/Oneplus.ThemeOverlay.Material.ActionBar</item>
         <item name="android:colorAccent">@*com.android.settings:color/selection_control_on_dark</item>
         <item name="android:switchStyle">@*com.android.settings:style/Oneplus.Widget.Material.CompoundButton.Switch</item>
@@ -119,7 +119,7 @@
         <item name="*com.android.settings:onePlusSearchIconColor">@*com.android.settings:color/oneplus_contorl_icon_color_accent_active_dark</item>
         <item name="*com.android.settings:onePlusSearchIconInActiveColor">@*com.android.settings:color/oneplus_contorl_icon_color_accent_inactive_dark</item>
         <item name="*com.android.settings:onePlusSecondaryTextColor">#b3000000</item>
-        <item name="*com.android.settings:onePlusTabIndicatorColor">@*android:color/accent_material_dark</item>
+        <item name="*com.android.settings:onePlusTabIndicatorColor">@*com.android.settings:color/settings_accent_color</item>
         <item name="*com.android.settings:onePlusTabTextAlpha">1.0</item>
         <item name="*com.android.settings:onePlusTabTextColor">@*com.android.settings:color/oneplus_contorl_text_color_secondary_dark</item>
         <item name="*com.android.settings:onePlusTabTextSelectedAlpha">1.0</item>
@@ -130,12 +130,12 @@
         <item name="*com.android.settings:opDropdownListItemSelectedColor">@*com.android.settings:color/op_drop_down_item_selected_color_dark</item>
         <item name="*com.android.settings:opDropdownListPreferredItemHeight">@*com.android.settings:dimen/oneplus_contorl_list_item_height_one_line1</item>
         <item name="*com.android.settings:opPanelMenuListWidth">@*com.android.settings:dimen/oneplus_contorl_menu_item_width_4</item>
-        <item name="*com.android.settings:opPickerColorActivated">@*android:color/accent_material_dark</item>
+        <item name="*com.android.settings:opPickerColorActivated">@*com.android.settings:color/settings_accent_color</item>
         <item name="*com.android.settings:opPickerColorUnActivated">@*com.android.settings:color/oneplus_contorl_text_color_primary_dark</item>
         <item name="*com.android.settings:opPickerInputLabelUnActivated">@*com.android.settings:color/oneplus_contorl_text_color_secondary_dark</item>
         <item name="*com.android.settings:opTextAppearancePopupMenuHeader">@*com.android.settings:style/Oneplus.TextAppearance.Material.Widget.PopupMenu.Header</item>
         <item name="*com.android.settings:opTextColorCalendarDayActivated">@*com.android.settings:color/op_primary_text_inverse_when_activated_material_dark</item>
-        <item name="*com.android.settings:opTextColorError">@*android:color/accent_material_dark</item>
+        <item name="*com.android.settings:opTextColorError">@*com.android.settings:color/settings_accent_color</item>
         <item name="*com.android.settings:op_checkBoxPreferenceStyle">@*com.android.settings:style/OnePlus.Preference.Material.CheckBoxPreference</item>
         <item name="*com.android.settings:op_dialogPreferenceStyle">@*com.android.settings:style/OnePlus.Preference.Material.DialogPreference</item>
         <item name="*com.android.settings:op_editTextPreferenceStyle">@*com.android.settings:style/OnePlus.Preference.Material.DialogPreference.EditTextPreference</item>
@@ -169,7 +169,7 @@
         <item name="android:actionBarStyle">@*com.android.settings:style/OPSettingsActionBarStyle</item>
         <item name="android:colorPrimary">@*android:color/transparent</item>
         <item name="android:colorPrimaryDark">@*android:color/transparent</item>
-        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="android:colorAccent">@*com.android.settings:color/settings_accent_color</item>
         <item name="*com.android.settings:onePlusActionbarTitleColor">@*com.android.settings:color/grey_100</item>
         <item name="*com.android.settings:onePlusActionbarSubtitleColor">@*com.android.settings:color/grey_100</item>
         <item name="*com.android.settings:onePlusActionbarIconColor">@*com.android.settings:color/grey_100</item>
@@ -193,9 +193,9 @@
         <item name="android:colorBackgroundCacheHint">@*com.android.settings:color/background_cache_hint_selector_material_dark</item>
         <item name="android:textColorAlertDialogListItem">@*com.android.settings:color/primary_text_material_dark</item>
         <item name="android:textColorHighlightInverse">@*com.android.settings:color/highlighted_text_material</item>
-        <item name="android:colorControlNormal">@*android:color/accent_material_dark</item>
+        <item name="android:colorControlNormal">@*com.android.settings:color/settings_accent_color</item>
         <item name="android:colorButtonNormal">@*com.android.settings:color/btn_default_material_dark</item>
-        <item name="android:colorControlHighlight">@*android:color/ripple_material_dark</item>
+        <item name="android:colorControlHighlight">@*com.android.settings:color/settings_accent_color</item>
     </style>
     <style name="Oneplus.Theme.Material.Light.DarkActionBar" parent="@*com.android.settings:style/OneplusThemeBase">
         <item name="android:actionBarWidgetTheme">@null</item>
@@ -217,13 +217,13 @@
         <item name="*com.android.settings:onePlusTabTextAlpha">1.0</item>
         <item name="*com.android.settings:onePlusTabTextSelectedAlpha">1.0</item>
         <item name="*com.android.settings:onePlusActionbarIconAlpha">1.0</item>
-        <item name="*com.android.settings:onePlusColorControlHighlight">@*android:color/ripple_material_dark</item>
+        <item name="*com.android.settings:onePlusColorControlHighlight">@*com.android.settings:color/settings_accent_color</item>
     </style>
     <style name="Widget.SwitchBar.Switch" parent="@*android:style/Widget.Material.CompoundButton.Switch">
         <item name="android:minHeight">@*com.android.settings:dimen/min_tap_target_size</item>
     </style>
     <style name="ThemeOverlay.SwitchBar.Settings" parent="@*android:style/ThemeOverlay.Material.ActionBar">
-        <item name="android:textColorPrimary">@*android:color/accent_material_dark</item>
+        <item name="android:textColorPrimary">@*com.android.settings:color/settings_accent_color</item>
         <item name="*com.android.settings:switchBarBackgroundActivatedColor">@*android:color/transparent</item>
         <item name="*com.android.settings:switchBarBackgroundColor">@*android:color/transparent</item>
         <item name="*com.android.settings:switchBarMarginEnd">@*com.android.settings:dimen/switchbar_subsettings_margin_end</item>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@*com.intsig.camscanner:id/comfirm_bar" android:background="@*com.intsig.camscanner:color/toolbar_colorprimary" android:padding="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@*com.intsig.camscanner:dimen/dock_bar_effective_height" android:baselineAligned="false" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.intsig.view.ImageTextButton android:id="@*com.intsig.camscanner:id/btn_capture_retake" android:layout_width="fill_parent" android:layout_weight="1.0" app:showTip="true" app:tipIcon="@*com.intsig.camscanner:drawable/ic_re_take" app:tipText="@*com.intsig.camscanner:string/a_label_page_retake" style="@*com.intsig.camscanner:style/ImageTextButtonStyle" />
+    <com.intsig.view.ImageTextButton android:id="@*com.intsig.camscanner:id/btn_delete" android:layout_width="fill_parent" android:layout_weight="1.0" app:showTip="true" app:tipIcon="@*com.intsig.camscanner:drawable/home_toolbar_delete" app:tipText="@*com.intsig.camscanner:string/btn_delete_title" style="@*com.intsig.camscanner:style/ImageTextButtonStyle" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@*android:color/accent_material_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.intsig.view.ImageTextButton android:id="@*com.intsig.camscanner:id/btn_continue_photo" android:layout_width="fill_parent" app:showTip="true" app:tipIcon="@*com.intsig.camscanner:drawable/ic_camera_next" app:tipText="@*com.intsig.camscanner:string/btn_continue_photo" style="@*com.intsig.camscanner:style/ImageTextButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

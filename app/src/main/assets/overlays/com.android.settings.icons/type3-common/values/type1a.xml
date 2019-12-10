@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="settings_accent_color">@*com.android.settings:color/oneplus_accent_color</color>
+</resources>

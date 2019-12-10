@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@*com.intsig.camscanner:id/rootLayout" android:background="@*android:color/background_material_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.intsig.view.MyViewPager android:id="@*com.intsig.camscanner:id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@*com.intsig.camscanner:id/layout_bottom_pack" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ViewStub android:id="@*com.intsig.camscanner:id/view_stub_bottom" android:layout="@*com.intsig.camscanner:layout/layout_imagepage_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@*com.intsig.camscanner:id/view_stub_bottom_unmodify" android:layout="@*com.intsig.camscanner:layout/layout_imagepage_bottom_unmodify" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@*com.intsig.camscanner:id/sep_imagepage_bg_navibar" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@*com.intsig.camscanner:id/bottom_bar" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@*com.intsig.camscanner:id/page_switch" android:background="@*com.intsig.camscanner:drawable/page_numbers" android:backgroundTint="@*android:color/accent_material_dark" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_above="@*com.intsig.camscanner:id/layout_bottom_pack" android:layout_centerHorizontal="true" android:layout_alignWithParentIfMissing="true">
+        <TextView android:textSize="13.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@*com.intsig.camscanner:id/page_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1/1" />
+        <View android:id="@*com.intsig.camscanner:id/sep_imgpage_indexocr" android:background="#ff7a7a7a" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" />
+        <ImageView android:id="@*com.intsig.camscanner:id/img_imgpage_ocr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:src="@*com.intsig.camscanner:drawable/ic_imgpage_ocr_small" android:tint="@*android:color/accent_material_dark" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@*com.intsig.camscanner:id/ll_pageimage_bg_note" android:background="@*com.intsig.camscanner:color/bg_pack_alpha_touch_dismiss" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.intsig.view.CircleProgressBar android:id="@*com.intsig.camscanner:id/cpb_progress" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerInParent="true" app:progrss_color="#ff25c4a4" app:ring_background="#66e5e5e5" app:stroke_width="2.0dip" />
+    <ImageView android:id="@*com.intsig.camscanner:id/iv_download" android:visibility="gone" android:layout_width="27.0dip" android:layout_height="27.0dip" android:src="@*com.intsig.camscanner:drawable/ic_imagepageview_download" android:tint="@*android:color/accent_material_dark" android:layout_centerInParent="true" />
+    <include android:layout_width="fill_parent" android:layout_height="380.0dip" android:layout_alignParentBottom="true" layout="@*com.intsig.camscanner:layout/pack_team_image_note" />
+</RelativeLayout>

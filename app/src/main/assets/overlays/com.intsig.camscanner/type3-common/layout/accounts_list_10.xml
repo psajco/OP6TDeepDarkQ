@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@*android:color/background_material_dark" android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_marginLeft="20.0dip" style="@*com.intsig.camscanner:style/StyleSeparator" />
+    <LinearLayout android:orientation="horizontal" android:id="@*com.intsig.camscanner:id/linearLayout_scanner" style="@*com.intsig.camscanner:style/UploadItemStyle">
+        <ImageView android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@*com.intsig.camscanner:drawable/icon" />
+        <TextView android:text="@*com.intsig.camscanner:string/app_name" android:textColor="#ffffffff" style="@*com.intsig.camscanner:style/SendTextStyle" />
+        <Button android:id="@*com.intsig.camscanner:id/account_scanner_btn" android:text="@*com.intsig.camscanner:string/account_set_sign_in" style="@*com.intsig.camscanner:style/HoloRadiusBtnStyle.Small" />
+    </LinearLayout>
+    <View android:id="@*com.intsig.camscanner:id/view_scanner_line" android:layout_marginLeft="20.0dip" style="@*com.intsig.camscanner:style/StyleSeparator" />
+    <LinearLayout android:orientation="horizontal" style="@*com.intsig.camscanner:style/UploadItemStyle">
+        <ImageView android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@*com.intsig.camscanner:drawable/ic_upload_box" />
+        <TextView android:id="@*com.intsig.camscanner:id/box_username" android:textColor="#ffffffff" android:text="Box" style="@*com.intsig.camscanner:style/SendTextStyle" />
+        <Button android:id="@*com.intsig.camscanner:id/account_box_btn" android:text="@*com.intsig.camscanner:string/account_set_sign_in" style="@*com.intsig.camscanner:style/HoloRadiusBtnStyle.Small" />
+    </LinearLayout>
+    <View android:layout_marginLeft="20.0dip" style="@*com.intsig.camscanner:style/StyleSeparator" />
+    <LinearLayout android:orientation="horizontal" android:id="@*com.intsig.camscanner:id/linearLayout_gdoc" style="@*com.intsig.camscanner:style/UploadItemStyle">
+        <ImageView android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@*com.intsig.camscanner:drawable/ic_upload_googledrive" />
+        <TextView android:id="@*com.intsig.camscanner:id/gdoc_username" android:textColor="#ffffffff" android:text="Google Drive" style="@*com.intsig.camscanner:style/SendTextStyle" />
+        <Button android:id="@*com.intsig.camscanner:id/account_gdoc_btn" android:text="@*com.intsig.camscanner:string/account_set_sign_in" style="@*com.intsig.camscanner:style/HoloRadiusBtnStyle.Small" />
+    </LinearLayout>
+    <View android:layout_marginLeft="20.0dip" style="@*com.intsig.camscanner:style/StyleSeparator" />
+    <LinearLayout android:orientation="horizontal" style="@*com.intsig.camscanner:style/UploadItemStyle">
+        <ImageView android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@*com.intsig.camscanner:drawable/ic_upload_dropbox" />
+        <TextView android:id="@*com.intsig.camscanner:id/dropbox_username" android:textColor="#ffffffff" android:text="Dropbox" style="@*com.intsig.camscanner:style/SendTextStyle" />
+        <Button android:id="@*com.intsig.camscanner:id/account_dropbox_btn" android:text="@*com.intsig.camscanner:string/account_set_sign_in" style="@*com.intsig.camscanner:style/HoloRadiusBtnStyle.Small" />
+    </LinearLayout>
+    <View android:layout_marginLeft="20.0dip" style="@*com.intsig.camscanner:style/StyleSeparator" />
+    <LinearLayout android:orientation="horizontal" style="@*com.intsig.camscanner:style/UploadItemStyle">
+        <ImageView android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@*com.intsig.camscanner:drawable/ic_upload_evernote" />
+        <TextView android:id="@*com.intsig.camscanner:id/text_evernote" android:textColor="#ffffffff" android:text="Evernote" style="@*com.intsig.camscanner:style/SendTextStyle" />
+        <Button android:id="@*com.intsig.camscanner:id/account_evernote_btn" android:text="@*com.intsig.camscanner:string/account_set_sign_in" style="@*com.intsig.camscanner:style/HoloRadiusBtnStyle.Small" />
+    </LinearLayout>
+    <View style="@*com.intsig.camscanner:style/StyleSeparator" />
+    <LinearLayout android:orientation="horizontal" style="@*com.intsig.camscanner:style/UploadItemStyle">
+        <ImageView android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@*com.intsig.camscanner:drawable/ic_upload_onedrive" />
+        <TextView android:id="@*com.intsig.camscanner:id/text_skydrive" android:textColor="#ffffffff" android:text="OneDrive" style="@*com.intsig.camscanner:style/SendTextStyle" />
+        <Button android:id="@*com.intsig.camscanner:id/account_onedrive_btn" android:text="@*com.intsig.camscanner:string/account_set_sign_in" style="@*com.intsig.camscanner:style/HoloRadiusBtnStyle.Small" />
+    </LinearLayout>
+    <View android:layout_marginLeft="20.0dip" style="@*com.intsig.camscanner:style/StyleSeparator" />
+    <LinearLayout android:orientation="horizontal" style="@*com.intsig.camscanner:style/UploadItemStyle">
+        <ImageView android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@*com.intsig.camscanner:drawable/ic_upload_onenote" />
+        <TextView android:id="@*com.intsig.camscanner:id/tv_onenote" android:textColor="#ffffffff" android:text="OneNote" style="@*com.intsig.camscanner:style/SendTextStyle" />
+        <Button android:id="@*com.intsig.camscanner:id/btn_onenote" android:text="@*com.intsig.camscanner:string/account_set_sign_in" style="@*com.intsig.camscanner:style/HoloRadiusBtnStyle.Small" />
+    </LinearLayout>
+    <View android:layout_marginLeft="20.0dip" style="@*com.intsig.camscanner:style/StyleSeparator" />
+    <LinearLayout android:orientation="horizontal" android:id="@*com.intsig.camscanner:id/layout_baidu" style="@*com.intsig.camscanner:style/UploadItemStyle">
+        <ImageView android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@*com.intsig.camscanner:drawable/ic_upload_baiducloud" />
+        <TextView android:id="@*com.intsig.camscanner:id/tv_baidu" android:textColor="#ffffffff" android:text="@*com.intsig.camscanner:string/a_title_webstorage_baidu" style="@*com.intsig.camscanner:style/SendTextStyle" />
+        <Button android:id="@*com.intsig.camscanner:id/btn_baidu" android:text="@*com.intsig.camscanner:string/account_set_sign_in" style="@*com.intsig.camscanner:style/HoloRadiusBtnStyle.Small" />
+    </LinearLayout>
+    <View android:layout_marginLeft="20.0dip" style="@*com.intsig.camscanner:style/StyleSeparator" />
+</LinearLayout>

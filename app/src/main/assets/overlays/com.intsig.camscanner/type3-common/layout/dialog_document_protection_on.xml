@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@*com.intsig.camscanner:dimen/dialog_content_padding_left" android:paddingRight="@*com.intsig.camscanner:dimen/dialog_content_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="250.0dip">
+        <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+            <EditText android:id="@*com.intsig.camscanner:id/txt_create_pd" android:textColor="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@*com.intsig.camscanner:string/a_set_hint_input_new_password" android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+            <EditText android:id="@*com.intsig.camscanner:id/txt_creat_pd_ag" android:textColor="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@*com.intsig.camscanner:string/a_set_hint_input_new_password_again" android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+</ScrollView>

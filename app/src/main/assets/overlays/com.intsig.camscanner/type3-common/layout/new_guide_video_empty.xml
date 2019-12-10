@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:background="@*android:color/background_material_dark" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:id="@*com.intsig.camscanner:id/sv_content" android:layout_width="fill_parent" android:layout_height="600.0dip" android:layout_marginTop="56.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@*com.intsig.camscanner:id/iv_upper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+        <ImageView android:id="@*com.intsig.camscanner:id/iv_lower" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_alignParentBottom="true" />
+        <com.intsig.view.ShadowLayout android:id="@*com.intsig.camscanner:id/sl_start_using" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="36.0dip" android:layout_marginEnd="36.0dip" app:sl_cornerRadius="24.0dip" app:sl_dx="0.0dip" app:sl_dy="3.0dip" app:sl_shadowColor="#6619bc9c" app:sl_shadowRange="8.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@*com.intsig.camscanner:id/tv_start_using" android:layout_width="fill_parent" android:layout_height="48.0dip" android:minWidth="300.0dip" android:maxLines="1" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+        </com.intsig.view.ShadowLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@*com.intsig.camscanner:id/ll_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:layout_above="@*com.intsig.camscanner:id/sl_start_using" android:layout_centerHorizontal="true">
+            <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@*com.intsig.camscanner:id/tv_tips_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:id="@*com.intsig.camscanner:id/tv_tips_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@*com.intsig.camscanner:id/rl_shade" android:background="@*android:color/background_material_dark" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:id="@*com.intsig.camscanner:id/company_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="45.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ImageView android:paddingBottom="55.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@*com.intsig.camscanner:id/view_line_centerVertical" android:layout_centerInParent="true" />
+        <View android:id="@*com.intsig.camscanner:id/view_line_centerVertical" android:background="@*com.intsig.camscanner:color/transparent" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

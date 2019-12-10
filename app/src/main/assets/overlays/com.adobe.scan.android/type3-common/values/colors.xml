@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="about_page_background">@*android:color/background_material_dark</color>
+
+    <color name="acrobat_marketing_update_not_now_text_color">#ffffffff</color>
+    <color name="acrobat_marketing_update_now_bg_color">@*android:color/background_material_dark</color>
+    <color name="acrobat_marketing_update_now_text_color">#ffffffff</color>
+    <color name="acrobat_promotional_text_color">#ffffffff</color>
+    <color name="acrobat_promotional_text_title_color">@*android:color/accent_material_dark</color>
+    <color name="add_contact_bg">@*android:color/background_material_dark</color>
+    <color name="add_contact_button_color">@*android:color/accent_material_dark</color>
+    <color name="add_contact_checkbox_color">@*android:color/accent_material_dark</color>
+    <color name="add_contact_dialog_separator">#fff5f5f5</color>
+    <color name="add_contact_field_type_separator">#ffebebeb</color>
+    <color name="add_contact_header">#ffffffff</color>
+    <color name="add_contact_lable_text">@*android:color/accent_material_dark</color>
+    <color name="add_contact_separator">#ffbebebe</color>
+    <color name="add_contact_separator_short">#ffe1e1e1</color>
+    <color name="add_contact_suggestion_border">@*android:color/accent_material_dark</color>
+    <color name="add_contact_suggestion_box_bg">@*android:color/background_material_dark</color>
+    <color name="add_contact_thumbnail_separator">#ffeaeaea</color>
+    <color name="add_contact_type_text_color">#ff0d66d0</color>
+    <color name="add_contact_zoom_highlight_color">@*android:color/accent_material_dark</color>
+    <color name="adobe_csdk_actionbar_background">@*android:color/background_material_dark</color>
+    <color name="adobe_csdk_actionbar_background_color">@*android:color/background_material_dark</color>
+    <color name="adobe_csdk_actionbar_border">@*android:color/accent_material_dark</color>
+
+    <color name="adobe_csdk_asset_detail_white">@*android:color/background_material_dark</color><!-- bg -->
+    <color name="adobe_csdk_asset_detail_whiteBackGround">@*android:color/background_material_dark</color><!-- bg -->
+    <color name="adobe_csdk_asset_ux_application_background_color">#fff5f9fa</color>
+
+    <color name="adobe_csdk_common_dialogfragment_background_color">@*android:color/background_material_dark</color>
+    <color name="adobe_csdk_common_popup_bannerview_background_color">@*android:color/background_material_dark</color>
+    <color name="adobe_csdk_common_popup_bannerview_text_color">#ffffffff</color>
+    <color name="adobe_csdk_edit_activity_common_status_bar_color">#ff2f3b44</color>
+    <color name="adobe_csdk_fab_icon_color">@*android:color/accent_material_dark</color>
+
+    <color name="adobe_csdk_theme_color_actionbar_background">@*android:color/background_material_dark</color>
+    <color name="adobe_csdk_theme_color_actionbar_border">@*android:color/accent_material_dark</color>
+    <color name="adobe_csdk_theme_color_dark_text">#ffffffff</color>
+    <color name="adobe_csdk_theme_color_light_text">#ffa3aeb7</color>
+    <color name="adobe_csdk_theme_primary_accent">@*android:color/accent_material_dark</color>
+    <color name="adobe_csdk_transparent_color">@null</color>
+
+    <color name="black">@*android:color/background_material_dark</color>
+    <color name="black_sixteen_percent">#29000000</color>
+    <color name="bottom_sheet_text_color">@*android:color/accent_material_dark</color>
+
+
+    <color name="cancel_capture_background">@*android:color/accent_material_dark</color> <!-- x bottom -->
+    <color name="capture_bar">@*android:color/background_material_dark</color> <!-- camera bar -->
+
+    <color name="capture_button_ring_active">@*android:color/accent_material_dark</color> <!-- btm cattura -->
+    <color name="capture_button_ring_inactive">@*android:color/accent_material_dark</color> <!-- btm cattura -->
+    <color name="capture_top_bottom_bar_color">@*android:color/background_material_dark</color> <!-- camera background-->
+    <color name="capture_type_dialog_message_color">#ffffffff</color>
+    <color name="capture_type_ok_button_border_color">@*android:color/accent_material_dark</color>
+
+    <color name="close_capture_survey_dialog_text_color">@*android:color/accent_material_dark</color>
+    <color name="coachmark_background_color">@*android:color/background_material_dark</color>
+    <color name="coachmark_background_dark_color">@*android:color/background_material_dark</color>
+    <color name="coachmark_border">@*android:color/accent_material_dark</color>
+    <color name="coachmark_border_dark">@*android:color/accent_material_dark</color>
+    <color name="coachmark_text_color">#ffffffff</color>
+    <color name="colorAccent">@*android:color/accent_material_dark</color>
+    <color name="colorPrimary">@*android:color/background_material_dark</color> <!-- menu and statusbar -->
+    <color name="colorPrimaryDark">@*android:color/accent_material_dark</color><!-- tint preference -->
+
+    <color name="context_menu_background_dark">@*android:color/background_material_dark</color>
+
+    <color name="crop_guide">@*android:color/accent_material_dark</color>
+    <color name="crop_in_capture_container_background">@*android:color/background_material_dark</color>
+
+    <color name="dialog_background">@*android:color/background_floating_material_dark</color>
+    <color name="dialog_body">@*android:color/accent_material_dark</color>
+    <color name="dialog_title">@*android:color/accent_material_dark</color>
+
+    <color name="document_detection_background_color">@*android:color/background_material_dark</color><!-- bg -->
+    <color name="document_detection_empty_state_icon_color">@*android:color/accent_material_dark</color>
+    <color name="email_to_icon_color">@*android:color/accent_material_dark</color>
+
+    <color name="empty_state_title_color">@*android:color/accent_material_dark</color>
+
+    <color name="file_download_progressbar_primary_color">@*android:color/accent_material_dark</color>
+
+    <color name="file_list_title">@*android:color/accent_material_dark</color>
+
+    <color name="highlighted_text_material_dark">@*android:color/accent_material_dark</color>
+    <color name="highlighted_text_material_light">@*android:color/accent_material_dark</color>
+
+    <color name="icon_on_dark_background">@*android:color/accent_material_dark</color> <!-- icons camera options -->
+    <color name="icon_on_light_background">@*android:color/accent_material_dark</color> <!-- icons camera options -->
+    <color name="icon_on_light_background_disabled">#7f7e7e7e</color>
+    <color name="icon_on_preview_page">#ff6e6e6e</color>
+    <color name="icon_on_preview_page_disabled">#66707070</color>
+    <color name="import_FAB_separator">@*android:color/background_material_dark</color><!-- bottom separator color -->
+    <color name="import_FAB_tint">@*android:color/accent_material_dark</color><!-- bottom color -->
+    <color name="looks_good_button">@*android:color/accent_material_dark</color>
+    <color name="magnifier_border_color">#ff7e7e7e</color>
+    <color name="make_available_offline_icon_color">@*android:color/accent_material_dark</color>
+
+    <color name="material_grey_600">@*android:color/background_material_dark</color> <!-- menu icon color/accent_material_dark -->
+
+    <color name="material_grey_900">@*android:color/accent_material_dark</color>
+
+    <color name="new_scan_icon">@*android:color/accent_material_dark</color>
+
+
+    <color name="progress_bar_tint">@*android:color/accent_material_dark</color>
+
+    <color name="recent_card_date">@*android:color/accent_material_dark</color>
+    <color name="recent_card_icon">@*android:color/accent_material_dark</color>
+
+    <color name="recent_colors_border_color">@*android:color/accent_material_dark</color>
+
+    <color name="recents_thumbnail_border">@*android:color/accent_material_dark</color>
+
+    <color name="review_button_foreground">@*android:color/accent_material_dark</color>
+    <color name="review_file_name_clear_icon">@*android:color/accent_material_dark</color>
+    <color name="review_file_name_edit_icon">@*android:color/accent_material_dark</color>
+    <color name="review_image_border">@*android:color/accent_material_dark</color>
+    <color name="review_image_indicator_background">@*android:color/accent_material_dark</color>
+
+    <color name="scanBlue">@*android:color/accent_material_dark</color>
+    <color name="scan_blue">@*android:color/accent_material_dark</color>
+
+    <color name="scan_coachmark_title_color">@*android:color/accent_material_dark</color>
+
+    <color name="secondary_text_default_material_dark">@*android:color/accent_material_dark</color>
+
+    <color name="select_box_icon_color">@*android:color/accent_material_dark</color>
+
+    <color name="sort_by_icon_color">@*android:color/accent_material_dark</color>
+
+    <color name="subscribe_button">@*android:color/accent_material_dark</color>
+
+    <color name="switch_thumb_normal_material_dark">@*android:color/accent_material_dark</color>
+    <color name="switch_thumb_normal_material_light">@*android:color/accent_material_dark</color>
+
+    <color name="textColorTitles">@*android:color/accent_material_dark</color>
+
+    <color name="timestamp_color">@*android:color/accent_material_dark</color><!--text-->
+    <color name="toolbar_icon">@*android:color/accent_material_dark</color>
+
+    <color name="tour_signup_button_background_color">@*android:color/accent_material_dark</color>
+
+    <color name="welcome_dialog_text_color">@*android:color/accent_material_dark</color>
+
+</resources>

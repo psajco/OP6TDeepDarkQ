@@ -20,4 +20,15 @@
         <item name="android:textColor">@*android:color/accent_material_dark</item>						<!-- % batteria ambient -->
         <item name="android:fontFamily">sans-serif-regular</item>
     </style>
+
+    <integer-array name="batterymeter_color_levels">
+        <item>15</item>
+        <item>25</item>
+		<item>26</item>
+    </integer-array>
+    <array name="batterymeter_color_values">
+        <item>@*android:color/ripple_material_dark</item>												<!-- icona batteria scarica -->
+        <item>@*android:color/ripple_material_dark</item>												<!-- icona batteria limite scarica-->
+		<item>@*android:color/accent_material_dark</item>												<!-- icona batteria in scarica normale-->
+    </array>	
 </resources>

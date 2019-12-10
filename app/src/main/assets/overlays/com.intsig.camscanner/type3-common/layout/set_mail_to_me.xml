@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="140.0dip">
+        <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@*com.intsig.camscanner:id/mail_to_me_input_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginRight="15.0dip" android:text="@*com.intsig.camscanner:string/a_msg_please_input_email_address" />
+        <AutoCompleteTextView android:id="@*com.intsig.camscanner:id/mail_to_me" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:singleLine="true" android:layout_below="@*com.intsig.camscanner:id/mail_to_me_input_hint" />
+        <View android:id="@*com.intsig.camscanner:id/mail_to_me_set_space" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:layout_below="@*com.intsig.camscanner:id/mail_to_me" />
+        <TextView android:textSize="17.0dip" android:textColor="#ffffffff" android:id="@*com.intsig.camscanner:id/mail_to_me_set_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:text="@*com.intsig.camscanner:string/a_msg_change_mail_to_me" android:layout_below="@*com.intsig.camscanner:id/mail_to_me" />
+    </RelativeLayout>
+</ScrollView>

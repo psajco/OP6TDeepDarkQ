@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@*android:color/background_material_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@*com.intsig.camscanner:drawable/guide_pic_1" android:scaleType="fitCenter" />
+    <TextView android:textSize="15.0dip" android:textColor="@*android:color/accent_material_dark" android:gravity="center" android:id="@id/tv_start_using" android:background="@*com.intsig.camscanner:drawable/bg_guid_use_direct" android:layout_width="fill_parent" android:layout_height="41.0dip" android:text="@*com.intsig.camscanner:string/a_label_guide_start_using" android:layout_alignParentBottom="true" />
+</RelativeLayout>

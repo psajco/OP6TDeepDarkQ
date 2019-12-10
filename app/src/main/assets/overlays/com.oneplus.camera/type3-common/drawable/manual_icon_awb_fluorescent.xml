@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+         <bitmap android:tint="@*android:color/accent_material_dark" android:src="@*com.oneplus.camera:drawable/manual_icon_awb_fluorescent_selected" /></item>
+    <item android:drawable="@*com.oneplus.camera:drawable/manual_icon_awb_fluorescent_normal" />
+</selector>

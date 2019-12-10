@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@*android:color/background_material_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="14.0dip" android:textColor="@*android:color/accent_material_dark" android:id="@*com.intsig.camscanner:id/company_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="45.0dip" android:text="@*com.intsig.camscanner:string/a_about_com_name" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ImageView android:paddingBottom="@*com.intsig.camscanner:dimen/welcome_bottom_bar_height" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*com.intsig.camscanner:drawable/img_splash_logo" android:layout_alignBottom="@*com.intsig.camscanner:id/view_line_centerVertical" android:layout_centerInParent="true" />
+    <ImageView android:id="@*com.intsig.camscanner:id/iv_welcome_vendor" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="55.0dip" android:layout_marginBottom="15.0dip" android:layout_above="@*com.intsig.camscanner:id/company_name" android:layout_centerHorizontal="true" />
+    <View android:id="@*com.intsig.camscanner:id/view_line_centerVertical" android:background="@*com.intsig.camscanner:color/transparent" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_centerVertical="true" />
+</RelativeLayout>

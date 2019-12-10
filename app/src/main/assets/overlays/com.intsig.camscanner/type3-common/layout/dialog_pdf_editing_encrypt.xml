@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@*com.intsig.camscanner:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@*com.intsig.camscanner:drawable/shape_bg_fbfbfb_corner_6dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*com.intsig.camscanner:string/cs_511_pdf_password" android:layout_centerVertical="true" android:layout_marginStart="24.0dip" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@*com.intsig.camscanner:id/tv_pdf_editing_reset_password" android:paddingTop="@*com.intsig.camscanner:dimen/padding_14dp" android:paddingBottom="@*com.intsig.camscanner:dimen/padding_14dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@*com.intsig.camscanner:string/cs_511_reset_password" android:paddingStart="@*com.intsig.camscanner:dimen/padding_24dp" android:paddingEnd="@*com.intsig.camscanner:dimen/padding_24dp" style="@*com.intsig.camscanner:style/CSSettingRLStyle" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@*com.intsig.camscanner:id/tv_pdf_editing_cancel_pdf_password" android:paddingTop="@*com.intsig.camscanner:dimen/padding_14dp" android:paddingBottom="@*com.intsig.camscanner:dimen/padding_14dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:text="@*com.intsig.camscanner:string/cs_511_cancel_pdf_password" android:paddingStart="@*com.intsig.camscanner:dimen/padding_24dp" android:paddingEnd="@*com.intsig.camscanner:dimen/padding_24dp" style="@*com.intsig.camscanner:style/CSSettingRLStyle" />
+    </LinearLayout>
+</LinearLayout>

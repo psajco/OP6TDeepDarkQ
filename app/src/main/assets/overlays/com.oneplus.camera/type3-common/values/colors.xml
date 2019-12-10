@@ -72,9 +72,12 @@
     <color name="camera_accent_color_android">@*android:color/accent_material_dark</color>
     <color name="camera_accent_color_dark">@*android:color/accent_material_dark</color>
     <color name="grey_05_light">@*android:color/background_material_dark</color>
-    <color name="capture_modes_panel_icon">@*android:color/accent_material_dark</color>
+    <color name="capture_button_normal_color">@*android:color/accent_material_dark</color>
     <color name="capture_bar_background">#2e000000</color>
+    <color name="capture_button_manual_color">@*android:color/accent_material_dark</color>
+    <color name="capture_button_panorama_center_color">@*android:color/accent_material_dark</color>
     <color name="capture_modes_panel_background">#66000000</color>
+    <color name="capture_modes_panel_icon">@*android:color/accent_material_dark</color>
     <color name="capture_modes_panel_title_text">#7affffff</color>
     <color name="capture_modes_panel_title_text_selected">@*android:color/accent_material_dark</color>
     <color name="cardview_dark_background">@*android:color/background_material_dark</color>
@@ -102,4 +105,13 @@
     <color name="bluegrey_700">@*android:color/background_floating_material_dark</color>
     <color name="bluegrey_800">@*android:color/background_material_dark</color>
     <color name="bluegrey_900">@*android:color/background_material_dark</color>	
+    <color name="face_beauty_bar_indicator">@*android:color/accent_material_dark</color>
+    <color name="focus_indicator_seekbar_bar_track">@*android:color/accent_material_dark</color>
+    <color name="mode_indicator_bar">@*android:color/accent_material_dark</color>
+    <color name="zoom_bar_track_progress">@*android:color/accent_material_dark</color>
+    <color name="zoom_bar_ultra_wide_icon">@*android:color/accent_material_dark</color>
+    <color name="detail_view_bg_color">@*android:color/accent_material_dark</color>
+    <color name="face_beauty_icon_enable">@*android:color/accent_material_dark</color>
+    <color name="exposure_comp_border">@*android:color/accent_material_dark</color>
+    <color name="manual_icon_text_selected">@*android:color/accent_material_dark</color>
 </resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@*android:color/background_material_dark" android:id="@*com.intsig.camscanner:id/content_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@*com.intsig.camscanner:id/btns_bottom">
+        <com.intsig.view.LineDividerTextView android:textSize="16.0sp" android:textColor="#ffffffff" android:textColorHint="@*com.intsig.camscanner:color/default_text_color_hint" android:gravity="start|center|top" android:id="@*com.intsig.camscanner:id/edt_content" android:background="#00000000" android:paddingTop="16.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:lineSpacingExtra="16.0dip" android:letterSpacing="0.1" app:line_divider_color="#ffe4e4e4" app:line_divider_height="1.0dip" />
+    </ScrollView>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@*com.intsig.camscanner:id/btns_bottom" android:background="@*com.intsig.camscanner:color/water_mark_actionbar_background" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="@*com.intsig.camscanner:dimen/dock_bar_effective_height" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:id="@*com.intsig.camscanner:id/ll_select_language" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.intsig.view.ImageTextButton android:id="@*com.intsig.camscanner:id/itb_select_language" android:layout_width="fill_parent" app:showTip="true" app:tipIcon="@*com.intsig.camscanner:drawable/ic_language" app:tipText="@*com.intsig.camscanner:string/a_btn_ocr_select_language" style="@*com.intsig.camscanner:style/ImageTextButtonStyle" />
+        </LinearLayout>
+        <ViewStub android:layout_gravity="center" android:id="@*com.intsig.camscanner:id/viewstub_cloud_ocr" android:layout="@*com.intsig.camscanner:layout/layout_cloud_ocr" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ViewStub android:layout_gravity="center" android:id="@*com.intsig.camscanner:id/viewstub_translation" android:layout="@*com.intsig.camscanner:layout/layout_translation" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:id="@*com.intsig.camscanner:id/ll_word" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.intsig.view.ImageTextButton android:id="@*com.intsig.camscanner:id/itb_word" android:layout_width="fill_parent" app:showTip="true" app:tipIcon="@*com.intsig.camscanner:drawable/ic_ocr_word" app:tipText="@*com.intsig.camscanner:string/cs_595_transfer_word" style="@*com.intsig.camscanner:style/ImageTextButtonStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@*com.intsig.camscanner:id/ll_checkview" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.intsig.view.ImageTextButton android:id="@*com.intsig.camscanner:id/itb_check" android:layout_width="fill_parent" app:showTip="true" app:tipIcon="@*com.intsig.camscanner:drawable/ic_proofreading" app:tipText="@*com.intsig.camscanner:string/a_btn_ocr_check" style="@*com.intsig.camscanner:style/ImageTextButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

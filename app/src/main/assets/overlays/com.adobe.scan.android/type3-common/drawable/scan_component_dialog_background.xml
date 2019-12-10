@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@*android:color/background_material_dark" />
+    <corners android:topLeftRadius="@*com.adobe.scan.android:dimen/scan_dialog_background_corner" android:topRightRadius="@*com.adobe.scan.android:dimen/scan_dialog_background_corner" android:bottomLeftRadius="@*com.adobe.scan.android:dimen/scan_dialog_background_corner" android:bottomRightRadius="@*com.adobe.scan.android:dimen/scan_dialog_background_corner" />
+</shape>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_00"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_01"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_02"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_03"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_04"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_05"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_06"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_07"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_08"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_09"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_10"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_11"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_12"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_13"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_14"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_15"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_16"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_17"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_18"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_19"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_20"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_21"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_22"  android:tint="@*android:color/accent_material_dark" /></item>
+    <item android:duration="8"><bitmap android:src="@*com.oneplus.camera:drawable/collapsing_23"  android:tint="@*android:color/accent_material_dark" /></item>
+</animation-list>

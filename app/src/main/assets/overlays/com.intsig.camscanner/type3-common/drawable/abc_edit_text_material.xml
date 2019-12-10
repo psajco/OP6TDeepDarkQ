@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@*com.intsig.camscanner:dimen/abc_edit_text_inset_horizontal_material" android:insetRight="@*com.intsig.camscanner:dimen/abc_edit_text_inset_horizontal_material" android:insetTop="@*com.intsig.camscanner:dimen/abc_edit_text_inset_top_material" android:insetBottom="@*com.intsig.camscanner:dimen/abc_edit_text_inset_bottom_material"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <selector>
+        <item android:state_enabled="false">
+            <nine-patch android:src="@*com.intsig.camscanner:drawable/abc_textfield_default_mtrl_alpha" android:tint="#ffffffff" android:alpha="?*android:disabledAlpha" />
+        </item>
+        <item android:state_focused="false" android:state_pressed="false">
+            <nine-patch android:src="@*com.intsig.camscanner:drawable/abc_textfield_default_mtrl_alpha" android:tint="#ffffffff" />
+        </item>
+        <item>
+            <nine-patch android:src="@*com.intsig.camscanner:drawable/abc_textfield_activated_mtrl_alpha" android:tint="@*android:color/accent_material_dark" />
+        </item>
+    </selector>
+</inset>

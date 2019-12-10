@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip" android:minWidth="250.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.intsig.view.FilterEditText android:textColor="#ffffffff" android:textColorHint="#ff9daab4" android:id="@*com.intsig.camscanner:id/rename_dialog_edit" android:paddingRight="35.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@*com.intsig.camscanner:dimen/edittext_margin" android:layout_marginTop="6.0dip" android:layout_marginRight="@*com.intsig.camscanner:dimen/edittext_margin" android:layout_centerVertical="true" android:inputType="text" android:imeOptions="actionDone" style="@*com.intsig.camscanner:style/CSEditTextStyle" />
+    <ImageView android:id="@*com.intsig.camscanner:id/iv_close" android:background="@*com.intsig.camscanner:drawable/list_selector_bg_both_design" android:padding="5.0dip" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginRight="@*com.intsig.camscanner:dimen/edittext_margin" android:src="@*com.intsig.camscanner:drawable/ic_search_clear" android:tint="@*android:color/accent_material_dark" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

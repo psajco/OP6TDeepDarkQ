@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="external_tile_icon_tint_color">@*android:color/white</color>
-    <color name="eject_icon_tint_color">@*android:color/user_icon_default_white</color>
-    <color name="icon_tint_color">@*android:color/white</color>
-    <color name="theme_accent">@*android:color/user_icon_default_white</color>
-</resources>

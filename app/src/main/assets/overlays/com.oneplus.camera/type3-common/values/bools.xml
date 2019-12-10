@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_allow_stacked_button_bar">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
+    <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="allow_stacked_button_bar">true</bool>
+    <bool name="config_closeDialogWhenTouchOutside">true</bool>
+    <bool name="enable_system_alarm_service_default">false</bool>
+    <bool name="enable_system_job_service_default">true</bool>
+    <bool name="op_abc_action_bar_embed_tabs">true</bool>
+    <bool name="op_abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="pref_default_media_store_ignore_small_size_media">true</bool>
+    <bool name="preferences_prefer_dual_pane">false</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+</resources>

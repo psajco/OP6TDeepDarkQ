@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="44.0dip" android:layout_height="44.0dip">
+        <android.support.v7.widget.AppCompatImageView android:id="@*com.intsig.camscanner:id/shareIcon" android:layout_width="44.0dip" android:layout_height="44.0dip" />
+        <ImageView android:id="@*com.intsig.camscanner:id/vipIcon" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@*com.intsig.camscanner:drawable/ic_vip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:textSize="13.0sp" android:textColor="@*android:color/accent_material_dark" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@*com.intsig.camscanner:id/share_type_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="" android:lines="1" />
+    <TextView android:textSize="10.0sp" android:textColor="@*android:color/accent_material_dark" android:id="@*com.intsig.camscanner:id/share_type_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+</LinearLayout>

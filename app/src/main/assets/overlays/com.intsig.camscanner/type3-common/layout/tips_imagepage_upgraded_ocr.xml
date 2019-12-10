@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@*android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.intsig.camscanner.signature.CustomTextView android:textSize="14.0dip" android:textColor="@*com.intsig.camscanner:color/bg_white" android:ellipsize="end" android:gravity="center" android:id="@*com.intsig.camscanner:id/tv_tips" android:padding="@*com.intsig.camscanner:dimen/padding_12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@*com.intsig.camscanner:dimen/dock_bar_effective_height" android:maxWidth="200.0dip" android:text="@*com.intsig.camscanner:string/cs_5100_ocr_update" android:maxLines="4" android:layout_alignParentBottom="true" app:arrowDirection="1" app:arrowHeight="5.0dip" app:bgColor="@*android:color/accent_material_dark" app:bgRadius="4.0dip" />
+</RelativeLayout>

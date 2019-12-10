@@ -5,20 +5,20 @@
         <item name="android:dividerHeight">@*com.android.settings:dimen/oneplus_contorl_divider_height_standard</item>
         <item name="android:windowBackground">@*android:color/keyguard_avatar_frame_shadow_color</item>
         <item name="android:colorBackground">@*android:color/keyguard_avatar_frame_shadow_color</item>
-        <item name="android:colorAccent">@*android:color/accent_material_dark</item>
+        <item name="android:colorAccent">@*com.android.settings:color/settings_accent_color</item>
         <item name="android:listDivider">@*android:color/transparent</item>
         <item name="android:colorSecondary">@*android:color/transparent</item>
         <item name="android:colorPrimary">@*android:color/transparent</item>
         <item name="android:colorPrimaryDark">@*android:color/transparent</item>
-        <item name="android:colorControlActivated">@*android:color/accent_material_dark</item>
-        <item name="android:colorEdgeEffect">@*android:color/ripple_material_dark</item>
-        <item name="android:colorControlHighlight">@*android:color/ripple_material_dark</item>
+        <item name="android:colorControlActivated">@*com.android.settings:color/settings_accent_color</item>
+        <item name="android:colorEdgeEffect">@*com.android.settings:color/settings_accent_color</item>
+        <item name="android:colorControlHighlight">@*com.android.settings:color/settings_accent_color</item>
         <item name="android:statusBarColor">@*android:color/transparent</item>
         <item name="android:navigationBarColor">@*android:color/transparent</item>
-        <item name="colorAccent">@*android:color/accent_material_dark</item>
+        <item name="colorAccent">@*com.android.settings:color/settings_accent_color</item>
         <item name="colorButtonNormal">@*android:color/button_material_dark</item>
-        <item name="colorControlActivated">@*android:color/accent_material_dark</item>
-        <item name="colorControlHighlight">@*android:color/ripple_material_dark</item>
+        <item name="colorControlActivated">@*com.android.settings:color/settings_accent_color</item>
+        <item name="colorControlHighlight">@*com.android.settings:color/settings_accent_color</item>
         <item name="colorControlNormal">?*android:textColorSecondary</item>
         <item name="colorPrimary">@*android:color/background_dark</item>
         <item name="colorPrimaryDark">@*android:color/background_dark</item>
@@ -27,7 +27,7 @@
         <item name="dialogPreferredPadding">@*com.android.settings:dimen/abc_dialog_padding_material</item>
         <item name="listDividerAlertDialog">@null</item>
         <item name="onePlusActionbarBackgroundColor">@*android:color/background_dark</item>
-        <item name="onePlusPrimaryColor">@*android:color/accent_material_dark</item>
+        <item name="onePlusPrimaryColor">@*com.android.settings:color/settings_accent_color</item>
         <item name="windowActionBar">false</item>
 	</style>
 
@@ -78,7 +78,7 @@
         <item name="android:colorPrimary">@*android:color/transparent</item>
         <item name="android:colorSecondary">@*android:color/transparent</item>
         <item name="android:colorPrimaryDark">@*android:color/transparent</item>
-        <item name="android:colorControlNormal">@*android:color/accent_material_dark</item>
+        <item name="android:colorControlNormal">@*com.android.settings:color/settings_accent_color</item>
         <item name="android:windowAnimationStyle">@*com.android.settings:style/ConfirmDeviceCredentialsAnimationStyle</item>
         <item name="@*android:bool/config_fillMainBuiltInDisplayCutout">@*com.android.settings:style/LockPatternStyle.Dark</item>
         <item name="*com.android.settings:confirmDeviceCredentialsSideMargin">32.0dip</item>
@@ -86,7 +86,7 @@
     </style>
     <style name="TextAppearance.CategoryTitle" parent="@*android:style/TextAppearance.Material.Small">
         <item name="android:textSize">11.0sp</item>
-        <item name="android:textColor">@*android:color/accent_material_dark</item>
+        <item name="android:textColor">@*com.android.settings:color/settings_accent_color</item>
         <item name="android:textStyle">bold|italic</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:letterSpacing">0.1</item>

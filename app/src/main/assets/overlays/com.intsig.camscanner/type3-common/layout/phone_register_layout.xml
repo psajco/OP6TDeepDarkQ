@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@*com.intsig.camscanner:id/register_mobile_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dip" android:textColor="@*com.intsig.camscanner:color/default_textview_color" android:ellipsize="middle" android:gravity="center|left" android:id="@*com.intsig.camscanner:id/register_phone_btn_area" android:background="@*com.intsig.camscanner:drawable/ic_search_edittext_foucs" android:backgroundTint="@*android:color/accent_material_dark" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="1255546" android:singleLine="true" />
+    <EditText android:id="@*com.intsig.camscanner:id/register_mobile_number" android:layout_marginTop="20.0dip" android:hint="@*com.intsig.camscanner:string/c_text_phone_number" android:singleLine="true" android:inputType="number" style="@*com.intsig.camscanner:style/HoloNewEditTextStyle" />
+    <Button android:id="@*com.intsig.camscanner:id/send_validate_phone_btn" android:layout_marginTop="20.0dip" android:text="@*com.intsig.camscanner:string/c_register_send_validation" style="@*com.intsig.camscanner:style/HoloNewBtnStyle" />
+</LinearLayout>

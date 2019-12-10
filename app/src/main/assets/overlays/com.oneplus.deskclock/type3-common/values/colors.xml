@@ -18,7 +18,6 @@
     <color name="blackish_selected">#0cffffff</color>
     <color name="transparent">#00000000</color>
     <color name="color_accent">@*android:color/accent_material_dark</color>
-
     <color name="hairline">#28ffffff</color>
     <color name="bright_foreground_light_disabled">#80000000</color>
     <color name="clock_white">#ffffffff</color>

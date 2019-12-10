@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@*com.intsig.camscanner:id/rl_account_info_show" android:background="@*android:color/accent_material_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="150.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@*com.intsig.camscanner:id/iv_edit_account_portrait" android:layout_width="53.0dip" android:layout_height="53.0dip" android:layout_marginTop="23.0dip" android:src="@*com.intsig.camscanner:drawable/sildbar_user" />
+        <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@*com.intsig.camscanner:id/tv_edit_account_username" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="" android:layout_below="@*com.intsig.camscanner:id/iv_edit_account_portrait" />
+        <TextView android:textSize="13.0dip" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@*com.intsig.camscanner:id/tv_edit_account_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="20.0dip" android:text="" android:layout_below="@*com.intsig.camscanner:id/tv_edit_account_username" />
+    </LinearLayout>
+    <LinearLayout android:background="@*android:color/background_material_dark" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@*com.intsig.camscanner:id/rl_account_info_show" android:layout_alignParentBottom="true">
+        <android.support.design.widget.TextInputLayout android:id="@*com.intsig.camscanner:id/textinputlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@*com.intsig.camscanner:id/rl_account_info_show">
+            <com.intsig.view.FilterEditText android:textSize="18.0dip" android:textColor="#ffffffff" android:id="@*com.intsig.camscanner:id/et_change_username" android:hint="@*com.intsig.camscanner:string/a_msg_pref_title_nick_name" style="@*com.intsig.camscanner:style/HoloNewEditTextStyle" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+</LinearLayout>

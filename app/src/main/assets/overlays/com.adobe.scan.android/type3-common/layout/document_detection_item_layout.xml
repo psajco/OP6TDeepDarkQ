@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.dcmscan.DocDetectCardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@*com.adobe.scan.android:id/doc_detection_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <RelativeLayout android:id="@*com.adobe.scan.android:id/doc_detection_border" android:background="@*com.adobe.scan.android:drawable/doc_detec_border" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@*com.adobe.scan.android:id/doc_detection_counter" android:background="@*com.adobe.scan.android:drawable/photo_library_background" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@*com.adobe.scan.android:dimen/capture_counter_size" android:layout_margin="@*com.adobe.scan.android:dimen/document_detection_status_icon_padding" android:minWidth="@*com.adobe.scan.android:dimen/capture_counter_size" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</com.adobe.dcmscan.DocDetectCardView>

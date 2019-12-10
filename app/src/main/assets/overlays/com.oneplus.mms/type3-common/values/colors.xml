@@ -6,6 +6,8 @@
     <color name="dialog_header_color_background_dark">@*android:color/accent_material_dark</color>
     <color name="selection_control_on_dark">@*android:color/accent_material_dark</color>
     <color name="switch_track_activated_color_dark">@*android:color/accent_material_dark</color>
+     <color name="selection_control_on_light">@*android:color/accent_material_dark</color>
+    <color name="switch_track_activated_color_light">@*android:color/accent_material_dark</color>
     <color name="font_list_settings_title_dark">@*android:color/accent_material_dark</color>
     <color name="font_list_subtitle_light">#ffffffff</color>
     <color name="settings_item_title_text_primary">#ffffffff</color>
@@ -59,9 +61,12 @@
     <color name="oneplus_contorl_text_color_disable_light">#2d000000</color>
     <color name="oneplus_contorl_text_color_disable_dark">#3dffffff</color>
     <color name="oneplus_contorl_text_color_disable_default">#3dffffff</color>
-    <color name="oneplus_contorl_icon_color_active_light">#66000000</color>
-    <color name="oneplus_contorl_icon_color_active_dark">#89ffffff</color>
-    <color name="oneplus_contorl_icon_color_active_default">#89ffffff</color>
+    <color name="oneplus_contorl_icon_color_accent_active_dark">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_accent_active_default">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_accent_active_light">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_active_light">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_active_dark">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_active_default">@*android:color/accent_material_dark</color>
     <color name="oneplus_contorl_icon_color_inactive_light">#1e000000</color>
     <color name="oneplus_contorl_icon_color_inactive_dark">#33ffffff</color>
     <color name="oneplus_contorl_icon_color_inactive_default">#33ffffff</color>
@@ -95,6 +100,7 @@
     <color name="oneplus_contorl_bg_color_light">#fffafafa</color>
     <color name="oneplus_contorl_bg_color_dark">@*android:color/transparent</color>
     <color name="oneplus_contorl_bg_color_default">@*android:color/keyguard_avatar_frame_shadow_color</color>
+    <color name="oos_folder_color">@*android:color/accent_material_dark</color>
     <color name="material_deep_teal_200">@*android:color/accent_material_dark</color>
     <color name="material_deep_teal_500">@*android:color/accent_material_dark</color>
     <color name="accent_material_light">@*android:color/accent_material_dark</color>
@@ -121,4 +127,8 @@
     <color name="conversation_list_item_default">@*android:color/transparent</color>
     <color name="conversation_list_item_selected">@*android:color/ripple_material_dark</color>
     <color name="notification_accent_color">@*android:color/accent_material_dark</color>
+    <color name="switch_thumb_normal_color_dark">@*android:color/accent_material_dark</color>
+    <color name="switch_thumb_normal_color_light">@*android:color/accent_material_dark</color>
+    <color name="switch_thumb_normal_material_dark">@*android:color/accent_material_dark</color>
+    <color name="switch_thumb_normal_material_light">@*android:color/accent_material_dark</color>
 </resources>

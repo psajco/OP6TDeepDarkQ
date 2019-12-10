@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="86.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@*com.intsig.camscanner:id/iv_icon" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginRight="8.0dip" android:src="@*com.intsig.camscanner:drawable/icon" />
+    <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:id="@*com.intsig.camscanner:id/tv_ocr_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+</LinearLayout>

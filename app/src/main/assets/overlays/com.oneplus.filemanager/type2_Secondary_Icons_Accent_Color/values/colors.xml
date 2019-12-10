@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="actionBarSearchViewIconNormal">@*android:color/accent_material_dark</color>
+    <color name="menu_icon_color">@*android:color/accent_material_dark</color>
+    <color name="notification_icon_bg_color">@*android:color/background_material_dark</color>
+    <color name="oneplus_contorl_icon_color_accent_active_dark">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_accent_active_default">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_accent_active_light">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_active_dark">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_active_default">@*android:color/accent_material_dark</color>
+    <color name="oneplus_contorl_icon_color_active_light">@*android:color/accent_material_dark</color>
+    <color name="type_file_icon_color">@*android:color/accent_material_dark</color> 
+</resources>

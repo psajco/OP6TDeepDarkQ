@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="oneplus_contorl_bg_color_cardview_dark">@*android:color/background_dark</color>
+    <color name="actionbar_settings">@*android:color/background_dark</color>
+    <color name="gradation_10_dark">@*android:color/background_dark</color>
+    <color name="gradation_10_light">@*android:color/background_dark</color>
+    <color name="grey_900">@*android:color/background_dark</color>
+    <color name="material_grey_900">@*android:color/background_dark</color>
+    <color name="onePlusPrimaryColor_device_default">@*android:color/accent_material_dark</color>
+    <color name="oneplus_accent_color">@*android:color/accent_material_dark</color>
+    <color name="primary_default_light">@*android:color/accent_material_dark</color>
+	<color name="hint_color_background">@*android:color/accent_material_dark</color>
+    <color name="selection_control_on_dark">@*android:color/accent_material_dark</color>
+    <color name="selection_control_on_light">@*android:color/accent_material_dark</color>
+    <color name="blue_03_dark">@*android:color/accent_material_dark</color>
+    <color name="blue_03_light">@*android:color/accent_material_dark</color>
+    <color name="switch_track_activated_color_dark">@*android:color/accent_material_dark</color>
+    <color name="switch_track_activated_color_light">@*android:color/accent_material_dark</color>
+    <color name="alert_dialog_color_accent_dark">@*android:color/accent_material_dark</color>
+    <color name="alert_dialog_color_accent_light">@*android:color/accent_material_dark</color>
+</resources>
