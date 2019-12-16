@@ -36,14 +36,12 @@
 	<color name="accent_sky_blue_dark">#ff880e4f</color>
 	<color name="accent_vigour_red_dark">#ffa92c2c</color>
 	<color name="accent_fashion_pink_dark">#ffffffff</color>
-        <color name="actionbar_settings">@*android:color/holo_light_primary_dark</color>
+    <color name="actionbar_settings">@*android:color/holo_light_primary_dark</color>
     <color name="gradation_10_dark">@*android:color/holo_light_primary_dark</color>
     <color name="gradation_10_light">@*android:color/holo_light_primary_dark</color>
     <color name="grey_900">@*android:color/holo_light_primary_dark</color>
-    <color name="material_grey_900">@*android:color/holo_light_primary_dark</color>
-    <color name="media_set_list_item_description_container_background_dark">@*android:color/holo_light_primary_dark</color>
+    <color name="material_grey_900">@*android:color/holo_light_primary_dark</color> 
     <color name="no_photo_icon_circle_dark">@*android:color/holo_light_primary_dark</color>
-    <color name="oneplus_contorl_bg_color_cardview_dark">@*android:color/holo_light_primary_dark</color>
     <color name="photo_editor_selected_background">@*android:color/holo_light_primary_dark</color>
     <color name="video_editor_control_container_background">@*android:color/holo_light_primary_dark</color>
     <color name="filter_controls_label_background">@*android:color/background_floating_material_dark</color>
@@ -54,17 +52,12 @@
     <color name="grey_1000">@*android:color/background_dark</color>
     <color name="media_detail_navigation_bar_color">@*android:color/background_dark</color>
     <color name="media_picker_list_item_background_dark">@*android:color/background_dark</color>
-    <color name="media_set_grid_view_cover_background">@*android:color/background_dark</color>
-    <color name="video_editor_primary_footer_background_unselected">@*android:color/background_dark</color>
+    <color name="media_set_grid_view_cover_background">@*android:color/background_dark</color>    
     <color name="video_editor_slow_motion_effect_icon_selected">@*android:color/background_dark</color>
     <color name="onePlusPrimaryColor_device_default">@*android:color/accent_material_dark</color>
-	
-    <color name="photo_editor_background">@*android:color/background_dark</color>
-    <color name="filmstrip_fragment_button">@*android:color/accent_material_dark</color>
     <color name="oneplus_contorl_icon_color_accent_active_dark">@*android:color/accent_material_dark</color>
-    <color name="action_bar_background_android">@*android:color/background_dark</color>
-    <color name="action_bar_background_dark">@*android:color/background_dark</color>
-    <color name="actionbar_background_color_dark">@*android:color/background_dark</color>
+
+
     <color name="add_album_button_ripple_color">#ffffffff</color>
     <color name="alert_dialog_color_accent_dark">@*android:color/accent_material_dark</color>
     <color name="alert_dialog_color_accent_light">@*android:color/accent_material_dark</color>
@@ -75,7 +68,6 @@
     <color name="bg_dialog">@*android:color/background_floating_material_dark</color>
     <color name="bg_dialog_dark">@*android:color/background_floating_material_dark</color>
     <color name="bg_dialog_light">#ffffffff</color>
-
     <color name="bottom_sheet_background_android">@*android:color/background_floating_material_dark</color>
     <color name="bottom_sheet_background_dark">@*android:color/background_floating_material_dark</color>
     <color name="cardview_dark_background">@*android:color/background_dark</color>
@@ -87,7 +79,8 @@
     <color name="dialog_header_color_background">@*android:color/background_floating_material_dark</color>
     <color name="dialog_header_color_background_dark">@*android:color/background_floating_material_dark</color>
 
-    <color name="gallery_accent_color">@*android:color/accent_material_dark</color>
+    <color name="gallery_accent_color_android">@*android:color/accent_material_dark</color>
+    <color name="gallery_accent_color_dark">@*android:color/accent_material_dark</color>
     <color name="gallery_accent_color_light">@*android:color/accent_material_dark</color>
     <color name="gallery_activity_background_android">@*android:color/keyguard_avatar_frame_shadow_color</color>
     <color name="gallery_activity_background_dark">@*android:color/keyguard_avatar_frame_shadow_color</color>
@@ -132,12 +125,11 @@
     <color name="media_set_list_item_icon_android">@*android:color/user_icon_default_white</color>
     <color name="media_set_list_item_icon_dark">@*android:color/user_icon_default_white</color>
     <color name="oneplus_accent_color">@*android:color/accent_material_dark</color>
-    <color name="gallery_accent_color_dark">@*android:color/accent_material_dark</color>
+
     <color name="fast_scroll_bar_text_android">#ffffffff</color>
     <color name="fast_scroll_bar_text_dark">#ffffffff</color>
     <color name="fast_scroll_bar_text_light">#ffffffff</color>
 
     <color name="filter_button_color_selected">@*android:color/accent_material_dark</color>
     <color name="photo_editor_drawing_border">@*android:color/accent_material_dark</color>
-    <color name="onePlusPrimaryColor_device_default">@*android:color/accent_material_dark</color>
 </resources>

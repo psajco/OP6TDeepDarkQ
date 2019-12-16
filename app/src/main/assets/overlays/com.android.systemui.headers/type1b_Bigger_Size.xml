@@ -10,10 +10,10 @@
     <dimen name="date_view_default_font_size">65.0px</dimen>		<!-- 59 stock -->
     <dimen name="date_view_font_size">65.0px</dimen>				<!-- 59 stock -->
     <dimen name="widget_big_font_size">300.0dip</dimen>				<!-- orologio 64 stock -->
-    <dimen name="widget_label_font_size">16.0dip</dimen>			<!-- 13 stock -->
+    <dimen name="widget_label_font_size">20.0dip</dimen>			<!-- 13 stock 16-->
 	
     <dimen name="op_widget_label_font_size">82.0px</dimen>			<!-- 41 stock -->
     <dimen name="oneplus_widget_big_font_size">150.0dip</dimen>		<!-- 64 stock -->
-    <dimen name="oneplus_widget_big_font_size_mcl">59.0dip</dimen>	<!-- 59 stock -->
-    <dimen name="oneplus_widget_label_font_size">16.0dip</dimen>	<!-- 16 stock -->
+    <dimen name="oneplus_widget_big_font_size_mcl">70.0dip</dimen>	<!-- 59 stock -->
+    <dimen name="oneplus_widget_label_font_size">20.0dip</dimen>	<!-- 16 stock -->
 </resources>
